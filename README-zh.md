@@ -52,11 +52,11 @@
 
 <a href="https://www.buymeacoffee.com/yinan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-- https://brett.trpstra.net/brettterpstra -> https://yinan-c.github.io/RSS-GPT/brett-terpstra.xml
-- https://meta.appinn.net/tag/chrome.rss, https://meta.appinn.net/tag/ios.rss, https://meta.appinn.net/tag/macos.rss -> https://yinan-c.github.io/RSS-GPT/appinn.xml
-- https://rknight.me/feed.xml -> https://yinan-c.github.io/RSS-GPT/robb-knight.xml
-- https://stephanango.com/feed.xml -> https://yinan-c.github.io/RSS-GPT/steph-ango.xml
-- https://lopespm.com/atom.xml -> https://yinan-c.github.io/RSS-GPT/byte-tank.xml
-- https://rsshub.app/paulgraham/articles -> https://yinan-c.github.io/RSS-GPT/paul-graham.xml
-- https://nesslabs.com/feed -> https://yinan-c.github.io/RSS-GPT/ness-labs.xml
-- https://manuelmoreale.com/feed/rss -> https://yinan-c.github.io/RSS-GPT/manuel-moreale.xml
+- https://developers.google.com/search/blog/feed.xml -> https://Shelldy-wz.github.io/RSS-GPT/google-search.xml
+- https://searchenginejournal.com/feed/ -> https://Shelldy-wz.github.io/RSS-GPT/sej.xml
+- https://www.seroundtable.com/index.rdf -> https://Shelldy-wz.github.io/RSS-GPT/seroundtable.xml
+- https://ahrefs.com/blog/feed/ -> https://Shelldy-wz.github.io/RSS-GPT/ahrefs.xml
+- https://www.semrush.com/blog/feed/ -> https://Shelldy-wz.github.io/RSS-GPT/semrush.xml
+- https://hnrss.org/frontpage -> https://Shelldy-wz.github.io/RSS-GPT/hackernews.xml
+- https://www.appinn.com/feed/ -> https://Shelldy-wz.github.io/RSS-GPT/appinn.xml
+- https://manuelmoreale.com/feed/rss -> https://Shelldy-wz.github.io/RSS-GPT/manuel-moreale.xml

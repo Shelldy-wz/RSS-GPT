@@ -12186,3 +12186,21 @@ Existing_entries: 634
 Fetching from https://manuelmoreale.com/feed/rss
 append_entries: 0
 Finish: 2025-04-15 12:07:01.205197
+------------------------------------------------------
+Started: 2026-11-25 19:30:47.464493
+Existing_entries: 634
+Fetching from https://manuelmoreale.com/feed/rss
+Token length: 631
+Summarized using deepseek-v4.1-flash-1017
+Append: [On Assholes](https://manuelmoreale.com/thoughts/on-assholes)
+Append: [Re: Ben on Dying Indies](https://manuelmoreale.com/thoughts/re-ben-on-dying-indies)
+Append: [The expectation of effort](https://manuelmoreale.com/thoughts/the-expectation-of-effort)
+Append: [Re: Dying Indies](https://manuelmoreale.com/thoughts/re-dying-indies)
+Append: [Neat stats are neat](https://manuelmoreale.com/thoughts/neat-stats-are-neat)
+Append: [Friends with new sites](https://manuelmoreale.com/thoughts/friends-with-new-sites)
+Append: [The web used to belong somewhere](https://manuelmoreale.com/thoughts/the-web-used-to-belong-somewhere)
+Append: [More thinking on webmentions](https://manuelmoreale.com/thoughts/more-thinking-on-webmentions)
+Append: [Continuing at the beginning](https://manuelmoreale.com/walks/continuing-at-the-beginning)
+Append: [Thinking about privacy and webmentions](https://manuelmoreale.com/thoughts/thinking-about-privacy-and-webmentions)
+append_entries: 10
+Finish: 2026-11-25 19:30:53.945506

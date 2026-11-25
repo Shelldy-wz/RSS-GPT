@@ -57501,3 +57501,25 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2025-04-15 12:06:23.286836
+------------------------------------------------------
+Started: 2026-11-25 19:30:09.354285
+Existing_entries: 794
+Fetching from https://www.appinn.com/feed/
+Token length: 3442
+Summarized using deepseek-v4.1-flash-1017
+Append: [开源输入法的大爆发与稳定性（5款输入法对比）](https://www.appinn.com/open-source-ime-boom-and-stability/)
+Token length: 430
+Summarized using deepseek-v4.1-flash-1017
+Append: [YzwPDFView 大雁PDF：89KB 的单文件 PDF 快速查看小工具](https://www.appinn.com/yzwpdfview/)
+Token length: 1293
+Summarized using deepseek-v4.1-flash-1017
+Append: [xnulinux – 不用虚拟机，在 Linux 中直接运行完整 macOS](https://www.appinn.com/xnulinux/)
+Append: [Ladybird（瓢虫）- 不用 Chromium，独立内核的开源浏览器：只开发网页浏览器，别的什么都不做。](https://www.appinn.com/ladybird-browser/)
+Append: [全新 Windows 11 系统搜索：速度快、不卡顿、内存占用低，用了都说好](https://www.appinn.com/windows-11-new-native-search/)
+Append: [Koofr 云存储：免费 10GB 空间，支持 WebDAV、Rclone｜终身订阅 1TB 特价129.9美元【再次】](https://www.appinn.com/koofr-1tb/)
+Append: [高危漏洞 Upload2Shell 公开：上传图片即可入侵服务器｜CVE-2026-125396，8.5 分](https://www.appinn.com/upload2shell-cve-2026-125396/)
+Append: [微软 To Do 要关闭了，奇妙清单创始人早就做了替代品：Superlist](https://www.appinn.com/superlist-start/)
+Append: [微软 WinGet 开始支持 MCP：以后安装 Windows 软件，直接告诉 AI 就行了](https://www.appinn.com/winget-mcp-server/)
+Append: [Google Gemini 黑五五折！AI Pro/Plus 年费 100/24 美元](https://www.appinn.com/google-ai-pro-black-friday-2026/)
+append_entries: 10
+Finish: 2026-11-25 19:30:46.732664
