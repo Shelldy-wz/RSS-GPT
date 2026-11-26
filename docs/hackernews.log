@@ -30,3 +30,31 @@ Append: [Models Can Communicate via Inference Servers Despite Being Sandboxed](h
 Append: [How did pinwheel calculators work?](https://blog.coredump.cx/p/how-did-pinwheel-calculators-work)
 append_entries: 20
 Finish: 2026-11-25 19:30:08.621592
+------------------------------------------------------
+Started: 2026-11-26 09:18:46.840327
+Existing_entries: 20
+Fetching from https://hnrss.org/frontpage
+Token length: 54
+Summarized using deepseek-v4.1-flash-1017
+Append: [Moat: Your OpenRouter Replacement](https://commandcode.ai/moat)
+Token length: 54
+Summarized using deepseek-v4.1-flash-1017
+Append: [Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years](https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/)
+Token length: 53
+Summarized using deepseek-v4.1-flash-1017
+Append: [Unconditional Integer Factorization in Subexponential Time](https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization)
+Append: [Qualcomm's Oryon 3 Reaches the Top](https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top)
+Append: [OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster](https://twitter.com/thsottiaux/status/2125784147889393806)
+Append: [Minipg: PostgreSQL as a Single Executable](https://progrium.github.io/minipg/)
+Append: [Tell HN: Lots of Ask HNs again](https://news.ycombinator.com/item?id=50649864)
+Append: [Collection of preserved UI style guides](https://aresluna.org/ui-style-guides/)
+Append: [Bare Metal Qwen](https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os)
+Append: [Deploying a payphone on a tiny Pacific Island for fun and zero profit](https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/)
+Append: [Much shorter version of GRH Lean verification from Anthropic](https://github.com/lsernau/grh-lean)
+Append: [The New York Times warns photographers not to update Photoshop over AI features](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features)
+Append: [Slow Ubuntu security response times](https://www.openwall.com/lists/oss-security/2026/11/25/9)
+Append: [Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server](https://opensec.in/blog/nfs2root-cve-2026-99362)
+Append: [Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening](https://scottaaronson.blog/?p=10379)
+Append: [The polynomial Hirsch conjecture is false [pdf]](https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf)
+append_entries: 16
+Finish: 2026-11-26 09:19:02.489521

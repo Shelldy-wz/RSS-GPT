@@ -4,13 +4,14 @@
 <title>Manuel Moreale — Everything Feed</title>
 <link>https://manuelmoreale.com</link>
 
+
 <item>
 <title>On Assholes</title>
 <link>https://manuelmoreale.com/thoughts/on-assholes</link>
 <guid>https://manuelmoreale.com/thoughts/on-assholes</guid>
 <content:encoded><![CDATA[
 <div> 垃圾留言、个人网站、AI代理、滥用AI者、RSS
-<br><br>总结: 1. 有人在个人网站留言板发垃圾信息，推广粗劣的“氛围编程”应用；2. 作者怀疑这些并非真人，而是AI代理所为；3. 作者认为AI工具本身可恨，但更该谴责利用它作恶的人；4. 这类行为让网络对所有人更糟；5. 作者感谢使用并相信RSS的人。 <div>
+<br /><br />总结: 1. 有人在个人网站留言板发垃圾信息，推广粗劣的“氛围编程”应用；2. 作者怀疑这些并非真人，而是AI代理所为；3. 作者认为AI工具本身可恨，但更该谴责利用它作恶的人；4. 这类行为让网络对所有人更糟；5. 作者感谢使用并相信RSS的人。 <div>
 <p>You have to be a very special kind of asshole to leave spam messages on a guestbook, on a personal site, to promote your idiotic vibe-coded app. I’m sure actual people don’t even post these; this is probably the wonderful work of some AI agent or some other kind of nonsense.</p>
 <p>It’s easy to hate AI, the tool. But the people who are leveraging that tool to do shit like this, those are the people who deserve much of the hate. And if you are one of these people, well, shame on you. The web is a worse place for everyone because of people like you.</p>        <hr />
         <p>Thank you for using and believing in RSS. You're awesome.</p>
@@ -19,14 +20,12 @@
         <a href="https://ko-fi.com/manuelmoreale">Become a supporter</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 25 Nov 2026 11:55:00 +0100</pubDate>
-<pubDate>Wed, 25 Nov 2026 11:55:00 +0100</pubDate>
 </item>
 <item>
 <title>Re: Ben on Dying Indies</title>
 <link>https://manuelmoreale.com/thoughts/re-ben-on-dying-indies</link>
 <guid>https://manuelmoreale.com/thoughts/re-ben-on-dying-indies</guid>
 <content:encoded><![CDATA[
-
 <p><a href="https://werd.io/">Ben</a> has <a href="https://werd.io/zirp-era-startups-are-shutting-in-droves-indie-tools-need-a-different-kind-of-support/">commented</a> on my exchange with Cassidy on the subject of dying indie-friendly products. He wrote:</p>
 <blockquote>
 <p>While many are bootstrapped, some tools and services do need a little backing, not least so their founders can make the leap to independence. We need ways to back them — and we need more communities of mutual support for the people who build them.</p>
@@ -38,14 +37,12 @@
         <a href="https://ko-fi.com/manuelmoreale">Become a supporter</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 23 Nov 2026 08:10:00 +0100</pubDate>
-<pubDate>Mon, 23 Nov 2026 08:10:00 +0100</pubDate>
 </item>
 <item>
 <title>The expectation of effort</title>
 <link>https://manuelmoreale.com/thoughts/the-expectation-of-effort</link>
 <guid>https://manuelmoreale.com/thoughts/the-expectation-of-effort</guid>
 <content:encoded><![CDATA[
-
 <p>Almost two months ago, during an enjoyable email exchange, <a href="https://pimm.work/thoughts">Pimm</a> wrote something I haven’t stopped thinking about:</p>
 <blockquote>
 <p>The era of AI made me realise effort used to be a currency</p>
@@ -60,14 +57,12 @@
         <a href="https://ko-fi.com/manuelmoreale">Become a supporter</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 19 Nov 2026 20:20:00 +0100</pubDate>
-<pubDate>Thu, 19 Nov 2026 20:20:00 +0100</pubDate>
 </item>
 <item>
 <title>Re: Dying Indies</title>
 <link>https://manuelmoreale.com/thoughts/re-dying-indies</link>
 <guid>https://manuelmoreale.com/thoughts/re-dying-indies</guid>
 <content:encoded><![CDATA[
-
 <p>Cassidy wrote a post titled <em><a href="https://cassidoo.co/post/dying-indies/">“Why are all the indie-friendly products dying at the same time?”</a></em> that it’s worth reading if you’re interested in this kind of topic. I’m not gonna TLDR her post, but I wanna add one extra consideration: a lot of startups are good products, but terrible businesses. And the problem with VC-powered projects is that you can trick yourself into thinking you have a good business when in reality you have a good product, with no real business attached to it.</p>
 <p>And what end up surviving are good businesses with solid products. Services that started charging a fair and reasonable amount of money from the get-go, delivering a quality service in return. Services that are more like traditional businesses, in a way. And that’s honestly good in my view.</p>        <hr />
         <p>Thank you for using and believing in RSS. You're awesome.</p>
@@ -76,14 +71,12 @@
         <a href="https://ko-fi.com/manuelmoreale">Become a supporter</a></p>
 ]]></content:encoded>
 <pubDate>Wed, 18 Nov 2026 09:05:00 +0100</pubDate>
-<pubDate>Wed, 18 Nov 2026 09:05:00 +0100</pubDate>
 </item>
 <item>
 <title>Neat stats are neat</title>
 <link>https://manuelmoreale.com/thoughts/neat-stats-are-neat</link>
 <guid>https://manuelmoreale.com/thoughts/neat-stats-are-neat</guid>
 <content:encoded><![CDATA[
-
 <p>Adam has officially released <a href="https://neatstats.net">NeatStats</a>, and I have to say, it looks, well, kinda neat! I’m not a big stats person; I do think knowing too much about your personal site is not all that healthy and can push you into weird directions, but for people who do want to get at least some basic information about the traffic they get, this looks promising. I also quite like the terminal view on the landing page; it reminds me of the default <a href="https://goaccess.io/">Goaccess</a> view.</p>
 <p>It’s interesting how for years there was pretty much no action in the “analytics for websites” space, but now—and I suspect this was partly because of GDPR—we have loads of them: from <a href="https://plausible.io">Plausible</a>, to <a href="https://usefathom.com">Fathom</a>, to <a href="https://umami.is">Umami</a>, to <a href="https://www.simpleanalytics.com">Simple Analytics</a>, to <a href="https://pirsch.io">Pirsch</a>, to <a href="https://tinylytics.app/?ts=vr">Tinylytics</a>, and the list goes on and on and on.</p>
 <p>All that said, I’ll stick with parsing my logs with Goaccess those rare times when I want to see what’s happening on my site, and I’ll also keep assuming that nobody reads these posts, other than AI scrapers.</p>        <hr />
@@ -93,14 +86,12 @@
         <a href="https://ko-fi.com/manuelmoreale">Become a supporter</a></p>
 ]]></content:encoded>
 <pubDate>Tue, 17 Nov 2026 15:35:00 +0100</pubDate>
-<pubDate>Tue, 17 Nov 2026 15:35:00 +0100</pubDate>
 </item>
 <item>
 <title>Friends with new sites</title>
 <link>https://manuelmoreale.com/thoughts/friends-with-new-sites</link>
 <guid>https://manuelmoreale.com/thoughts/friends-with-new-sites</guid>
 <content:encoded><![CDATA[
-
 <p>Always makes me happy to blog about friends with new sites, and let more people know about their existence and drive extra traffic in their direction.</p>
 <p><a href="https://carlbarenbrug.com/">Carl</a> has pushed online his new digital publication <a href="https://mouthprint.com/">Mouthprint</a> and has written about it <a href="https://carlbarenbrug.com/building-mp">on his blog</a>.</p>
 <p><a href="https://www.mattiacompagnucci.com/">Mattia</a> has refreshed his site to better reflect his always-changing life. I’m sure he’s gonna tweak it 45 more times in the next 12 months, while he tries to figure out what to do with his life between taking photos, making apps, writing newsletters, and a million other things.</p>
@@ -111,14 +102,12 @@
         <a href="https://ko-fi.com/manuelmoreale">Become a supporter</a></p>
 ]]></content:encoded>
 <pubDate>Sun, 15 Nov 2026 18:15:00 +0100</pubDate>
-<pubDate>Sun, 15 Nov 2026 18:15:00 +0100</pubDate>
 </item>
 <item>
 <title>The web used to belong somewhere</title>
 <link>https://manuelmoreale.com/thoughts/the-web-used-to-belong-somewhere</link>
 <guid>https://manuelmoreale.com/thoughts/the-web-used-to-belong-somewhere</guid>
 <content:encoded><![CDATA[
-
 <p>There are a couple of related ideas I found myself writing about here and there, either on the IRC server or on <a href="https://quxnet.net">Quxnet</a>. Ideas and thoughts about what the web used to be, how it used to feel, about how things have changed, and what can be done to bring at least some of the old web back.</p>
 <p>We often point fingers at the big social media platforms, with their relentless algorithmic curation as the cause for the awfulness of the modern web. Maybe we blame the SEO folks, or the influencers. There’s a multitude of different characters who each played their role in turning the “old web” into “today’s web”. And I’m not going to pretend they didn’t play a role, because they did.</p>
 <p>What I am going to argue for, though, is that there’s something else that has contributed a lot more to the changes that we’ve seen over the past few decades, and that’s the fact that the web used to belong somewhere. And I mean that in the physical sense. I’m not the first one to say this; you can find plenty of other posts out there making this exact point. But it’s a point worth repeating.</p>
@@ -134,14 +123,12 @@
         <a href="https://ko-fi.com/manuelmoreale">Become a supporter</a></p>
 ]]></content:encoded>
 <pubDate>Sun, 08 Nov 2026 15:10:00 +0100</pubDate>
-<pubDate>Sun, 08 Nov 2026 15:10:00 +0100</pubDate>
 </item>
 <item>
 <title>More thinking on webmentions</title>
 <link>https://manuelmoreale.com/thoughts/more-thinking-on-webmentions</link>
 <guid>https://manuelmoreale.com/thoughts/more-thinking-on-webmentions</guid>
 <content:encoded><![CDATA[
-
 <p>Since I <a href="https://manuelmoreale.com/thoughts/thinking-about-privacy-and-webmentions">wrote about it</a>, I kept thinking about the topic of webmentions, quoting, embedding, screenshotting, and the overall idea of connecting content on the web. The more I think about it, the more I’m convinced this is two issues wrapped into one, and I suspect there’s no way to perfectly resolve the tension that exists at the core.</p>
 <p>The first issue is a technological one or how do we make sure content that is related can get connected in a way that’s convenient and can scale across million of websites? The way I see it, that’s the issue webmentions attempted to solve, by building a system that allows websites to automatically send and receive links and make sure the web is maintained.</p>
 <p>The second issue is more ideological and related to who has the right to do what in the context of other people’s content. Some people believe that since content is publicly posted, then it’s fair to be copied and distributed. Others don’t agree with that position. The line then becomes even blurrier when you start questioning what the difference is between including my post as a comment and quoting it in its entirety.</p>
@@ -159,14 +146,12 @@
         <a href="https://ko-fi.com/manuelmoreale">Become a supporter</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 05 Nov 2026 12:00:00 +0100</pubDate>
-<pubDate>Thu, 05 Nov 2026 12:00:00 +0100</pubDate>
 </item>
 <item>
 <title>Continuing at the beginning</title>
 <link>https://manuelmoreale.com/walks/continuing-at-the-beginning</link>
 <guid>https://manuelmoreale.com/walks/continuing-at-the-beginning</guid>
 <content:encoded><![CDATA[
-
 <p>After <a href="https://manuelmoreale.com/fromthesummit/beginning-at-the-end">hiking up</a> to the end of the ridge, it was now time to scout the initial part. The starting point is some 25km east of where I parked the car last time around, at the parking spot of the <a href="https://maps.app.goo.gl/kgZfDFDjvnxfibqS9">Italian ossuary</a> in the lovely town of Kobarid.</p>
 <figure class="media-container"><div class="media-content"><img class="media-img" src="https://manuelmoreale.com/media/pages/walks/continuing-at-the-beginning/a6624802b5-1794048077/fts-1.jpg" /></div></figure>
 <p>The plan is to walk my way up till the beginning of the ridge, reaching Starijski Vrh at the foothills of Mount Stol, the highest point of the entire ridge, at 1673 meters. The reason why I’m doing this hike is that I read conflicting information about the trail, with some people claiming it’s a slippery mess. So I wanted to come check it out before hiking the whole ridge from one side to the other.</p>
@@ -195,14 +180,12 @@
         <a href="https://ko-fi.com/manuelmoreale">Become a supporter</a></p>
 ]]></content:encoded>
 <pubDate>Sat, 24 Oct 2026 14:00:00 +0200</pubDate>
-<pubDate>Sat, 24 Oct 2026 14:00:00 +0200</pubDate>
 </item>
 <item>
 <title>Thinking about privacy and webmentions</title>
 <link>https://manuelmoreale.com/thoughts/thinking-about-privacy-and-webmentions</link>
 <guid>https://manuelmoreale.com/thoughts/thinking-about-privacy-and-webmentions</guid>
 <content:encoded><![CDATA[
-
 <p>I was perusing the always lovely <a href="https://vhbelvadi.com/webmention-copyright-privacy">website</a> of one mr. V.H. Belvadi and stumbled my way onto a post titled <a href="https://vhbelvadi.com/webmention-copyright-privacy">“Webmentions, copyright and privacy”</a> and from there quickly landed on Kev’s post titled <a href="https://kevquirk.com/privacy-and-webmentions">“Privacy and Webmentions”</a>.</p>
 <p>I find the topic very interesting because it sits at the intersection of two things I care much about: web based technology and human interactions. And so I’m gonna spend a moment thinking in public about this.</p>
 <hr />
@@ -242,9 +225,7 @@
         <a href="https://ko-fi.com/manuelmoreale">Become a supporter</a></p>
 ]]></content:encoded>
 <pubDate>Thu, 22 Oct 2026 20:25:00 +0200</pubDate>
-<pubDate>Thu, 22 Oct 2026 20:25:00 +0200</pubDate>
 </item>
-
 <item>
 <title>When a side project finds you</title>
 <link>https://manuelmoreale.com/when-a-side-project-finds-you</link>

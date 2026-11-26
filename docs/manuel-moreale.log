@@ -12204,3 +12204,9 @@ Append: [Continuing at the beginning](https://manuelmoreale.com/walks/continuing
 Append: [Thinking about privacy and webmentions](https://manuelmoreale.com/thoughts/thinking-about-privacy-and-webmentions)
 append_entries: 10
 Finish: 2026-11-25 19:30:53.945506
+------------------------------------------------------
+Started: 2026-11-26 09:19:43.127159
+Existing_entries: 644
+Fetching from https://manuelmoreale.com/feed/rss
+append_entries: 0
+Finish: 2026-11-26 09:19:43.912806

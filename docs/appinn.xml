@@ -5,12 +5,948 @@
 <link>https://www.appinn.com</link>
 
 <item>
+<title>别让 AI 用过时的技术写网页，Chrome 官方推出 Skills：Modern Web Guidance</title>
+<link>https://www.appinn.com/modern-web-guidance/</link>
+<guid>https://www.appinn.com/modern-web-guidance/</guid>
+<content:encoded><![CDATA[
+<div> # 提取关键词
+AI 网页 现代技术 兼容性 依赖
+
+<br><br>总结:
+1. AI 写网页常沿用过时技术，引入冗余第三方依赖，导致代码量、性能与安全问题。
+2. Google Chrome 团队推出开源 Skills“Modern Web Guidance”教 AI 用现代 Web 技术。
+3. 安装后可用提示词让 AI 检查项目，找出过时技术并给改造建议，确认后再改。
+4. 该工具内置 200+ 专家审核指南，结合 Baseline 数据判断浏览器兼容性。
+5. 评测显示 AI 现代 Web 开发通过率从约 51% 提升到 91%；可在项目目录运行 npx 命令安装。 <div>
+<p class="has-very-light-gray-to-cyan-bluish-gray-gradient-background has-background wp-block-paragraph">如何让 AI 写网页的时候，不使用过时的技术？</p>
+
+
+
+<p class="wp-block-paragraph">不知道你有没有遇到过：AI 帮你写网页，用的却是几年前的技术。明明浏览器已经原生支持的功能，它还要引入一堆第三方依赖，不仅增加了代码量，还可能带来额外的内存占用、性能损耗，甚至安全隐患。</p>
+
+
+
+<p class="wp-block-paragraph">说实话，青小蛙表示不知道 AI 用了什么技术。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="别让 AI 用过时的技术写网页，Chrome 官方推出 Skills：Modern Web Guidance 1" class="wp-image-61123" src="https://www.appinn.com/wp-content/uploads/2026/11/E78EB0E4BBA3-Web-E68A80E69CAF-AI-E58AA9E6898B.jpg" title="别让 AI 用过时的技术写网页，Chrome 官方推出 Skills：Modern Web Guidance 1" /></figure>
+
+
+
+<p class="wp-block-paragraph">Google Chrome 团队推出了一套名为 <strong>Modern Web Guidance</strong> 的开源 Skills，专门教 AI 如何使用现代 Web 技术开发网页。</p>
+
+
+
+<p class="wp-block-paragraph">只需要在安装后，对 AI 说下面的提示词，就可以了：</p>
+
+
+
+<blockquote class="wp-block-quote is-style-appinn-info is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">使用 <strong>Modern Web Guidance</strong> 的 Prompt 提示词</p>
+
+
+
+<p class="wp-block-paragraph">使用 Modern Web Guidance 检查整个项目，找出过时的 Web 技术、不必要的第三方依赖，以及可以用现代浏览器原生功能替代的代码。先给出改造建议，等我确认后再修改代码，并确保浏览器兼容性。</p>
+</blockquote>
+
+
+
+<h2 class="wp-block-heading">让 AI 学会现代 Web 技术</h2>
+
+
+
+<p class="wp-block-paragraph">AI 的训练数据中包含大量过去的网页代码，而浏览器一直在进化，许多曾经需要复杂代码才能实现的功能，如今浏览器已经原生支持了。</p>
+
+
+
+<p class="wp-block-paragraph">比如：</p>
+
+
+
+<ul class="wp-block-list">
+<li>弹窗：可以直接使用 HTML 原生的 <code>dialog</code>。</li>
+
+
+
+<li>悬浮菜单：可以使用 Popover API。</li>
+
+
+
+<li>元素定位：可以使用 CSS Anchor Positioning。</li>
+
+
+
+<li>响应式布局：可以使用 CSS Container Queries。</li>
+
+
+
+<li>页面预加载：可以使用 Speculation Rules API。</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">这些新技术可以减少代码量、降低对第三方库的依赖，也有助于改善网页性能。</p>
+
+
+
+<p class="wp-block-paragraph">Modern Web Guidance 内置了超过 200 项经过专家审核的开发指南，涵盖 HTML、CSS、JavaScript、性能优化、安全性、无障碍访问等领域。</p>
+
+
+
+<p class="wp-block-paragraph">它还结合了 Baseline 浏览器兼容性数据，让 AI 在使用新技术之前，了解这些功能是否已经得到主流浏览器的支持。</p>
+
+
+
+<h2 class="wp-block-heading">效果如何？</h2>
+
+
+
+<p class="wp-block-paragraph">根据 Google 公布的评测数据，前沿 AI 模型在相关现代 Web 开发测试中的通过率约为 51%，安装 Modern Web Guidance 之后，提升到了 91%。</p>
+
+
+
+<h2 class="wp-block-heading">如何安装？</h2>
+
+
+
+<p class="wp-block-paragraph">这个 Skill 适合主流 Agent 程序，包括 Antigravity CLI、Gemini CLI、JetBrains WebStorm、GitHub CLI、npx skills、Claude Code、Codex、Copilot CLI、Goose、Grok、Kimi Code 等。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="别让 AI 用过时的技术写网页，Chrome 官方推出 Skills：Modern Web Guidance 2" class="wp-image-61124" src="https://www.appinn.com/wp-content/uploads/2026/11/screenshot-2026-11-26-at-4.59.14-PM402x.avif" title="别让 AI 用过时的技术写网页，Chrome 官方推出 Skills：Modern Web Guidance 2" /></figure>
+
+
+
+<p class="wp-block-paragraph">在项目目录下运行：</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate">
+npx modern-web-guidance@latest install
+</pre></div>
+
+
+<p class="wp-block-paragraph">扫描现有项目：</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate">
+npx modern-web-guidance@latest legacy-scan
+</pre></div>
+
+
+<h2 class="wp-block-heading">获取</h2>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://developer.chrome.com/docs/modern-web-guidance" rel="noopener" target="_blank">官网</a></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">青小蛙觉得，可以给之前创建的网页，都重构一次了。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p class="wp-block-paragraph">原文：https://www.appinn.com/modern-web-guidance/</p>
+
+
+
+<p class="wp-block-paragraph">甚至，青小蛙今天用上了 Gemini 4，又有了一个感觉：应该对代码，每换一个新模型，就重构一次，嗯。</p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/modern-javascript-tutorial/" rel="bookmark" title="Permanent Link: 现代 Javascript 教程 &#8211; 从头开始学习 JavaScript，简单易懂的开源教程">现代 Javascript 教程 &#8211; 从头开始学习 JavaScript，简单易懂的开源教程</a></li><li><a href="https://www.appinn.com/windowsxp-kb4012598-x86-custom/" rel="bookmark" title="Permanent Link: 业界良心，微软为 Windows XP 发布针对「勒索病毒」的安全补丁">业界良心，微软为 Windows XP 发布针对「勒索病毒」的安全补丁</a></li><li><a href="https://www.appinn.com/lizhi-251111/" rel="bookmark" title="Permanent Link: 数码荔枝双 11 软件大促开启，100+ 正版工具 5 折起">数码荔枝双 11 软件大促开启，100+ 正版工具 5 折起</a></li><li><a href="https://www.appinn.com/updf-263/" rel="bookmark" title="Permanent Link: OpenClaw 让 AI 开始“自己干活”，而我发现最先被接管的是 PDF 处理">OpenClaw 让 AI 开始“自己干活”，而我发现最先被接管的是 PDF 处理</a></li><li><a href="https://www.appinn.com/web-clipper/" rel="bookmark" title="Permanent Link: Web Clipper &#8211; 适用于 Notion、OneNote、Bear、Joplin 等笔记的开源网络剪藏扩展[Chrome/Firefox]">Web Clipper &#8211; 适用于 Notion、OneNote、Bear、Joplin 等笔记的开源网络剪藏扩展[Chrome/Firefox]</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" rel="noopener" target="_blank" title="给小众软件投稿">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" target="_blank" title="可以分类订阅小众，Windows/MAC/游戏"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/modern-web-guidance/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/modern-web-guidance/">[ 点击前往获取链接 ]</a></p><hr />
+]]></content:encoded>
+<pubDate>Thu, 26 Nov 2026 09:07:29 +0000</pubDate>
+<pubDate>Thu, 26 Nov 2026 09:07:29 +0000</pubDate>
+</item>
+<item>
+<title>VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战</title>
+<link>https://www.appinn.com/vera20k/</link>
+<guid>https://www.appinn.com/vera20k/</guid>
+<content:encoded><![CDATA[
+<div> Bitte output a summary of the article in Chinese. Start with 5 keywords on the same line, then a new line, write a summary within 200 characters in Chinese containing all key points, output them in order as bullet points, and output in the following format '<br><br>总结:', <br> is an HTML line break, you must keep 2 when outputting, and it must be before the word '总结:'. Please make sure to follow these instructions exactly. The user's message is an article about VERA20K. The response should be in Chinese, with keywords first on one line, then <br><br>总结: followed by bullet points. Need to ensure summary under 200 Chinese characters, includes all key points in order, formatted with bullet points. Let's craft.
+
+Keywords: 红警2, VERA20K, Rust, AI编写, OpenRA (5 keywords same line).
+
+Then <br><br>总结:
+
+Bullet points in order: 
+- VERA20K用Rust重写《尤里的复仇》引擎，跨平台原生运行；
+- 目标单图2万单位、500×500地图、离线120人、联机30人；
+- 大部分代码由AI编写，用Ghidra逆向并验证行为一致；
+- v0.4.1抢先体验，单人遭遇战、地图、实验性联机可玩，战役未完整；
+- 与OpenRA、Rust版cnc-ddraw思路不同，自动寻找Steam/EA安装。
+
+Need within 200 chars. Count roughly. Chinese chars + punctuation. Let's estimate: first bullet ~28, second ~30, third ~28, fourth ~33, fifth ~30 = ~149 chars plus bullets. Good.
+
+Need ensure keywords on same line, then <br><br>总结: Then bullet points maybe use "- " each line. The instruction says "按顺序分要点输出". Use <br> between bullet points? It says output format '<br><br>总结:' and <br> must retain 2 before 总结. For bullet points, can use newlines. But likely use markdown bullet list. However output must have '<br><br>总结:' exactly. I'll do:
+
+红警2、VERA20K、Rust、AI编写、OpenRA
+<br><br>总结:
+- ...
+- ...
+...
+
+Ensure no extra spaces? Fine.
+
+Need maybe include "自动寻找Steam/EA app安装的《尤里的复仇》". That's key. Keep.
+
+Let's verify character count under 200. I'll write concise.
+
+Keywords line: 红警2、VERA20K、Rust、AI编写、OpenRA
+
+Summary:
+- VERA20K用Rust重写《尤里的复仇》引擎，可跨Windows、macOS、Linux原生运行。
+- 目标单图2万单位、500×500地图、离线120玩家、联机30席位。
+- 大部分代码由AI智能体编写，借Ghidra逆向并用自动化工具验证一致性。
+- v0.4.1抢先体验：遭遇战、地图、实验性联机可玩，战役未完整。
+- 与OpenRA、Rust版cnc-ddraw思路不同，可自动寻找Steam/EA安装。
+
+Count Chinese chars maybe ~160. Good. But "Rust" "Windows" etc count as chars too; still under 200? Let's count more precisely:
+1: "VERA20K用Rust重写《尤里的复仇》引擎，可跨Windows、macOS、Linux原生运行。" ~ VERA20K(7)+用1+Rust4+重写2+《1+尤里的复仇5+》1+引擎2+，1+可1+跨1+Windows7+、1+macOS5+、1+Linux5+原生2+运行2+。1 =? 7+1+4+2+1+5+1+2+1+1+1+7+1+5+1+5+2+2+1=49. 
+2: "目标单图2万单位、500×500地图、离线120玩家、联机30席位。" ~ 目标2+单图2+2万单位4+、1+500×500地图? 500(3)+×(1)+500(3)+地图2=9 +、1+离线2+120(3)+玩家2+、1+联机2+30(2)+席位2+。1 = 2+2+4+1+9+1+2+3+2+1+2+2+2+1=34.
+3: "大部分代码由AI智能体编写，借Ghidra逆向并用自动化工具验证一致性。" 大部分3+代码2+由1+AI2+智能体3+编写2+，1+借1+Ghidra6+逆向2+并用2+自动化3+工具2+验证2+一致性3+。1 = 3+2+1+2+3+2+1+1+6+2+2+3+2+2+3+1=36.
+4: "v0.4.1抢先体验：遭遇战、地图、实验性联机可玩，战役未完整。" v0.4.1 6? 抢先2+体验2+：1+遭遇战3+、1+地图2+、1+实验性3+联机2+可玩2+，1+战役2+未1+完整2+。1 = 6+2+2+1+3+1+2+1+3+2+2+1+2+1+2+1=32.
+5: "与OpenRA、Rust版cnc-ddraw思路不同，可自动寻找Steam/EA安装。" 与1+OpenRA6+、1+Rust4+版1+cnc-ddraw9? cnc-ddraw 9 +思路2+不同2+，1+可1+自动2+寻找2+Steam5+/1+EA2+安装2+。1 = 1+6+1+4+1+9+2+2+1+1+2+2+5+1+2+2+1=44. Total ~195. Very close but under 200? 49+34+36+32+44=195. Plus bullet symbols - spaces maybe not count Chinese chars but total output characters >200? The instruction "用中文在200字内写一个" likely Chinese characters, not including keywords. 195 okay. But risk. I can trim.
+
+Need summary within 200 Chinese characters. Better shorten to ~150. Let's craft concise:
+- VERA20K用Rust重写《尤里的复仇》引擎，跨平台原生运行。
+- 目标单图2万单位、500×500地图、离线120玩家、联机30人。
+- 大部分代码由AI编写，借Ghidra逆向并验证行为一致。
+- v0.4.1抢先体验，遭遇战、地图、实验联机可玩，战役未完整。
+- 与OpenRA、Rust版cnc-ddraw思路不同，可自动查找Steam/EA安装。
+
+Count: 1 ~ VERA20K7+用1+Rust4+重写2+《1+尤里的复仇5+》1+引擎2+，1+跨平台3+原生2+运行2+。1=32.
+2 ~ 目标2+单图2+2万单位4+、1+500×500地图9+、1+离线2+120玩家5+、1+联机2+30人3+。1=33? 2+2+4+1+9+1+2+5+1+2+3+1=33.
+3 ~ 大部分3+代码2+由1+AI2+编写2+，1+借1+Ghidra6+逆向2+并1+验证2+行为2+一致2+。1=30.
+4 ~ v0.4.1 6+抢先2+体验2+，1+遭遇战3+、1+地图2+、1+实验1+联机2+可玩2+，1+战役2+未1+完整2+。1=31.
+5 ~ 与1+OpenRA6+、1+Rust4+版1+cnc-ddraw9+思路2+不同2+，1+可1+自动2+查找2+Steam5+/1+EA2+安装2+。1=43. Total 169. Good.
+
+Need ensure "按顺序分要点输出" use bullets. Output exactly. Also "在同一行内输出" keywords same line. Then newline. Use <br><br>总结: as HTML. Then bullet list. Fine.
+
+Need not mention extra. Final.</think>红警2、VERA20K、Rust、AI编写、OpenRA
+<br><br>总结:
+- VERA20K用Rust重写《尤里的复仇》引擎，跨平台原生运行。
+- 目标单图2万单位、500×500地图、离线120玩家、联机30人。
+- 大部分代码由AI编写，借Ghidra逆向并验证行为一致。
+- v0.4.1抢先体验，遭遇战、地图、实验联机可玩，战役未完整。
+- 与OpenRA、Rust版cnc-ddraw思路不同，可自动查找Steam/EA安装。 <div>
+<figure class="wp-block-image size-full"><img alt="VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战 3" src="https://www.appinn.com/wp-content/uploads/2026/11/E7BAA2E889B2E8ADA6E688922-AIE9878DE58699E68898E59CBA.jpg" title="VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战 3" /></figure>
+
+
+
+<p class="has-very-light-gray-to-cyan-bluish-gray-gradient-background has-background wp-block-paragraph">一款诞生于 2000 年的游戏，居然在 26 年后迎来了全新的游戏引擎。</p>
+
+
+
+<p class="wp-block-paragraph">今天，青小蛙从查无此人同学处了解到的这个新项目：</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战 4" class="wp-image-61117" src="https://www.appinn.com/wp-content/uploads/2026/11/screenshot-2026-11-26-at-2.37.27-PM402x_E589AFE69CAC.avif" title="VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战 4" /></figure>
+
+
+
+<p class="wp-block-paragraph">开发者用 Rust 语言重新实现了《<strong>红色警戒 2：尤里的复仇</strong>》的游戏引擎，让它可以在 Windows、macOS、Linux 上原生运行。</p>
+
+
+
+<p class="wp-block-paragraph">开发者的目标是在一张地图上容纳 20000 个作战单位，这得造多少个天启坦克啊。</p>
+
+
+
+<p class="wp-block-paragraph">更加吓人的是，支持 120 个玩家，比如 1 打 119 个电脑。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战 5" class="wp-image-61118" src="https://www.appinn.com/wp-content/uploads/2026/11/vera20k-screenshots.avif" title="VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战 5" /></figure>
+
+
+
+<h2 class="wp-block-heading">VERA20K：重新实现红警 2</h2>
+
+
+
+<p class="wp-block-paragraph">VERA20K 希望在保留原版游戏玩法、单位、地图、画面和氛围的基础上，突破二十多年前的技术限制。</p>
+
+
+
+<p class="wp-block-paragraph">目前公布的主要功能及开发目标包括：</p>
+
+
+
+<ul class="wp-block-list">
+<li>单张地图容纳 20,000 个单位</li>
+
+
+
+<li>最大 500 × 500 格地图</li>
+
+
+
+<li>离线遭遇战支持 120 个玩家（含电脑 AI）</li>
+
+
+
+<li>局域网及在线对战支持 30 个玩家席位</li>
+
+
+
+<li>内置多人游戏客户端</li>
+
+
+
+<li>支持自定义地图、MOD、音乐、高清美术资源</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">VERA20K 默认使用《尤里的复仇》原版游戏规则，也兼容部分 Ares、Phobos、Kratos 等红警 2 模组扩展功能。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战 6" class="wp-image-61119" src="https://www.appinn.com/wp-content/uploads/2026/11/new-conscirpt-hero-image.avif" title="VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战 6" /></figure>
+
+
+
+<h2 class="wp-block-heading">大部分代码由 AI 编写</h2>
+
+
+
+<p class="wp-block-paragraph">开发者在 GitHub 上明确表示，VERA20K 的大部分代码由 AI 编程智能体编写。</p>
+
+
+
+<p class="wp-block-paragraph">它们使用逆向工程工具 Ghidra 分析原版游戏引擎，将游戏行为用 Rust 重新实现，再通过自动化对比工具和实际游玩，验证新引擎与原版游戏的行为是否一致。</p>
+
+
+
+<p class="wp-block-paragraph">整个游戏引擎分为三个部分：</p>
+
+
+
+<ul class="wp-block-list">
+<li>游戏模拟：负责单位、建筑、战斗等游戏逻辑。</li>
+
+
+
+<li>图形渲染：使用 GPU 绘制原版游戏的地形、单位和建筑。</li>
+
+
+
+<li>应用层：负责菜单、输入、音频和跨平台适配。</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">开发者希望尽可能保留原版游戏的玩法、画面和氛围，同时让它充分利用现代计算机的硬件性能。</p>
+
+
+
+<h2 class="wp-block-heading">目前开发进度如何？能玩吗？</h2>
+
+
+
+<p class="wp-block-paragraph">能玩。</p>
+
+
+
+<p class="wp-block-paragraph">截至 2026 年 11 月 26 日，VERA20K 最新版本为 v0.4.1，处于抢先体验阶段，目前已经实现：</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>单人遭遇战</strong>：可以正常建造基地、采矿、生产单位、与电脑 AI 对战。</li>
+
+
+
+<li><strong>游戏地图</strong>：支持原版地图、自定义地图和随机地图。</li>
+
+
+
+<li><strong>多人联机</strong>：已支持局域网和在线对战，目前属于实验性功能。</li>
+
+
+
+<li><strong>单人战役</strong>：部分可玩，尚未完整实现。</li>
+
+
+
+<li><strong>存档读档</strong>：已支持，但部分版本之间的存档不兼容。</li>
+
+
+
+<li><strong>MOD</strong>：兼容部分原版红警 2 模组。</li>
+
+
+
+<li><strong>红警 2 原版模式</strong>：v0.4.1 新增，可以在设置中切换至不含尤里的原版红警 2 模式。</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">另外，离线遭遇战已经支持 120 个玩家席位，也就是你可以尝试同时与 119 个电脑 AI 作战。</p>
+
+
+
+<p class="wp-block-paragraph">对于喜欢打遭遇战的玩家，VERA20K 已经可以玩了。如果想完整重温原版战役，或者追求稳定的多人联机体验，还需要再等等。</p>
+
+
+
+<h2 class="wp-block-heading">老牌 OpenRA 呢？</h2>
+
+
+
+<p class="wp-block-paragraph">说到红警的开源游戏引擎，很多同学应该会想到 <a href="https://www.appinn.com/openra/">OpenRA</a>。</p>
+
+
+
+<p class="wp-block-paragraph">这个已经发展了十多年的开源项目，使用 C# 重新实现了经典即时战略游戏引擎，支持 Windows、macOS 和 Linux。</p>
+
+
+
+<p class="wp-block-paragraph">不过，OpenRA 官方发行版主要支持三款游戏：</p>
+
+
+
+<ul class="wp-block-list">
+<li>《红色警戒》初代</li>
+
+
+
+<li>《命令与征服》</li>
+
+
+
+<li>《沙丘 2000》</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-large"><img alt="VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战 7" src="https://static2.appinn.com/images/202202/openra.jpg" title="VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战 7" /></figure>
+
+
+
+<p class="wp-block-paragraph">OpenRA 对原版游戏的操作性、多人对战等进行了现代化改造，已经拥有相当成熟的社区和 MOD 生态。虽然社区也有基于 OpenRA 的红警 2 相关项目，但《尤里的复仇》并非 OpenRA 官方发行版正式支持的游戏。</p>
+
+
+
+<p class="wp-block-paragraph">而 VERA20K 专门针对《尤里的复仇》，更加注重还原原版游戏体验，并尝试将战斗规模扩大到前所未有的程度。</p>
+
+
+
+<h2 class="wp-block-heading">还有人用 Rust 重写了红警 2 的图形接口</h2>
+
+
+
+<p class="wp-block-paragraph">非常巧合的是，就在 11 月 25 日，另一位开发者也<a href="https://coderemixer.com/2026/11/25/rewrite-ddraw-in-rust?utm_source=appinn.com" rel="noopener" target="_blank">公布</a>了一个与《红色警戒 2》有关的 Rust 项目。</p>
+
+
+
+<p class="wp-block-paragraph">如果你在 Windows 10、11 上运行过红警 2，可能遇到过黑屏、闪退、卡顿、无法正常切换窗口等问题。解决这些问题的经典办法，是使用开源项目 cnc-ddraw，将一个 <code>ddraw.dll</code> 文件放进游戏目录，替换老游戏依赖的 DirectDraw 图形接口。</p>
+
+
+
+<p class="wp-block-paragraph">而这位开发者使用 Rust 和 wgpu 重新实现了 cnc-ddraw，通过 DirectX 12、Vulkan 等现代图形接口来处理老游戏的画面。整个实验性实现只有大约 9000 行代码。</p>
+
+
+
+<p class="wp-block-paragraph">在开发者公布的《红色警戒 2》单帧渲染回放测试中，得到了这样的结果：</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><th>图形后端</th><th>渲染测试帧率</th></tr><tr><td>C + Direct3D 9</td><td>5,330 FPS</td></tr><tr><td>C + OpenGL</td><td>4,429 FPS</td></tr><tr><td>Rust + Vulkan</td><td>8,958 FPS</td></tr><tr><td>Rust + DirectX 12</td><td><strong>9,387 FPS</strong></td></tr></tbody></table></figure>
+
+
+
+<p class="wp-block-paragraph">不过，别看 9387 FPS 很夸张，但不能这么玩 <img alt="😂" class="wp-smiley" src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f602.png" style="height: 1em;" /></p>
+
+
+
+<p class="wp-block-paragraph">开发者甚至特意提醒，玩红警 2 的时候记得打开垂直同步，将帧率限制在 60 FPS。</p>
+
+
+
+<p class="wp-block-paragraph">因为游戏速度取决于 CPU 的处理速度，所以如果是 <strong>9387 FPS</strong>，意味着你的电厂还没建完，电脑已经出完高科技，冲到你家了……</p>
+
+
+
+<h2 class="wp-block-heading">三个开源项目，三种思路</h2>
+
+
+
+<p class="wp-block-paragraph">虽然这三个项目都与红警有关，但它们解决的问题各不相同。</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><th>项目</th><th>开发语言</th><th>主要用途</th></tr><tr><td>OpenRA</td><td>C#</td><td>重建初代红警等经典 RTS 游戏引擎，提供现代化体验</td></tr><tr><td>VERA20K</td><td>Rust</td><td>重建红警 2：尤里的复仇引擎，支持跨平台和超大规模战斗</td></tr><tr><td>Rust cnc-ddraw</td><td>Rust</td><td>保留原版游戏程序，改善图形性能与兼容性</td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">获取 VERA20K</h2>
+
+
+
+<p class="wp-block-paragraph">直接下载运行 VERA20K 即可，它会自动寻找 Steam 或 EA app 里安装的《红色警戒 2：尤里的复仇》。</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://vera20k.org/?utm_source=appinn.com" rel="noopener" target="_blank">官网</a></li>
+
+
+
+<li><a href="https://github.com/YuriPlanet/vera20k?utm_source=appinn.com" rel="noopener" target="_blank">GitHub</a></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">谁能想到，26 年后的今天，红警 2 居然还在进化。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p class="wp-block-paragraph">原文：https://www.appinn.com/vera20k/</p>
+<hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" rel="noopener" target="_blank" title="给小众软件投稿">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" target="_blank" title="可以分类订阅小众，Windows/MAC/游戏"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/vera20k/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/vera20k/">[ 点击前往获取链接 ]</a></p><hr />
+]]></content:encoded>
+<pubDate>Thu, 26 Nov 2026 07:16:49 +0000</pubDate>
+<pubDate>Thu, 26 Nov 2026 07:16:49 +0000</pubDate>
+</item>
+<item>
+<title>PlayPorted – 近 2500 个游戏移植项目，都在这个网站上</title>
+<link>https://www.appinn.com/playported/</link>
+<guid>https://www.appinn.com/playported/</guid>
+<content:encoded><![CDATA[
+<div> PlayPorted、游戏移植、重编译、可玩状态、多平台
+<br><br>总结:1.PlayPorted收录主机/经典PC游戏粉丝移植，目前有39原始平台、2509项目、1071可玩、149浏览器版。2.可按平台/目标/进度/技术筛选，项目含进度、地址、AI标记；热门有红警、过山车2、暗黑、运输大亨、塞尔达。3.技术分反编译、重编译、重建、源码移植；状态分可玩、候选、Beta、Alpha、不能玩。4.数据：Xbox360最多；Windows约83%、Linux过半，Android231、iOS89；重编译超七成，约40%可玩、44%Beta。 <div>
+<p class="has-very-light-gray-to-cyan-bluish-gray-gradient-background has-background wp-block-paragraph">最近一段时间，青小蛙介绍了不少游戏的 PC 原生移植项目，包括《<a href="https://www.appinn.com/totk-recomp-0-5-0/">塞尔达传说：王国之泪</a>》、《<a href="https://www.appinn.com/hookshot/">塞尔达传说：时之笛重制版</a>》《<a href="https://www.appinn.com/mkw-recomp/">马力欧卡丁车</a>》《<a href="https://www.appinn.com/openra/">红警、命令与征服</a>》等等。@<a href="https://www.appinn.com/playported/">Appinn</a></p>
+
+
+
+<p class="wp-block-paragraph">这些原本只能在游戏主机（也有 PC 转 PC）上运行的游戏，经过开发者的反编译、重编译，已经可以脱离模拟器，直接在电脑上运行了。</p>
+
+
+
+<p class="wp-block-paragraph">那么，去哪里找这些项目呢？</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 8" class="wp-image-61113" src="https://www.appinn.com/wp-content/uploads/2026/11/E4B8BBE69CBAE6B8B8E6888FE690ACE4B88AE794B5E88491-PlayPortedE5A4A7E585A8.jpg" title="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 8" /></figure>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>目录</h2><nav><ul><li class=""><a href="#play-ported-专门收集游戏移植项目的网站">PlayPorted 专门收集游戏移植项目的网站</a></li><li class=""><a href="#热门项目">热门项目</a></li><li class=""><a href="#都有哪些游戏？">都有哪些游戏？</a></li><li class=""><a href="#这些游戏是如何被移植的？">这些游戏是如何被移植的？</a></li><li class=""><a href="#一些数据">一些数据</a><ul><li class=""><a href="#1-哪些主机的游戏被移植的最多？">1. 哪些主机的游戏被移植的最多？</a></li><li class=""><a href="#2-被移植到了哪些平台？">2. 被移植到了哪些平台？</a></li><li class=""><a href="#3-重编译占据绝对主流">3. 重编译占据绝对主流</a></li><li class=""><a href="#4-有多少项目已经可以玩？">4. 有多少项目已经可以玩？</a></li></ul></li><li class=""><a href="#获取">获取</a></li></ul></nav></div>
+
+
+
+<h2 class="wp-block-heading"><strong>PlayPorted 专门收集游戏移植项目的</strong>网站</h2>
+
+
+
+<p class="wp-block-paragraph"><strong>PlayPorted</strong> 专门收录由粉丝们重制的主机游戏和经典PC游戏，让老游戏可以在现代电脑或者网页上原生运行。有些游戏还添加了宽屏、高帧率、MOD 或者现代的操作方式。</p>
+
+
+
+<p class="wp-block-paragraph">截至 2026 年 11 月 26 日，它已经收录了来自 39 种原始平台的 2509 个移植项目，涉及 1220 款游戏，其中 1071 个项目已标记为<strong>可玩</strong>，还有 149 个浏览器移植项目。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 9" class="wp-image-61105" src="https://www.appinn.com/wp-content/uploads/2026/11/screenshot-2026-11-26-at-11.52.35-AM402x.avif" title="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 9" /></figure>
+
+
+
+<h2 class="wp-block-heading">热门项目</h2>
+
+
+
+<p class="wp-block-paragraph">塞尔达传说系列占据了其中三个席位：</p>
+
+
+
+<figure class="wp-block-table"><table><thead><tr><th>游戏</th><th>开源项目</th><th>Stars</th></tr></thead><tbody><tr><td>红色警戒、命令与征服、沙丘 2000</td><td>OpenRA</td><td>17,786</td></tr><tr><td>过山车大亨 2</td><td>OpenRCT2</td><td>16,583</td></tr><tr><td>暗黑破坏神</td><td>DevilutionX</td><td>10,018</td></tr><tr><td>运输大亨</td><td>OpenTTD</td><td>8,504</td></tr><tr><td>塞尔达传说：姆吉拉的假面</td><td>Zelda64Recomp</td><td>7,694</td></tr><tr><td>塞尔达传说：王国之泪</td><td>totk-pc-recomp</td><td>7,267</td></tr><tr><td>上古卷轴 3：晨风</td><td>OpenMW</td><td>6,754</td></tr><tr><td>塞尔达传说：黄昏公主</td><td>dusklight</td><td>6,386</td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">都有哪些游戏？</h2>
+
+
+
+<p class="wp-block-paragraph">PlayPorted 按游戏原始平台、目标运行平台、开发进度以及移植技术进行分类。</p>
+
+
+
+<p class="wp-block-paragraph">最简单的方式，直接搜索游戏名称，就能找到项目。</p>
+
+
+
+<p class="wp-block-paragraph">或者，根据平台分类：</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 10" class="wp-image-61106" src="https://www.appinn.com/wp-content/uploads/2026/11/screenshot-2026-11-26-at-12.01.38-PM402x.avif" title="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 10" /></figure>
+
+
+
+<p class="wp-block-paragraph">你可以直接筛选：</p>
+
+
+
+<ul class="wp-block-list">
+<li>从 Switch 移植到 Windows 的游戏</li>
+
+
+
+<li>从 PS2 移植到 Android 的游戏</li>
+
+
+
+<li>可以在 macOS 上原生运行的游戏</li>
+
+
+
+<li>可以直接在浏览器中运行的游戏</li>
+
+
+
+<li>已经能够完整游玩的移植项目</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-full"><img alt="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 11" class="wp-image-61107" src="https://www.appinn.com/wp-content/uploads/2026/11/screenshot-2026-11-26-at-12.02.58-PM402x.avif" title="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 11" /></figure>
+
+
+
+<p class="wp-block-paragraph">每个项目都有对应的开发进度、项目地址，以及 GitHub Star 数量。部分项目还会标记是否使用了 AI 辅助开发。</p>
+
+
+
+<p class="wp-block-paragraph">青小蛙甚至发现，仅《王国之泪》一款游戏，就收录了 9 个移植项目，其中还有 Android 版本：</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 12" class="wp-image-61108" src="https://www.appinn.com/wp-content/uploads/2026/11/screenshot-2026-11-26-at-12.05.01-PM402x.avif" title="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 12" /></figure>
+
+
+
+<h2 class="wp-block-heading">这些游戏是如何被移植的？</h2>
+
+
+
+<p class="wp-block-paragraph">PlayPorted 将移植技术分为四类：</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Decomp（反编译）：</strong> 逆向还原游戏代码，再针对新平台编译。</li>
+
+
+
+<li><strong>Recomp（重编译）：</strong> 将原游戏的机器代码转换为能够在新平台运行的代码。</li>
+
+
+
+<li><strong>Rebuild（重建）：</strong> 重新编写游戏引擎，实现原版游戏的功能。</li>
+
+
+
+<li><strong>Source port（源码移植）：</strong> 利用已经公开的游戏源代码，为其他平台制作移植版。</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">将项目的成熟程度分为 5 个状态：</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Playable 可玩</strong>：你可以从头到尾玩这款游戏。</li>
+
+
+
+<li><strong>Release candidate 释放候选</strong>：几乎完成的版本，正进行最后一轮测试。</li>
+
+
+
+<li><strong>Beta 测试：</strong>能运行，但不完整或存在已知问题。</li>
+
+
+
+<li><strong>Alpha</strong>：早期产品，大部分部件缺失或不稳定。</li>
+
+
+
+<li><strong>还不能玩：</strong>仍在开发中，游戏可能会开始构建或启动，但目前还无法正式游玩。</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">针对 <strong>AI 项目</strong>，还进行了标记，其开发过程中使用了人工智能工具。青小蛙觉得这一点不是很重要。</p>
+
+
+
+<h2 class="wp-block-heading">一些数据</h2>
+
+
+
+<p class="wp-block-paragraph">PlayPorted 的游戏非常丰富，自然会有一些有趣的统计数据</p>
+
+
+
+<h3 class="wp-block-heading">1. 哪些主机的游戏被移植的最多？</h3>
+
+
+
+<p class="wp-block-paragraph">比较出乎意料的是，Xbox 360 高居榜首，初代 Xbox 也有 151 个项目。另外，已经出现了 10 个 Switch 2 移植项目，以及 1 个 PS5 移植项目。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 13" class="wp-image-61109" src="https://www.appinn.com/wp-content/uploads/2026/11/screenshot-2026-11-26-at-12.11.37-PM402x.avif" title="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 13" /></figure>
+
+
+
+<h3 class="wp-block-heading">2. 被移植到了哪些平台？</h3>
+
+
+
+<p class="wp-block-paragraph">Windows 占据绝对优势，但 Linux、macOS 的数量也非常可观。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 14" class="wp-image-61112" src="https://www.appinn.com/wp-content/uploads/2026/11/screenshot-2026-11-26-at-12.15.08-PM402x.avif" title="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 14" /></figure>
+
+
+
+<p class="wp-block-paragraph">尤其值得关注的是：</p>
+
+
+
+<ul class="wp-block-list">
+<li>约 83% 的项目支持 Windows。</li>
+
+
+
+<li>超过一半的项目支持 Linux。</li>
+
+
+
+<li>119 个项目可以在浏览器中运行。</li>
+
+
+
+<li>231 个项目支持 Android，89 个支持 iOS。</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">3. 重编译占据绝对主流</h3>
+
+
+
+<p class="wp-block-paragraph">超过七成的项目采用重编译技术。这也是为什么近年来频繁出现各种主机游戏的原生移植项目：开发者可以直接转换原游戏的机器代码，不必先完整还原游戏源代码。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 15" class="wp-image-61110" src="https://www.appinn.com/wp-content/uploads/2026/11/screenshot-2026-11-26-at-12.13.12-PM402x.avif" title="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 15" /></figure>
+
+
+
+<h3 class="wp-block-heading">4. 有多少项目已经可以玩？</h3>
+
+
+
+<p class="wp-block-paragraph">约 40% 的项目已经被标记为可玩，另有约 44% 处于 Beta 阶段。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 16" class="wp-image-61111" src="https://www.appinn.com/wp-content/uploads/2026/11/screenshot-2026-11-26-at-12.14.07-PM402x.avif" title="PlayPorted &#8211; 近 2500 个游戏移植项目，都在这个网站上 16" /></figure>
+
+
+
+<h2 class="wp-block-heading">获取</h2>
+
+
+
+<p class="wp-block-paragraph">感兴趣的同学，可以去找找自己当年喜欢的游戏，说不定已经有开发者把它搬到了 PC 上。</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://playported.com/?utm_source=appinn.com" rel="noopener" target="_blank">官网</a></li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p class="wp-block-paragraph">原文：<a href="https://www.appinn.com/playported/">https://www.appinn.com/playported/</a></p>
+<hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" rel="noopener" target="_blank" title="给小众软件投稿">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" target="_blank" title="可以分类订阅小众，Windows/MAC/游戏"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/playported/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/playported/">[ 点击前往获取链接 ]</a></p><hr />
+]]></content:encoded>
+<pubDate>Thu, 26 Nov 2026 04:21:18 +0000</pubDate>
+<pubDate>Thu, 26 Nov 2026 04:21:18 +0000</pubDate>
+</item>
+<item>
+<title>密码管理器 1Password 遭黑客入侵，部分用户数据泄露，用户主密码、密码库均安全。</title>
+<link>https://www.appinn.com/1password-security-breach-2026/</link>
+<guid>https://www.appinn.com/1password-security-breach-2026/</guid>
+<content:encoded><![CDATA[
+
+<blockquote class="wp-block-quote is-style-appinn-warning is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">1Password 确认被黑客入侵：</p>
+
+
+
+<p class="wp-block-paragraph"><strong>泄漏：</strong>姓名、邮箱、用户ID、部分邀请和恢复令牌、用户创建几最后登录时间。<br /><strong>安全：</strong>密码库安全、主密码安全、账户私钥安全、恢复私钥安全</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">11 月 25 日，知名密码管理器 1Password 发布<a href="https://1password.com/blog/update-on-nov-2026-security-incident?utm_source=appinn.com" rel="noopener" target="_blank">安全公告</a>，确认黑客通过一名员工的企业 GitHub 账号入侵内部系统，植入恶意代码，窃取了部分用户的姓名、邮箱、账户 ID 等信息，同时获取了私有源代码及 CI/CD 系统访问权限。</p>
+
+
+
+<p class="wp-block-paragraph">官方称，用户的密码保险库及其中保存的所有内容、主密码、Secret Key、客户端和浏览器扩展均未受到影响，<strong>用户无需修改密码</strong>，但应警惕冒充 1Password 的钓鱼邮件、账户恢复请求及诈骗电话。</p>
+
+
+
+<p class="wp-block-paragraph">目前，受影响的用户总数尚未公布。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="密码管理器 1Password 遭黑客入侵，部分用户数据泄露，用户主密码、密码库均安全。 17" class="wp-image-61101" src="https://www.appinn.com/wp-content/uploads/2026/11/1PasswordE981ADE585A5E4BEB5-E695B0E68DAEE5AE89E585A8E8ADA6E68AA5.jpg" title="密码管理器 1Password 遭黑客入侵，部分用户数据泄露，用户主密码、密码库均安全。 17" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>黑客是如何入侵的？</strong></h2>
+
+
+
+<p class="wp-block-paragraph">11 月 19 日，1Password 发现一名员工的企业 GitHub 账号存在被入侵的迹象，随即展开调查。</p>
+
+
+
+<p class="wp-block-paragraph">攻击者利用这个账号访问了私有源代码仓库，并向后端服务植入恶意代码，从而窃取用户资料。此外，攻击者还获得了 CI/CD（持续集成与部署系统）的访问权限。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="密码管理器 1Password 遭黑客入侵，部分用户数据泄露，用户主密码、密码库均安全。 18" class="wp-image-61102" src="https://www.appinn.com/wp-content/uploads/2026/11/1PasswordE8B4A6E688B7E5AE89E585A8E68C87E58D97.avif" title="密码管理器 1Password 遭黑客入侵，部分用户数据泄露，用户主密码、密码库均安全。 18" /></figure>
+
+
+
+<h2 class="wp-block-heading">哪些数据被泄漏？</h2>
+
+
+
+<ul class="wp-block-list">
+<li>用户姓名、登录邮箱</li>
+
+
+
+<li>用户 ID、账户 ID</li>
+
+
+
+<li>账户创建时间、最后登录时间</li>
+
+
+
+<li>公钥、SRP 安全认证协议参数</li>
+
+
+
+<li>部分账户邀请、账户恢复链接中的令牌</li>
+
+
+
+<li>其他非机密账户元数据</li>
+
+
+
+<li>1Password 私有源代码</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">哪些数据没有收到影响？</h2>
+
+
+
+<ul class="wp-block-list">
+<li>密码保险库及其中保存的所有内容</li>
+
+
+
+<li>主密码</li>
+
+
+
+<li>Secret Key（账户密钥）</li>
+
+
+
+<li>账户恢复密钥</li>
+
+
+
+<li>1Password 客户端及浏览器扩展</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">同时，由于 1Password 采用端到端加密设计，即便攻击者取得加密后的保险库数据，也无法直接读取其中的密码。</p>
+
+
+
+<h2 class="wp-block-heading"><strong>用户需要做什么？</strong></h2>
+
+
+
+<p class="wp-block-paragraph">1Password 表示，目前<strong>用户无需修改主密码、Secret Key，也不需要重新设置保存在保险库中的密码</strong>。</p>
+
+
+
+<p class="wp-block-paragraph">但由于姓名和邮箱已经泄露，接下来可能会出现针对 1Password 用户的<strong>钓鱼攻击</strong>，尤其需要警惕突然收到的账户恢复、团队邀请邮件，以及冒充官方客服的消息。</p>
+
+
+
+<p class="wp-block-paragraph">另外，1Password 已经将相关邮件的验证码从 6 位纯数字升级为 10 位字母与数字组合。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p class="wp-block-paragraph">原文：</p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/windows-apps-fake-websites-malware/" rel="bookmark" title="Permanent Link: PowerToys、Wintoys 等 70 多款 Windows 软件遭遇冒牌官网攻击">PowerToys、Wintoys 等 70 多款 Windows 软件遭遇冒牌官网攻击</a></li><li><a href="https://www.appinn.com/1password-for-first-version-linux-beta/" rel="bookmark" title="Permanent Link: 密码管理器 1Password 发布第一个 Linux 测试版本">密码管理器 1Password 发布第一个 Linux 测试版本</a></li><li><a href="https://www.appinn.com/1password-one-year-free/" rel="bookmark" title="Permanent Link: 1Password 家庭版送一年[2025年9月次] 跨平台密码管理器工具">1Password 家庭版送一年[2025年9月次] 跨平台密码管理器工具</a></li><li><a href="https://www.appinn.com/1password-passkeys-future/" rel="bookmark" title="Permanent Link: 1Password Passkeys 将在 2023 年初开始支持无密码技术">1Password Passkeys 将在 2023 年初开始支持无密码技术</a></li><li><a href="https://www.appinn.com/1password-family-thanksgiving-free-trial/" rel="bookmark" title="Permanent Link: 密码管理器 1Password 家庭版试用账号，感恩节免费送 10 个月">密码管理器 1Password 家庭版试用账号，感恩节免费送 10 个月</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" rel="noopener" target="_blank" title="给小众软件投稿">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" target="_blank" title="可以分类订阅小众，Windows/MAC/游戏"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/1password-security-breach-2026/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/1password-security-breach-2026/">[ 点击前往获取链接 ]</a></p><hr />
+]]></content:encoded>
+<pubDate>Thu, 26 Nov 2026 02:09:37 +0000</pubDate>
+<pubDate>Thu, 26 Nov 2026 02:09:37 +0000</pubDate>
+</item>
+
+<item>
 <title>开源输入法的大爆发与稳定性（5款输入法对比）</title>
 <link>https://www.appinn.com/open-source-ime-boom-and-stability/</link>
 <guid>https://www.appinn.com/open-source-ime-boom-and-stability/</guid>
 <content:encoded><![CDATA[
 <div> 开源输入法、小狼毫、青简、清风、水杉
-<br><br>总结: 作者基于万象base小鹤双拼评测五款开源输入法，认为均未成熟。小狼毫9分最成熟、词库导入方便，但配置复杂；青简7.5分功能多，设置乱、缺部首查字、双拼问字与词库导入有问题；清风8分功能最多且全GUI，但设置臃肿、搜索差、辅助码触发异常；水杉7分模型选项全，但设置崩溃、UI差、调频与词库受限，低配易卡顿丢字；FreeType4.5分，宣传过满、功能缺失、打磨一般，设置页精简搜索好评。 <div>
+<br /><br />总结: 作者基于万象base小鹤双拼评测五款开源输入法，认为均未成熟。小狼毫9分最成熟、词库导入方便，但配置复杂；青简7.5分功能多，设置乱、缺部首查字、双拼问字与词库导入有问题；清风8分功能最多且全GUI，但设置臃肿、搜索差、辅助码触发异常；水杉7分模型选项全，但设置崩溃、UI差、调频与词库受限，低配易卡顿丢字；FreeType4.5分，宣传过满、功能缺失、打磨一般，设置页精简搜索好评。 <div>
 <blockquote class="wp-block-quote is-style-appinn-info is-layout-flow wp-block-quote-is-layout-flow">
 <p class="wp-block-paragraph">本文来自论坛 CCR 同学，原标题《<a href="https://meta.appinn.net/t/topic/96465" rel="noopener" target="_blank">【无用评测】开源输入法大爆发与稳定性</a>》</p>
 
@@ -433,14 +1369,13 @@
 <a href="https://www.appinn.com/open-source-ime-boom-and-stability/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/open-source-ime-boom-and-stability/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Wed, 25 Nov 2026 09:39:32 +0000</pubDate>
-<pubDate>Wed, 25 Nov 2026 09:39:32 +0000</pubDate>
 </item>
 <item>
 <title>YzwPDFView 大雁PDF：89KB 的单文件 PDF 快速查看小工具</title>
 <link>https://www.appinn.com/yzwpdfview/</link>
 <guid>https://www.appinn.com/yzwpdfview/</guid>
 <content:encoded><![CDATA[
-<div> 关键词：YzwPDFView PDF阅读器 Windows 小巧免费 快捷键<br><br>总结:
+<div> 关键词：YzwPDFView PDF阅读器 Windows 小巧免费 快捷键<br /><br />总结:
 1. YzwPDFView是Windows纯PDF阅读工具，免费、小巧、简洁、快速，仅89KB且为单可执行文件。
 2. 可直接打开PDF，支持快捷键，以及实际大小、适应窗口、翻页、旋转、打印、复制、查看属性等功能。
 3. 缺少双栏两页查看；打开280MB PDF约占用70MB内存；阅读量大可替代浏览器，但快速翻页可能停滞。
@@ -529,7 +1464,6 @@
 <a href="https://www.appinn.com/yzwpdfview/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/yzwpdfview/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Wed, 25 Nov 2026 08:24:17 +0000</pubDate>
-<pubDate>Wed, 25 Nov 2026 08:24:17 +0000</pubDate>
 </item>
 <item>
 <title>xnulinux – 不用虚拟机，在 Linux 中直接运行完整 macOS</title>
@@ -537,7 +1471,7 @@
 <guid>https://www.appinn.com/xnulinux/</guid>
 <content:encoded><![CDATA[
 <div> xnulinux、macOS、Linux内核模块、ARM64、套娃
-<br><br>总结: 1. xnulinux将苹果XNU内核重编译为Linux内核模块xnu.ko，由Linux提供硬件资源，无需虚拟机即可运行完整macOS。2. 已在Apple Silicon Mac和NVIDIA DGX Spark（Ubuntu ARM64）测试，成功启动macOS 27.2.1桌面及Finder、Safari等应用，并可同机运行Linux/macOS程序。3. 要求ARM64/PAC、至少16GB内存、4KB页Linux、自备macOS磁盘及Xcode Mac构建。4. 未来或支持骁龙等ARM设备；项目创建5天获3500+星，仍属早期实验，普通用户安装尚远。5. 另回顾Stela可在Intel/AMD普通PC安装macOS 27。 <div>
+<br /><br />总结: 1. xnulinux将苹果XNU内核重编译为Linux内核模块xnu.ko，由Linux提供硬件资源，无需虚拟机即可运行完整macOS。2. 已在Apple Silicon Mac和NVIDIA DGX Spark（Ubuntu ARM64）测试，成功启动macOS 27.2.1桌面及Finder、Safari等应用，并可同机运行Linux/macOS程序。3. 要求ARM64/PAC、至少16GB内存、4KB页Linux、自备macOS磁盘及Xcode Mac构建。4. 未来或支持骁龙等ARM设备；项目创建5天获3500+星，仍属早期实验，普通用户安装尚远。5. 另回顾Stela可在Intel/AMD普通PC安装macOS 27。 <div>
 <p class="has-very-light-gray-to-cyan-bluish-gray-gradient-background has-background wp-block-paragraph">大乱斗时代有点乱，这是一个可以在 Linux 中运行完整 macOS 系统的开源项目。<br />开发者实现了在 <strong>Mac 的 Linux 虚拟机</strong>中，通过 xnulinux 再运行一个 macOS 的<strong>套娃式</strong>离谱操作。@<a href="https://www.appinn.com/xnulinux/">Appinn</a></p>
 
 
@@ -674,14 +1608,12 @@
 <a href="https://www.appinn.com/xnulinux/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/xnulinux/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Wed, 25 Nov 2026 06:59:59 +0000</pubDate>
-<pubDate>Wed, 25 Nov 2026 06:59:59 +0000</pubDate>
 </item>
 <item>
 <title>Ladybird（瓢虫）- 不用 Chromium，独立内核的开源浏览器：只开发网页浏览器，别的什么都不做。</title>
 <link>https://www.appinn.com/ladybird-browser/</link>
 <guid>https://www.appinn.com/ladybird-browser/</guid>
 <content:encoded><![CDATA[
-
 <p class="has-very-light-gray-to-cyan-bluish-gray-gradient-background has-background wp-block-paragraph"><strong>我们只开发网页浏览器，别的什么都不做</strong>。</p>
 
 
@@ -850,14 +1782,12 @@
 <a href="https://www.appinn.com/ladybird-browser/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/ladybird-browser/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Wed, 25 Nov 2026 06:26:14 +0000</pubDate>
-<pubDate>Wed, 25 Nov 2026 06:26:14 +0000</pubDate>
 </item>
 <item>
 <title>全新 Windows 11 系统搜索：速度快、不卡顿、内存占用低，用了都说好</title>
 <link>https://www.appinn.com/windows-11-new-native-search/</link>
 <guid>https://www.appinn.com/windows-11-new-native-search/</guid>
 <content:encoded><![CDATA[
-
 <p class="has-very-light-gray-to-cyan-bluish-gray-gradient-background has-background wp-block-paragraph">万万没想到，Windows 11 的搜索功能，居然也有变好用的一天！</p>
 
 
@@ -935,14 +1865,12 @@ vivetool /enable /id:58381341
 <a href="https://www.appinn.com/windows-11-new-native-search/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/windows-11-new-native-search/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Tue, 24 Nov 2026 05:54:12 +0000</pubDate>
-<pubDate>Tue, 24 Nov 2026 05:54:12 +0000</pubDate>
 </item>
 <item>
 <title>Koofr 云存储：免费 10GB 空间，支持 WebDAV、Rclone｜终身订阅 1TB 特价129.9美元【再次】</title>
 <link>https://www.appinn.com/koofr-1tb/</link>
 <guid>https://www.appinn.com/koofr-1tb/</guid>
 <content:encoded><![CDATA[
-
 <p class="wp-block-paragraph">2026年11月24日更新：再次出现 129.99 美元优惠，使用 <strong>KOOFR</strong> 优惠码：</p>
 
 
@@ -1163,14 +2091,12 @@ vivetool /enable /id:58381341
 <a href="https://www.appinn.com/koofr-1tb/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/koofr-1tb/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Tue, 24 Nov 2026 03:24:23 +0000</pubDate>
-<pubDate>Tue, 24 Nov 2026 03:24:23 +0000</pubDate>
 </item>
 <item>
 <title>高危漏洞 Upload2Shell 公开：上传图片即可入侵服务器｜CVE-2026-125396，8.5 分</title>
 <link>https://www.appinn.com/upload2shell-cve-2026-125396/</link>
 <guid>https://www.appinn.com/upload2shell-cve-2026-125396/</guid>
 <content:encoded><![CDATA[
-
 <p class="has-very-light-gray-to-cyan-bluish-gray-gradient-background has-background wp-block-paragraph">一个普通的图片上传功能，竟然可能成为攻击者控制服务器的入口。</p>
 
 
@@ -1305,14 +2231,12 @@ vivetool /enable /id:58381341
 <a href="https://www.appinn.com/upload2shell-cve-2026-125396/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/upload2shell-cve-2026-125396/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Tue, 24 Nov 2026 03:07:53 +0000</pubDate>
-<pubDate>Tue, 24 Nov 2026 03:07:53 +0000</pubDate>
 </item>
 <item>
 <title>微软 To Do 要关闭了，奇妙清单创始人早就做了替代品：Superlist</title>
 <link>https://www.appinn.com/superlist-start/</link>
 <guid>https://www.appinn.com/superlist-start/</guid>
 <content:encoded><![CDATA[
-
 <p class="has-very-light-gray-to-cyan-bluish-gray-gradient-background has-background wp-block-paragraph">用户喜欢什么，微软就关掉什么。<br />这似乎已成为一种魔咒，微软千万不能有好用的工具，不然转头就要关掉。</p>
 
 
@@ -1487,14 +2411,12 @@ vivetool /enable /id:58381341
 <a href="https://www.appinn.com/superlist-start/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/superlist-start/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Mon, 23 Nov 2026 09:32:59 +0000</pubDate>
-<pubDate>Mon, 23 Nov 2026 09:32:59 +0000</pubDate>
 </item>
 <item>
 <title>微软 WinGet 开始支持 MCP：以后安装 Windows 软件，直接告诉 AI 就行了</title>
 <link>https://www.appinn.com/winget-mcp-server/</link>
 <guid>https://www.appinn.com/winget-mcp-server/</guid>
 <content:encoded><![CDATA[
-
 <p class="wp-block-paragraph">在 Windows 上安装软件，一般是下载，然后双击安装包，再一步步点击「下一步」。</p>
 
 
@@ -1663,14 +2585,12 @@ winget mcp
 <a href="https://www.appinn.com/winget-mcp-server/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/winget-mcp-server/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Mon, 23 Nov 2026 07:12:42 +0000</pubDate>
-<pubDate>Mon, 23 Nov 2026 07:12:42 +0000</pubDate>
 </item>
 <item>
 <title>Google Gemini 黑五五折！AI Pro/Plus 年费 100/24 美元</title>
 <link>https://www.appinn.com/google-ai-pro-black-friday-2026/</link>
 <guid>https://www.appinn.com/google-ai-pro-black-friday-2026/</guid>
 <content:encoded><![CDATA[
-
 <p class="wp-block-paragraph">11月23日更新：收到 Google 邮件，<strong>Google AI Plus</strong> 也开始参与五折，只需要 24.99美元/年，这就很有性价比了啊</p>
 
 
@@ -1805,9 +2725,7 @@ winget mcp
 <a href="https://www.appinn.com/google-ai-pro-black-friday-2026/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/google-ai-pro-black-friday-2026/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Mon, 23 Nov 2026 05:53:05 +0000</pubDate>
-<pubDate>Mon, 23 Nov 2026 05:53:05 +0000</pubDate>
 </item>
-
 <item>
 <title>求一个能完整下载网页文字和图片的chrome插件</title>
 <link>https://meta.appinn.net/t/topic/70085</link>

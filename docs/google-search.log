@@ -20,3 +20,9 @@ Append: [Search Central Live is coming to Bogota and Ciudad de México](https://
 Append: [Update to the Site Reputation Policy](https://developers.google.com/search/blog/2026/08/update-site-reputation-policy)
 append_entries: 10
 Finish: 2026-11-25 19:28:03.771463
+------------------------------------------------------
+Started: 2026-11-26 09:18:20.008930
+Existing_entries: 10
+Fetching from https://developers.google.com/search/blog/feed.xml
+append_entries: 0
+Finish: 2026-11-26 09:18:20.265435
