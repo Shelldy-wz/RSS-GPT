@@ -1,0 +1,36 @@
+------------------------------------------------------
+Started: 2026-11-26 16:14:18.095405
+Existing_entries: 0
+Fetching from https://developers.google.com/search/blog/feed.xml
+Token length: 283
+Summarized using deepseek-v4.1-flash-1017
+Append: [New filtering and reporting capabilities in the Search Analytics API](https://developers.google.com/search/blog/2026/11/search-analytics-api-update)
+Token length: 340
+Summarized using deepseek-v4.1-flash-1017
+Append: [Moving to a CDN without overwhelming your origin (or blocking Googlebot)](https://developers.google.com/search/blog/2026/11/crawling-cdn)
+Token length: 74
+Summarized using deepseek-v4.1-flash-1017
+Append: [Search Central Live in Zurich is back!](https://developers.google.com/search/blog/2026/11/search-central-live-zurich-2026)
+Token length: 488
+Summarized using deepseek-v4.1-flash-1017
+Append: [Supporting a shared AI training control for websites](https://developers.google.com/search/blog/2026/10/ai-training-control)
+Token length: 397
+Summarized using deepseek-v4.1-flash-1017
+Append: [New learning paths: curated YouTube playlists for Search fundamentals and Technical SEO](https://developers.google.com/search/blog/2026/10/seo-learning-paths)
+Token length: 246
+Summarized using deepseek-v4.1-flash-1017
+Append: [Announcing web multimodal Search performance reporting in Search Console](https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc)
+Token length: 345
+Summarized using deepseek-v4.1-flash-1017
+Append: [Search Central Live Deep Dive Europe 2026: Meet the community speakers](https://developers.google.com/search/blog/2026/09/scl-dd-europe-2026-community-speakers)
+Token length: 404
+Summarized using deepseek-v4.1-flash-1017
+Append: [Search Central Live India 2026: Bengaluru, We're Coming (For Real This Time)](https://developers.google.com/search/blog/2026/09/search-central-live-india-2026)
+Token length: 29
+Summarized using deepseek-v4.1-flash-1017
+Append: [Search Central Live is coming to Bogota and Ciudad de México](https://developers.google.com/search/blog/2026/09/search-central-live-mexico-and-colombia)
+Token length: 296
+Summarized using deepseek-v4.1-flash-1017
+Append: [Update to the Site Reputation Policy](https://developers.google.com/search/blog/2026/08/update-site-reputation-policy)
+append_entries: 10
+Finish: 2026-11-26 16:15:31.962850

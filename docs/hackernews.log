@@ -1,0 +1,46 @@
+------------------------------------------------------
+Started: 2026-11-26 16:24:57.646140
+Existing_entries: 0
+Fetching from https://hnrss.org/frontpage
+Token length: 53
+Summarized using deepseek-v4.1-flash-1017
+Append: [Show HN: Three Linux VMs in a browser tab, each running a different browser](https://michidk.github.io/sidebyside/)
+Token length: 150
+Summarized using deepseek-v4.1-flash-1017
+Append: [Tell HN: Happy Thanksgiving](https://news.ycombinator.com/item?id=50655664)
+Token length: 55
+Summarized using deepseek-v4.1-flash-1017
+Append: [45°C inlets just killed the chiller. Most people haven't noticed yet](https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831)
+Token length: 38
+Summarized using deepseek-v4.1-flash-1017
+Append: [Head of Software Engineering – NOX Metals](https://news.ycombinator.com/item?id=50654353)
+Token length: 56
+Summarized using deepseek-v4.1-flash-1017
+Append: [Euro-Office comes to your desktop with the Nextcloud Office Desktop app](https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/)
+Token length: 56
+Summarized using deepseek-v4.1-flash-1017
+Append: [Intel One Mono font](https://github.com/intel/intel-one-mono)
+Token length: 55
+Summarized using deepseek-v4.1-flash-1017
+Append: [Moat: Your OpenRouter Replacement](https://commandcode.ai/moat)
+Token length: 55
+Summarized using deepseek-v4.1-flash-1017
+Append: [An algebraic quantization of gravity from the null cone](https://arxiv.org/abs/2611.34924)
+Token length: 55
+Summarized using deepseek-v4.1-flash-1017
+Append: [Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years](https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/)
+Token length: 55
+Summarized using deepseek-v4.1-flash-1017
+Append: [Unconditional Integer Factorization in Subexponential Time](https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization)
+Append: [OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster](https://twitter.com/thsottiaux/status/2125784147889393806)
+Append: [Minipg: PostgreSQL as a Single Executable](https://progrium.github.io/minipg/)
+Append: [Tell HN: Lots of Ask HNs again](https://news.ycombinator.com/item?id=50649864)
+Append: [Collection of preserved UI style guides](https://aresluna.org/ui-style-guides/)
+Append: [Bare Metal Qwen](https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os)
+Append: [Deploying a payphone on a tiny Pacific Island for fun and zero profit](https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/)
+Append: [Much shorter version of GRH Lean verification from Anthropic](https://github.com/lsernau/grh-lean)
+Append: [The New York Times warns photographers not to update Photoshop over AI features](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features)
+Append: [Slow Ubuntu security response times](https://www.openwall.com/lists/oss-security/2026/11/25/9)
+Append: [Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server](https://opensec.in/blog/nfs2root-cve-2026-99362)
+append_entries: 20
+Finish: 2026-11-26 16:26:30.692479

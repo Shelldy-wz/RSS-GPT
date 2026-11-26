@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Google Search Central Blog</title>
+<link>https://developers.google.com/search/blog/</link>
+
+<item>
+<title>New filtering and reporting capabilities in the Search Analytics API</title>
+<link>https://developers.google.com/search/blog/2026/11/search-analytics-api-update</link>
+<guid>https://developers.google.com/search/blog/2026/11/search-analytics-api-update</guid>
+<content:encoded><![CDATA[
+<div> # 关键词
+Search Console, Performance report, 更新, 过滤, 流量
+
+<br><br>总结:  
+1. 过去一年，Search Console 的性能报告推出了多项更新，帮助用户更精细地分析和理解流量。  
+2. 新增了品牌查询过滤器，便于区分品牌相关流量。  
+3. 加入了网页多模态搜索报告，扩展了搜索类型覆盖。  
+4. 支持多国家和多设备筛选，提升流量细分能力。  
+5. 这些更新共同增强了性能报告的分析灵活性。 <div>
+<p>
+      Over the past year, we introduced several updates to the Search Console Performance report to help
+  you better slice and understand your traffic, including the
+  branded queries filter,
+  web multimodal search reporting, and
+  multi-country and multi-device filtering.
+      </p>
+]]></content:encoded>
+<pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Moving to a CDN without overwhelming your origin (or blocking Googlebot)</title>
+<link>https://developers.google.com/search/blog/2026/11/crawling-cdn</link>
+<guid>https://developers.google.com/search/blog/2026/11/crawling-cdn</guid>
+<content:encoded><![CDATA[
+<div> BR.关键词：CDN、边缘服务器、延迟、源服务器、流量防护
+
+<br><br>总结:<br>1. 部署CDN可将站点资源分发到全球分布式边缘服务器，使用户就近获取资源。<br>2. CDN能显著降低访客延迟，提升访问速度与体验。<br>3. 边缘节点承接大量请求，为源服务器分担流量压力。<br>4. 源服务器作为后端内容源头，受到CDN保护，避免高流量冲击。<br>5. CDN对任何成长中的站点都是一次重要升级，兼具加速与防护价值。 <div>
+<p>
+      Deploying a Content Delivery Network (CDN) to distribute your site's assets across fast, globally
+  distributed edge servers closer to users can be a major upgrade for any growing site: it lowers
+  visitor latency and shields your origin server (the backend source of truth holding your original
+  content) from heavy traffic.
+      </p>
+]]></content:encoded>
+<pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Search Central Live in Zurich is back!</title>
+<link>https://developers.google.com/search/blog/2026/11/search-central-live-zurich-2026</link>
+<guid>https://developers.google.com/search/blog/2026/11/search-central-live-zurich-2026</guid>
+<content:encoded><![CDATA[
+<div> # 检索增强生成（RAG）中的文档检索与生成优化
+
+## 概述
+
+检索增强生成（Retrieval-Augmented Generation, RAG）是一种将信息检索与大型语言模型生成能力相结合的技术范式，旨在解决大模型在知识时效性、事实准确性和领域专业性方面的局限。RAG 系统通过从外部知识库中检索相关文档片段，并将其作为上下文输入给生成模型，从而提升回答的质量与可靠性。
+
+## 核心流程
+
+典型的 RAG 系统包含以下阶段：
+
+1. **文档索引（Indexing）**：将原始文档切分为片段（chunk），通过嵌入模型编码为向量，并存入向量数据库。
+2. **查询理解（Query Understanding）**：对用户查询进行改写、扩展或意图识别，以提升检索召回率。
+3. **文档检索（Retrieval）**：基于向量相似度或混合检索（稠密+稀疏）召回 Top-K 相关片段。
+4. **重排序（Reranking）**：使用交叉编码器或专门的重排模型对候选片段进行精排。
+5. **生成（Generation）**：将筛选后的上下文与用户问题拼接，输入生成模型产出最终答案。
+
+## 文档切分策略
+
+切分粒度直接影响检索质量与生成效果：
+
+- **固定长度切分**：实现简单，但可能割裂语义单元。
+- **语义切分**：基于段落、标题或句子边界切分，保持语义完整性。
+- **递归切分**：按层级（章节→段落→句子）递归分割，兼顾粒度与语义。
+- **重叠切分**：相邻片段保留部分重叠，缓解边界信息丢失。
+
+实践中常将多种策略结合，并根据文档类型（如法律、技术、对话）动态调整块大小与重叠比例。
+
+## 检索优化
+
+### 混合检索
+
+单一向量检索在关键词精确匹配场景下表现不足。混合检索融合稠密向量（语义相似）与稀疏向量（如 BM25 的词项匹配），通过加权或分数归一化融合，兼顾语义泛化与精确匹配。
+
+### 查询改写
+
+用户查询常存在歧义、省略或口语化问题。常见方法包括：
+
+- **查询扩展**：同义词、上下位词扩展。
+- **查询分解**：将复杂多跳问题拆解为子查询。
+- **HyDE**：先让模型生成假设性答案，再用其向量检索。
+
+### 重排序
+
+召回阶段追求高召回率，重排阶段则聚焦精度。交叉编码器对 query-document 对进行细粒度打分，显著提升 Top-K 结果的相关性，但计算开销较大，通常仅对少量候选执行。
+
+## 生成优化
+
+检索到的上下文可能包含冗余、冲突或无关信息，直接拼接会引入噪声。生成阶段的优化包括：
+
+- **上下文压缩**：去除与查询无关的句子，降低 token 消耗与干扰。
+- **上下文排序**：将最相关片段置于上下文首尾（利用模型对首尾位置的注意力偏好）。
+- **引用与溯源**：要求模型在答案中标注信息来源，增强可信度。
+- **拒答机制**：当检索结果置信度低时，引导模型明确表示无法回答，减少幻觉。
+
+## 评估方法
+
+RAG 系统评估需同时覆盖检索与生成两个环节：
+
+- **检索指标**：Recall@K、MRR、NDCG。
+- **生成指标**：答案准确性、忠实度（faithfulness）、相关性、流畅性。
+- **端到端评估**：人工评估与 LLM-as-a-Judge 相结合，辅以 RAGAS 等自动化框架。
+
+## 挑战与展望
+
+当前 RAG 面临多跳推理能力不足、长文档处理效率低、检索与生成目标不一致等挑战。未来方向包括：端到端可微检索、自适应检索（按需触发）、多模态 RAG，以及检索器与生成器的联合训练。
+
+## 结论
+
+RAG 通过外部知识注入有效缓解了大模型的事实性与时效性问题。其性能取决于检索质量、上下文组织与生成控制的协同优化。工程实践中应根据业务场景权衡各环节的成本与收益，构建可迭代、可评估的 RAG 流水线。 <div>
+<p>
+      Search Central Live is coming to Zurich on December 4, 2026!
+      </p>
+]]></content:encoded>
+<pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+<pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Supporting a shared AI training control for websites</title>
+<link>https://developers.google.com/search/blog/2026/10/ai-training-control</link>
+<guid>https://developers.google.com/search/blog/2026/10/ai-training-control</guid>
+<content:encoded><![CDATA[
+<div> <response>关键词：robots.txt、AI训练控制、多提供商、IETF AIPREF、Google-Extended<br><br>总结:<br>1. 谷歌宣布计划在robots.txt中支持共享的AI训练控制；<br>2. 该控制可让网站通过单一步骤，向多个AI提供商表达其AI训练偏好；<br>3. 这一计划基于IETF AIPREF工作组的研究成果；<br>4. 它延续了谷歌为网站所有者提供明确控制选项的长期做法；<br>5. 其中包括谷歌自2023年起提供的AI训练控制Google-Extended。 <div>
+<p>
+      Today, we're announcing our plans to support
+  a shared AI training control
+  in robots.txt. This will help websites express their AI training preferences across multiple AI
+  providers in a single step and is based on work from the AIPREF working group at the Internet
+  Engineering Task Force (IETF). This builds on our long history of providing website owners with
+  clear controls, including through
+  Google-Extended,
+  the AI training control we've offered since 2023.
+      </p>
+]]></content:encoded>
+<pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+<pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>New learning paths: curated YouTube playlists for Search fundamentals and Technical SEO</title>
+<link>https://developers.google.com/search/blog/2026/10/seo-learning-paths</link>
+<guid>https://developers.google.com/search/blog/2026/10/seo-learning-paths</guid>
+<content:encoded><![CDATA[
+<div> # 文章内容总结
+
+**文章内容：**
+
+Over the years, the Search Central YouTube channel has published hundreds of videos across various series...
+
+**关键词：** Search Central YouTube、视频系列、学习路径、顺序学习、内容结构
+
+<br><br>总结:
+
+文章提到，Search Central YouTube 频道多年来发布了大量视频，涵盖 Search for Beginners、Ask Googlebot、Search Console Training、Search Off the Record 等多个系列。这些系列适合深入学习和分集更新，但文章也指出，对于初学者而言，要从零开始找到一条清晰、循序渐进的学习路径有时会比较困难。 <div>
+<p>
+      Over the years, the Search Central YouTube channel
+  has published hundreds of videos across various series, from Search for Beginners and Ask Googlebot
+  to Search Console Training and Search Off the Record. While our series structure works well for
+  deep dives and episodic updates, we know that finding a clear, sequential learning path from scratch can sometimes be challenging.
+      </p>
+]]></content:encoded>
+<pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+<pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Announcing web multimodal Search performance reporting in Search Console</title>
+<link>https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc</link>
+<guid>https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc</guid>
+<content:encoded><![CDATA[
+<div> % <div>
+<p>
+      Understanding how users find your content is crucial for any publisher or site owner.
+  As Search evolves to include more visual and multimodal experiences, we want to ensure
+  you have the data you need to analyze your performance.
+      </p>
+]]></content:encoded>
+<pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+<pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Search Central Live Deep Dive Europe 2026: Meet the community speakers</title>
+<link>https://developers.google.com/search/blog/2026/09/scl-dd-europe-2026-community-speakers</link>
+<guid>https://developers.google.com/search/blog/2026/09/scl-dd-europe-2026-community-speakers</guid>
+<content:encoded><![CDATA[
+<div> Search Central Live、Deep Dive Europe 2026、2026年9月30日至10月2日、巴塞罗那、Google Search Central
+<br><br>总结:1. 活动临近：距Search Central Live Deep Dive Europe 2026仅约两周。2. 时间地点：2026年9月30日至10月2日，在西班牙巴塞罗那举行。3. 主办方：Google Search Central团队。4. 内容：为期三天，聚焦深度技术探索、交流与合作。 <div>
+<p>
+      It's happening! We are absolutely pumped that we're just about two weeks away from
+  Search Central Live Deep Dive Europe 2026!
+  From September 30 to October 2, 2026, the Google Search Central team is heading
+  to the gorgeous city of Barcelona, Spain for three days of deep technical
+  exploration, networking, and collaboration.
+      </p>
+]]></content:encoded>
+<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Search Central Live India 2026: Bengaluru, We're Coming (For Real This Time)</title>
+<link>https://developers.google.com/search/blog/2026/09/search-central-live-india-2026</link>
+<guid>https://developers.google.com/search/blog/2026/09/search-central-live-india-2026</guid>
+<content:encoded><![CDATA[
+<div> <think>用户想要我总结这篇文章——实际上是一段英文内容——成中文，先提取5个关键词在同一行输出，再换行用中文写200字以内的总结，包含所有要点，按顺序分要点输出，格式要求是"<br><br>总结:"，并且必须保留两个<br>，在"总结:"之前。
+
+让我分析这段英文文本：
+- 回顾三月时告诉印度社区"sit tight"（稍安勿躁），等APAC活动日历确定
+- 开玩笑说别太当真，坐等六个月对背不好
+- 现在可以站起来伸展了
+- Search Central Live 2026年正式回归印度
+- 具体地点：班加罗尔（Bengaluru）
+
+关键词可以用：Search Central Live、印度、班加罗尔、2026、回归/APAC活动日历。
+
+总结要点：
+1. 三月曾让印度社区稍安勿躁，等待APAC活动日历确定
+2. 调侃坐等六个月对腰背不好
+3. 现在可以站起来伸展——Search Central Live 2026正式回归印度
+4. 具体举办地是班加罗尔
+
+字数控制在200字内。格式：5个关键词同一行，然后换行，然后"<br><br>总结:"，然后分要点输出。
+
+注意"必须保留2个<br>"指的是"总结:"之前有两个<br>。输出格式应该是：
+
+关键词1、关键词2、关键词3、关键词4、关键词5
+<br><br>总结:
+要点1
+要点2
+...
+
+让我写出来。</think>Search Central Live、印度、班加罗尔、2026、APAC活动日历
+<br><br>总结:
+1. 回顾今年三月曾让印度社区“稍安勿躁”，等待APAC活动日历确定。
+2. 调侃坐等六个月对腰背不好，现在终于可以站起来伸展一下。
+3. 宣布Search Central Live将于2026年正式回归印度。
+4. 具体举办地点为班加罗尔。 <div>
+<p>
+      Remember back in March when we
+  told our Indian community to &quot;sit tight&quot;
+  while we figured out the APAC event calendar? Hopefully, you didn't take that
+  too literally, because sitting tight for six months is probably not great for
+  your back. In any case, you can finally stand up and stretch:
+  Search Central Live is officially returning to India in 2026,
+  specifically to Bengaluru!
+      </p>
+]]></content:encoded>
+<pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+<pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Search Central Live is coming to Bogota and Ciudad de México</title>
+<link>https://developers.google.com/search/blog/2026/09/search-central-live-mexico-and-colombia</link>
+<guid>https://developers.google.com/search/blog/2026/09/search-central-live-mexico-and-colombia</guid>
+<content:encoded><![CDATA[
+<div> 请先提供需要总结的文章正文或链接。当前消息只有格式要求，没有文章内容，因此无法提取关键词或撰写总结。  
+请粘贴西班牙语文章，我会按你的要求用中文输出：5个关键词同一行，换行后以 `<br><br>总结:` 开头，并在200字内按顺序分要点总结。 <div>
+<p>
+      Leer en español
+      </p>
+]]></content:encoded>
+<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Update to the Site Reputation Policy</title>
+<link>https://developers.google.com/search/blog/2026/08/update-site-reputation-policy</link>
+<guid>https://developers.google.com/search/blog/2026/08/update-site-reputation-policy</guid>
+<content:encoded><![CDATA[
+<div> # 关键词提取与总结
+
+**关键词：** 2024年、站点声誉政策、第三方内容、搜索排名、用户体验
+
+<br><br>总结:
+
+1. 2024年推出了站点声誉政策，旨在制止一种不良做法。
+2. 该做法是将第三方内容发布在可信网站上，仅为利用该网站的良好声誉来提升搜索排名。
+3. 这种滥用行为损害了搜索质量。
+4. 此类做法也给用户带来了糟糕的体验。
+5. 该政策的核心目标是维护搜索结果的公正性与用户体验。 <div>
+<p>
+      In 2024, we
+  introduced our site reputation policy
+  to stop a practice where third-party content is published on a trusted website just to exploit that
+  site's good reputation to rank higher in Search. This practice hurts search quality, and creates a
+  bad experience for users.
+      </p>
+]]></content:encoded>
+<pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+<pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+</item>
+
+</channel>
+</rss>
