@@ -1,156 +1,65 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="stylesheet" href="/theme.css" />
-    <link rel="stylesheet" href="/style.css" />
-
-    
-  <title>RSS feeds - 1nan</title>
-
-
-    
-  <style>
-  img {
-    
-    max-width: 100% !important;
-    
-    height: auto !important;
-  }
-  </style>
-
-
-  </head>
-  <body>
-    
-
-<div style="display: flex; justify-content: space-between; align-items: center;">
-    <div id="header-created-at">
-        <span style="font-size: 0.5 em; color: #888;"> 2026-11-26 09:19:43 </span>
-    </div>
-
-    <div id="header-home-link" style="font-size: 0.5 em;">
-        <a href="/index.html">&lt; Home</a>
-        
-    </div>
-</div>
-
-
-    <main>
-
-
-
-      <h1>RSS feeds processed with <a href="https://github.com/yinan-c/rss-gpt">RSS-GPT</a></h1>
-      
-      <ul>
-      <li><a href="https://developers.google.com/search/blog/feed.xml">https://developers.google.com/search/blog/feed.xml</a> -> <a href="google-search">google-search.xml</a></li>
-      </ul>
-      
-      <ul>
-      <li><a href="https://searchenginejournal.com/feed/">https://searchenginejournal.com/feed/</a> -> <a href="sej">sej.xml</a></li>
-      </ul>
-      
-      <ul>
-      <li><a href="https://www.seroundtable.com/index.rdf">https://www.seroundtable.com/index.rdf</a> -> <a href="seroundtable">seroundtable.xml</a></li>
-      </ul>
-      
-      <ul>
-      <li><a href="https://ahrefs.com/blog/feed/">https://ahrefs.com/blog/feed/</a> -> <a href="ahrefs">ahrefs.xml</a></li>
-      </ul>
-      
-      <ul>
-      <li><a href="https://www.semrush.com/blog/feed/">https://www.semrush.com/blog/feed/</a> -> <a href="semrush">semrush.xml</a></li>
-      </ul>
-      
-      <ul>
-      <li><a href="https://hnrss.org/frontpage">https://hnrss.org/frontpage</a> -> <a href="hackernews">hackernews.xml</a></li>
-      </ul>
-      
-      <ul>
-      <li><a href="https://www.appinn.com/feed/">https://www.appinn.com/feed/</a> -> <a href="appinn">appinn.xml</a></li>
-      </ul>
-      
-      <ul>
-      <li><a href="https://manuelmoreale.com/feed/rss">https://manuelmoreale.com/feed/rss</a> -> <a href="manuel-moreale">manuel-moreale.xml</a></li>
-      </ul>
-      
-
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEO 每日摘要 · 2026-11-26</title>
 <style>
-.nav-button {
-  padding: 10px 20px;
-  background-color: #F2F2F2; /* Light grey */
-  border: none;
-  color: black; /* Change text color to black for visibility against transparent background */
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 4px 2px;
-  cursor: pointer;
-  transition-duration: 0.4s;
-  border-radius: 5px;
-  width: 48%; /* Set the width to approximately half the page */
-  white-space: normal; /* Allow text to wrap onto a new line */
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
-}
-
-
-@media (max-width: 600px) {
-  .nav-button {
-    font-size: 12px;  /* 在小屏幕上减小字体大小 */
-  }
-}
-
-.nav-button a {
-  color: inherit; /* Inherit text color from parent element */
-  text-decoration: none;
-}
-
-.nav-button:hover {
-  background-color: #EAEAEA; /* Dark grey on hover */ 
-}
-
-#prev-button {
-  float: left;
-  text-align: left;
-}
-
-#next-button {
-  float: right;
-  text-align: right;
+*{box-sizing:border-box}
+body{margin:0;padding:0;background:#f7f7f8;color:#1a1a1a;
+ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+ line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{max-width:820px;margin:0 auto;padding:28px 20px 60px}
+header h1{font-size:26px;margin:0 0 6px;letter-spacing:-.3px}
+header .meta{color:#888;font-size:13px;margin:0 0 18px}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:30px}
+nav a{font-size:12.5px;padding:5px 11px;border-radius:20px;background:#fff;border:1px solid #e5e5e7;
+ color:#444;text-decoration:none;white-space:nowrap}
+nav a:hover{background:#f0f0f2;border-color:#d4d4d8}
+section{margin-bottom:38px;scroll-margin-top:20px}
+h2{font-size:15px;margin:0 0 14px;display:flex;align-items:center;gap:8px;color:#111;font-weight:600}
+h2 .dot{width:8px;height:8px;border-radius:50%;flex:none}
+h2 .count{font-size:12px;color:#999;font-weight:400}
+.card{background:#fff;border:1px solid #e8e8ea;border-radius:10px;padding:15px 17px;
+ margin-bottom:10px;transition:border-color .15s}
+.card:hover{border-color:#d0d0d5}
+.card h3{font-size:15.5px;margin:0 0 7px;line-height:1.45;font-weight:600}
+.card h3 a{color:#111;text-decoration:none}
+.card h3 a:hover{color:#2563eb}
+.card .info{font-size:12px;color:#999;margin-bottom:9px;display:flex;flex-wrap:wrap;
+ gap:8px;align-items:center}
+.card .info time{font-variant-numeric:tabular-nums}
+.tag{background:#f2f3f5;color:#555;border-radius:4px;padding:1px 6px;font-size:11.5px}
+.sum{margin:0;font-size:14px;color:#333}
+.exc{margin:0;font-size:13.5px;color:#8a8a8a}
+footer{margin-top:50px;padding-top:18px;border-top:1px solid #e8e8ea;
+ font-size:12px;color:#aaa;line-height:2}
+footer a{color:#888;text-decoration:none}
+footer a:hover{text-decoration:underline}
+@media(max-width:600px){
+ .wrap{padding:20px 14px 44px}
+ header h1{font-size:22px}
+ .card{padding:13px 14px}
 }
 </style>
-
-
-
-<br>
-
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>SEO 每日摘要</h1>
+<p class="meta">2026-11-26 16:10 更新 · 7 个源 · 70 条，其中 25 条带摘要</p>
+<nav><a href="#s1">Google 搜索中心</a><a href="#s2">Search Engine Journal</a><a href="#s3">Search Engine Roundtable</a><a href="#s4">Ahrefs 博客</a><a href="#s5">Semrush 博客</a><a href="#s6">Hacker News 前排</a><a href="#s7">小众软件</a></nav>
+</header>
+<main>
+<section id="s1"><h2><span class="dot" style="background:#3b82f6"></span>Google 搜索中心<span class="count">10 条</span></h2><article class="card"><h3><a href="https://developers.google.com/search/blog/2026/11/search-analytics-api-update" target="_blank" rel="noopener">New filtering and reporting capabilities in the Search Analytics API</a></h3><div class="info"><time>11-16</time></div><p class="sum">1. 过去一年，Search Console Performance报告多次更新，目的是帮助用户更好地细分并理解流量。2. 新增品牌查询过滤器。3. 增加网页多模态搜索报告。4. 支持多国家和多设备筛选。</p></article><article class="card"><h3><a href="https://developers.google.com/search/blog/2026/11/crawling-cdn" target="_blank" rel="noopener">Moving to a CDN without overwhelming your origin (or blocking Googlebot)</a></h3><div class="info"><time>11-11</time><span class="tag">CDN</span><span class="tag">边缘服务器</span><span class="tag">全球分发</span><span class="tag">降低延迟</span><span class="tag">源站防护</span></div><p class="sum">1. CDN将站点资源分发到全球分布式高速边缘服务器，使用户就近访问。2. 这对成长型网站是重大升级。3. 它能降低访客延迟。4. 边缘节点承接流量，保护保存原始内容的后端源站免受高流量冲击。</p></article><article class="card"><h3><a href="https://developers.google.com/search/blog/2026/11/search-central-live-zurich-2026" target="_blank" rel="noopener">Search Central Live in Zurich is back!</a></h3><div class="info"><time>11-04</time></div><p class="sum">1. Search Central Live 活动即将举办。 2. 举办地点是苏黎世。 3. 举办日期为2026年12月4日。 4. 这是一则活动预告，提示该活动即将到来。</p></article><article class="card"><h3><a href="https://developers.google.com/search/blog/2026/10/ai-training-control" target="_blank" rel="noopener">Supporting a shared AI training control for websites</a></h3><div class="info"><time>10-30</time></div><p class="exc">Today, we&#x27;re announcing our plans to support a shared AI training control in robots.txt. This will help websites express their AI training preferences…</p></article><article class="card"><h3><a href="https://developers.google.com/search/blog/2026/10/seo-learning-paths" target="_blank" rel="noopener">New learning paths: curated YouTube playlists for Search fundamentals and Technical SEO</a></h3><div class="info"><time>10-06</time></div><p class="exc">Over the years, the Search Central YouTube channel has published hundreds of videos across various series, from Search for Beginners and Ask Googlebot…</p></article><article class="card"><h3><a href="https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc" target="_blank" rel="noopener">Announcing web multimodal Search performance reporting in Search Console</a></h3><div class="info"><time>09-24</time></div><p class="exc">Understanding how users find your content is crucial for any publisher or site owner. As Search evolves to include more visual and multimodal experien…</p></article><article class="card"><h3><a href="https://developers.google.com/search/blog/2026/09/scl-dd-europe-2026-community-speakers" target="_blank" rel="noopener">Search Central Live Deep Dive Europe 2026: Meet the community speakers</a></h3><div class="info"><time>09-16</time></div><p class="exc">It&#x27;s happening! We are absolutely pumped that we&#x27;re just about two weeks away from Search Central Live Deep Dive Europe 2026! From September 30 to Oct…</p></article><article class="card"><h3><a href="https://developers.google.com/search/blog/2026/09/search-central-live-india-2026" target="_blank" rel="noopener">Search Central Live India 2026: Bengaluru, We&#x27;re Coming (For Real This Time)</a></h3><div class="info"><time>09-14</time></div><p class="exc">Remember back in March when we told our Indian community to &quot;sit tight&quot; while we figured out the APAC event calendar? Hopefully, you didn&#x27;t take that …</p></article><article class="card"><h3><a href="https://developers.google.com/search/blog/2026/09/search-central-live-mexico-and-colombia" target="_blank" rel="noopener">Search Central Live is coming to Bogota and Ciudad de México</a></h3><div class="info"><time>09-08</time></div><p class="exc">Leer en español</p></article><article class="card"><h3><a href="https://developers.google.com/search/blog/2026/08/update-site-reputation-policy" target="_blank" rel="noopener">Update to the Site Reputation Policy</a></h3><div class="info"><time>08-28</time></div><p class="exc">In 2024, we introduced our site reputation policy to stop a practice where third-party content is published on a trusted website just to exploit that …</p></article></section>
+<section id="s2"><h2><span class="dot" style="background:#8b5cf6"></span>Search Engine Journal<span class="count">10 条</span></h2><article class="card"><h3><a href="https://www.searchenginejournal.com/the-missing-step-in-prompt-tracking-was-written-down-in-1995/598461/" target="_blank" rel="noopener">The Missing Step In Prompt Tracking Was Written Down In 1995 via @sejournal, @DuaneForrester</a></h3><div class="info"><time>11-26</time><span class="tag">能力问题</span><span class="tag">知识工程</span><span class="tag">30年</span><span class="tag">问题界定</span><span class="tag">正确答案</span></div><p class="sum">1. 能力问题是一种已有30年历史的知识工程方法。 2. 它用于界定哪些问题重要。 3. 它也用于界定什么算正确答案。 4. 原文提到该文章最初发布于某处，但发布来源名称缺失。</p></article><article class="card"><h3><a href="https://www.searchenginejournal.com/what-seos-can-be-thankful-for-2026/598921/" target="_blank" rel="noopener">What SEOs Can Be Thankful For: 8 Wins To Celebrate In 2026 via @sejournal, @MattGSouthern</a></h3><div class="info"><time>11-26</time></div><p class="sum">文章盘点今年八项值得感谢的搜索变化：①涵盖AI可见性数据，帮助了解AI搜索表现；②纳入社交报告，追踪社交搜索趋势；③涉及返回按钮政策，改善页面导航体验；④整体提升搜索透明度与可用性，为搜索营销和用户体验带来积极影响。</p></article><article class="card"><h3><a href="https://www.searchenginejournal.com/openai-isnt-planning-prompt-level-reports-for-chatgpt-ads/599126/" target="_blank" rel="noopener">OpenAI Isn’t Planning Prompt-Level Reports For ChatGPT Ads via @sejournal, @MattGSouthern</a></h3><div class="info"><time>11-26</time><span class="tag">OpenAI</span><span class="tag">ChatGPT</span><span class="tag">广告主</span><span class="tag">聚合结果</span><span class="tag">提示词与意图</span></div><p class="sum">1. OpenAI表示，ChatGPT广告主可以查看广告的聚合结果。2. 广告主不会获得展示其广告背后提示词或意图的报告。3. 该文章首发于未注明来源。</p></article><article class="card"><h3><a href="https://www.searchenginejournal.com/google-adds-pageburst-11-other-existing-bots-to-its-crawler-docs/599120/" target="_blank" rel="noopener">Google Adds Pageburst &amp; 11 Other Existing Bots To Its Crawler Docs via @sejournal, @MattGSouthern</a></h3><div class="info"><time>11-26</time><span class="tag">Google爬虫文档</span><span class="tag">pageburst</span><span class="tag">Google Ads</span><span class="tag">robots.txt</span><span class="tag">服务器日志</span></div><p class="sum">1. Google爬虫文档新增了pageburst。2. pageburst用于为Google Ads渲染页面。3. 它会忽略robots.txt。4. 文档还列出更多现有用户代理。5. 建议在服务器日志中检查这些用户代理。</p></article><article class="card"><h3><a href="https://www.searchenginejournal.com/ai-shopping-agents-bought-a-fake-deal-37-of-the-time-claude-opus-never-did/598682/" target="_blank" rel="noopener">AI Shopping Agents Bought A Fake Deal 37% Of The Time – Claude Opus Never Did via @sejournal, @slobodanmanic</a></h3><div class="info"><time>11-25</time></div><p class="exc">AI models flagged a deal as suspicious 315 times, bought the fake anyway 137 times, and never asked the shopper about the deal. The post AI Shopping A…</p></article><article class="card"><h3><a href="https://www.searchenginejournal.com/top-publisher-league-tables-for-us-uk/598933/" target="_blank" rel="noopener">Top Publisher League Tables For U.S. &amp; U.K.</a></h3><div class="info"><time>11-25</time><span class="tag">月度排行榜</span><span class="tag">英国</span><span class="tag">美国</span><span class="tag">出版商</span><span class="tag">Similarweb</span></div><p class="sum">1. 该榜单为月度排行榜，主要覆盖英国与美国市场。2. 评估对象为出版商，全面衡量其综合表现。3. 核心评估维度包括用户互动、受众忠诚度及受众规模。4. 所有排名数据均依托 Similarweb 提供，保障结果权威。</p></article><article class="card"><h3><a href="https://www.searchenginejournal.com/chatgpt-ads-are-growing-fast-but-are-advertisers-seeing-results/598052/" target="_blank" rel="noopener">ChatGPT Ads Are Growing Fast – But Are Advertisers Seeing Results? via @sejournal, @brookeosmundson</a></h3><div class="info"><time>11-25</time><span class="tag">ChatGPT广告</span><span class="tag">早期测试</span><span class="tag">线索跟进</span><span class="tag">成交或合格机会</span><span class="tag">广告支出决策</span></div><p class="sum">1. 早期ChatGPT广告测试表明，应持续跟进线索直至成交或形成合格商机。2. 跟踪线索最终结果，可判断广告投入是否有效。3. 据此决定是否继续投放和花费。</p></article><article class="card"><h3><a href="https://www.searchenginejournal.com/is-geo-visibility-delivering-business-value-or-are-we-measuring-the-wrong-outcome/594064/" target="_blank" rel="noopener">Is GEO Visibility Delivering Business Value, Or Are We Measuring The Wrong Outcome? via @sejournal, @billhunt</a></h3><div class="info"><time>11-25</time></div><p class="exc">GEO visibility can hide gaps that keep buyers from shortlisting your brand. Decision Coverage shifts measurement toward buyer requirements and support…</p></article><article class="card"><h3><a href="https://www.searchenginejournal.com/google-documents-advance-notice-for-significant-ranking-updates/598773/" target="_blank" rel="noopener">Google Documents Advance Notice For Significant Ranking Updates via @sejournal, @MattGSouthern</a></h3><div class="info"><time>11-24</time></div><p class="exc">New Search documentation explains when sites get advance notice of significant ranking updates, how to send feedback on them, and a new UK appeal rout…</p></article><article class="card"><h3><a href="https://www.searchenginejournal.com/what-a-billboard-network-knows-about-measuring-search-ads-that-ppc-teams-forgot/597854/" target="_blank" rel="noopener">What A Billboard Network Knows About Measuring Search Ads That PPC Teams Forgot via @sejournal, @gregjarboe</a></h3><div class="info"><time>11-24</time></div><p class="exc">Billboard advertisers use holdout tests to measure lift. Borrow their playbook to see which Google Ads campaigns drive extra sales before you set budg…</p></article></section>
+<section id="s3"><h2><span class="dot" style="background:#f59e0b"></span>Search Engine Roundtable<span class="count">10 条</span></h2><article class="card"><h3><a href="https://www.seroundtable.com/google-local-pack-no-reviews-bug-42624.html" target="_blank" rel="noopener">Google Local Pack No Reviews Bug</a></h3><div class="info"><time>11-26</time></div><p class="sum">1. Google本地包（local pack）对部分确有评论的商家列表不显示评论，仅显示“No reviews”且无星级。 2. 点击进入该商家列表详情页后，Google却正常显示这些商家拥有评论。 3. 该问题表现为本地包与详情页的评论展示不一致，属于展示异常。 4. 影响范围是部分商家列表，并非所有商家。 5. 需排查此类评论在本地包中未展示的原因。</p></article><article class="card"><h3><a href="https://www.seroundtable.com/chatgpt-ads-updates-42623.html" target="_blank" rel="noopener">ChatGPT Ads New Call-To-Actions, Business Agents Beyond US, More Audience Metrics &amp; More</a></h3><div class="info"><time>11-25</time><span class="tag">ChatGPT广告</span><span class="tag">商业代理</span><span class="tag">行动号召</span><span class="tag">受众指标</span><span class="tag">政策中心</span></div><p class="sum">OpenAI发布ChatGPT广告更新：1.商业代理扩展至美国以外；2.单图广告新增“了解更多”行动号召；3.Ads Manager和Ads API新增受众指标；4.促销结束后可隐藏产品目录销售价格；5.Ads Manager新增政策中心详情。</p></article><article class="card"><h3><a href="https://www.seroundtable.com/recap-11-25-2026-42619.html" target="_blank" rel="noopener">Daily Search Forum Recap: November 25, 2026</a></h3><div class="info"><time>11-25</time></div><p class="exc">Here is a recap of what happened in the search forums today...</p></article><article class="card"><h3><a href="https://www.seroundtable.com/google-ads-dynamically-scoring-conversion-values-42609.html" target="_blank" rel="noopener">Google Ads Encourages Dynamically Scoring Conversion Values Hack</a></h3><div class="info"><time>11-25</time></div><p class="sum">1. Google Ads联络人Ginny Marvin表示，平台“强烈鼓励”对转化价值进行动态评分。 2. 她明确表示，Google Ads不认为这种做法是任何形式的“作弊”。 3. 她补充，优化深层转化动作并输入高保真第一方数据，是引导系统理解你最重要价值的最佳方式。</p></article><article class="card"><h3><a href="https://www.seroundtable.com/bing-search-ask-visual-search-image-button-42590.html" target="_blank" rel="noopener">Bing Image Search Ask Visual Search Button</a></h3><div class="info"><time>11-25</time><span class="tag">微软</span><span class="tag">Bing搜索</span><span class="tag">图片悬停</span><span class="tag">Ask按钮</span><span class="tag">视觉搜索</span></div><p class="sum">1. 微软正在测试Bing搜索结果中鼠标悬停在图片上时出现的新按钮。2. 此前视觉搜索按钮点击后会跳转到新页面。3. 现在Ask按钮允许用户为该图片搜索补充查询上下文。</p></article><article class="card"><h3><a href="https://www.seroundtable.com/google-image-collections-ask-anything-ai-mode-42595.html" target="_blank" rel="noopener">Google Image Collections &amp; Saved Items Adds Ask Anything AI Mode</a></h3><div class="info"><time>11-25</time></div><p class="exc">The Google Images collections &amp; saved items section added an &quot;Ask anything&quot; button, where it will take all the images in the collection and let you as…</p></article><article class="card"><h3><a href="https://www.seroundtable.com/google-geographic-inventory-pages-42607.html" target="_blank" rel="noopener">Google On Inventory Pages Per Geographic Region: Fewer Pages Better</a></h3><div class="info"><time>11-25</time></div><p class="exc">Google&#x27;s John Mueller gave advice on how to handle inventory pages for each geographic area that you might have. Instead of creating a page for each p…</p></article><article class="card"><h3><a href="https://www.seroundtable.com/google-adsense-updates-42550.html" target="_blank" rel="noopener">Google AdSense Opt-Out, Messaging &amp; Privacy Updates</a></h3><div class="info"><time>11-25</time></div><p class="exc">Google AdSense posted a few updates related to regulatory changes around opt-out controls, messaging and privacy regulations for the ad product. I fig…</p></article><article class="card"><h3><a href="https://www.seroundtable.com/google-thanksgiving-prep-2026-doodle-logo-42618.html" target="_blank" rel="noopener">Google Snoopy Thanksgiving Prep 2026 Doodle</a></h3><div class="info"><time>11-25</time></div><p class="exc">Tomorrow is Thanksgiving in the United States and Google is getting ready with a new Thanksgiving 2026 prep Doodle or logo. You can see the characters…</p></article><article class="card"><h3><a href="https://www.seroundtable.com/google-ai-overviews-ai-mode-link-selection-42617.html" target="_blank" rel="noopener">Google On How Links Are Selected &amp; Shown In AI Overviews &amp; AI Mode</a></h3><div class="info"><time>11-24</time></div><p class="exc">As part of the updated documentation and Google Search ranking hub we covered a new document named Attribution and factuality in Search generative AI …</p></article></section>
+<section id="s4"><h2><span class="dot" style="background:#10b981"></span>Ahrefs 博客<span class="count">10 条</span></h2><article class="card"><h3><a href="https://ahrefs.com/blog/ai-overviews-ctr-france/" target="_blank" rel="noopener">AI Overviews Cut CTR by −24.4% in France (3 Month Update)</a></h3><div class="info"><time>11-26</time></div><p class="exc">In our first study (August 2026), the sites most exposed to AI Overviews had lost 23.1% of their click-through rate (CTR) in 9 days. As the share of A…</p></article><article class="card"><h3><a href="https://ahrefs.com/blog/ai-sentiment-analysis/" target="_blank" rel="noopener">AI Sentiment Analysis for Brands: How to Track and Improve What AI Says About You</a></h3><div class="info"><time>11-25</time><span class="tag">AI可见性</span><span class="tag">客户异议</span><span class="tag">竞品优势</span><span class="tag">产品改进</span><span class="tag">表达优化</span></div><p class="sum">1. 帮助企业识别客户反复提出的异议；2. 了解竞争对手因何获得好评；3. 据此找到改进产品的方向；4. 优化产品及其解释方式；5. 指出AI可见性不仅是品牌是否出现在AI回答中。</p></article><article class="card"><h3><a href="https://ahrefs.com/blog/how-google-gets-information/" target="_blank" rel="noopener">How Does Google Get Its Information? 7 Ways (2026)</a></h3><div class="info"><time>11-24</time><span class="tag">Google搜索</span><span class="tag">信息来源</span><span class="tag">七种方式</span><span class="tag">运作机制</span><span class="tag">影响方法</span></div><p class="sum">1. 文章指出前述说法只是部分答案。2. Google搜索通过七种主要方式获取信息。3. 作者将逐一说明每种方式的运作原理并提供证据。4. 还会说明用户能否影响这些方式及具体做法。5. 提供片段未展开七种方式的具体内容，整体围绕机制、证据与可操作性展开。</p></article><article class="card"><h3><a href="https://ahrefs.com/blog/barnacle-seo/" target="_blank" rel="noopener">Barnacle SEO: Spam Risk or Smart Marketing?</a></h3><div class="info"><time>11-18</time><span class="tag">藤壶SEO</span><span class="tag">目录网站</span><span class="tag">点评网站</span><span class="tag">大型出版商</span><span class="tag">品牌曝光</span></div><p class="sum">1. 目录网站、点评网站和大型出版商往往占据搜索首页。2. 普通网站短期内难以在排名上超越它们。3. 可行做法是让自己的品牌出现在这些已经获得排名的页面上。4. 这种策略被称为“藤壶SEO”，就像藤壶附着在船体上。5. 借此可借助高权重页面的流量提升品牌曝光。</p></article><article class="card"><h3><a href="https://ahrefs.com/blog/discoverable-book-review/" target="_blank" rel="noopener">4 Reasons to Read DISCOVERABLE by Tim Soulo</a></h3><div class="info"><time>11-18</time></div><p class="exc">I won’t insult you by pretending this is an unbiased review. Let’s own it: I work at Ahrefs! Tim is my boss! I helped edit the book! But I will share …</p></article><article class="card"><h3><a href="https://ahrefs.com/blog/letaido-review/" target="_blank" rel="noopener">Letaido Review: 10+ Jobs Our Marketing Team Hands to It Every Week</a></h3><div class="info"><time>11-17</time></div><p class="exc">It keeps our data-led articles up to date, builds and hosts our sites, runs our research, watches our competitors, and plans out our day from start to…</p></article><article class="card"><h3><a href="https://ahrefs.com/blog/ai-rank-tracking/" target="_blank" rel="noopener">8 AI Rank Tracking Tools to Try in 2027 (Cost per Prompt, Key Features)</a></h3><div class="info"><time>11-16</time></div><p class="exc">But not all tools track visibility the same way, and their pricing can be difficult to compare. In this guide, I’ll compare eight AI rank tracking too…</p></article><article class="card"><h3><a href="https://ahrefs.com/blog/most-mentioned-brands-chatgpt/" target="_blank" rel="noopener">The 100 Most Mentioned Brands in ChatGPT (November 2026)</a></h3><div class="info"><time>11-11</time></div><p class="exc">We counted how many of 5.5 million US ChatGPT answers mention each brand. Walmart comes first, named in 95,605 answers, almost twice as many as second…</p></article><article class="card"><h3><a href="https://ahrefs.com/blog/where-does-chatgpt-get-its-information/" target="_blank" rel="noopener">Where Does ChatGPT Get Its Information? 4 Sources, Explained</a></h3><div class="info"><time>11-10</time></div><p class="exc">ChatGPT gets its information from training data, live web searches, licensed publisher content, and your own context. Here&#x27;s how each one works. Read …</p></article><article class="card"><h3><a href="https://ahrefs.com/blog/openai-publisher-partnerships/" target="_blank" rel="noopener">Every OpenAI Publisher Partnership, and How Often ChatGPT Cites Them</a></h3><div class="info"><time>11-03</time></div><p class="exc">Each deal works roughly the same way: the publisher licenses its content to OpenAI, and ChatGPT shows summaries of that content with attribution and a…</p></article></section>
+<section id="s5"><h2><span class="dot" style="background:#ef4444"></span>Semrush 博客<span class="count">10 条</span></h2><article class="card"><h3><a href="https://www.semrush.com/blog/content-marketing-tips/" target="_blank" rel="noopener">14 Content marketing tips to improve your brand visibility</a></h3><div class="info"><time>11-26</time><span class="tag">内容营销</span><span class="tag">搜索发现</span><span class="tag">AI引用</span><span class="tag">内容分发</span><span class="tag">持续优化</span></div><p class="sum">1. 规划：围绕搜索与AI答案场景确定选题。2. 创作：强调结构清晰、信息可信、便于引用。3. 分发：多渠道扩大内容触达与发现机会。4. 优化：监测表现和引用情况并持续迭代。5. 目标：让内容更易被搜索引擎和AI答案找到并引用。</p></article><article class="card"><h3><a href="https://www.semrush.com/blog/how-to-get-backlinks/" target="_blank" rel="noopener">10 tactics that actually work to get backlinks to your site in 2027</a></h3><div class="info"><time>11-25</time></div><p class="exc">Here’s how to get quality backlinks to your website + what real SEO practitioners are saying still drives results.</p></article><article class="card"><h3><a href="https://www.semrush.com/blog/semrush-historical-data/" target="_blank" rel="noopener">10 ways to use Semrush historical data (with examples)</a></h3><div class="info"><time>11-25</time><span class="tag">Semrush历史数据</span><span class="tag">流量下滑诊断</span><span class="tag">关键词排名历史</span><span class="tag">季节性识别</span><span class="tag">AI可见性研究</span></div><p class="sum">文章介绍10种使用Semrush历史数据的方法：1.诊断流量下滑，对比历史流量与来源，定位异常时段和页面；2.追踪关键词排名历史，观察升降并评估算法与优化效果；3.识别季节性，用多年趋势区分周期波动与真实下滑；4.研究AI可见性，分析品牌在AI搜索和生成结果中的曝光，并结合竞品与趋势数据辅助SEO决策。</p></article><article class="card"><h3><a href="https://www.semrush.com/blog/ai-citation-decay/" target="_blank" rel="noopener">AI citation decay: how to tell when a drop needs action</a></h3><div class="info"><time>11-24</time><span class="tag">AI引用衰减</span><span class="tag">正常波动</span><span class="tag">引用丢失</span><span class="tag">内容排查</span><span class="tag">更新决策</span></div><p class="sum">先区分AI引用衰减与正常波动，避免误判；再排查丢失引用的来源与原因；最后评估内容是否需更新，并采取针对性优化。</p></article><article class="card"><h3><a href="https://www.semrush.com/blog/measure-seo-ai-visibility-by-topic/" target="_blank" rel="noopener">Measure SEO and AI visibility together by topic: New in Semrush</a></h3><div class="info"><time>11-23</time></div><p class="exc">Keywords and prompts, measured together. See which topics you own across Google and AI answers, find your gaps, and benchmark competitors.</p></article><article class="card"><h3><a href="https://www.semrush.com/blog/ai-citations-social-media-ugc/" target="_blank" rel="noopener">AI citations to social media &amp; UGC grew 52% on Google&#x27;s AI platforms, fell 44% on ChatGPT</a></h3><div class="info"><time>11-23</time></div><p class="exc">Social media and UGC content appears to play a role in AI search, but the growth of that role isn’t the same on every AI platform.</p></article><article class="card"><h3><a href="https://www.semrush.com/blog/ecommerce-seo/" target="_blank" rel="noopener">Ecommerce SEO: 8 steps to grow visibility in search and AI</a></h3><div class="info"><time>11-20</time></div><p class="exc">Learn how to get your online store found in search engines and AI platforms with these 8 ecommerce SEO steps.</p></article><article class="card"><h3><a href="https://www.semrush.com/blog/will-ai-replace-seo/" target="_blank" rel="noopener">5 ways AI is replacing SEO (and 4 things that aren’t changing)</a></h3><div class="info"><time>11-19</time></div><p class="exc">Will AI replace SEO? Yes, by expanding search and taking clicks from publishers. But 4 things stay the same.</p></article><article class="card"><h3><a href="https://www.semrush.com/blog/topical-authority/" target="_blank" rel="noopener">What is topical authority in SEO? A forward-looking guide for 2027</a></h3><div class="info"><time>11-19</time></div><p class="exc">Topical authority in SEO, updated for AI search: define it, pick the right topics, measure your share against competitors, and track progress.</p></article><article class="card"><h3><a href="https://www.semrush.com/blog/ai-influenced-traffic-metric/" target="_blank" rel="noopener">AI-influenced traffic: A new Semrush metric to measure AI search performance</a></h3><div class="info"><time>11-18</time></div><p class="exc">Traffic is the missing step between AI visibility and revenue. Now you can see it.</p></article></section>
+<section id="s6"><h2><span class="dot" style="background:#06b6d4"></span>Hacker News 前排<span class="count">10 条</span></h2><article class="card"><h3><a href="https://michidk.github.io/sidebyside/" target="_blank" rel="noopener">Show HN: Three Linux VMs in a browser tab, each running a different browser</a></h3><div class="info"><time>11-26</time></div></article><article class="card"><h3><a href="https://news.ycombinator.com/item?id=50655664" target="_blank" rel="noopener">Tell HN: Happy Thanksgiving</a></h3><div class="info"><time>11-26</time></div></article><article class="card"><h3><a href="https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831" target="_blank" rel="noopener">45°C inlets just killed the chiller. Most people haven&#x27;t noticed yet</a></h3><div class="info"><time>11-26</time></div></article><article class="card"><h3><a href="https://news.ycombinator.com/item?id=50654353" target="_blank" rel="noopener">Head of Software Engineering – NOX Metals</a></h3><div class="info"><time>11-26</time></div></article><article class="card"><h3><a href="https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/" target="_blank" rel="noopener">Euro-Office comes to your desktop with the Nextcloud Office Desktop app</a></h3><div class="info"><time>11-26</time></div></article><article class="card"><h3><a href="https://github.com/intel/intel-one-mono" target="_blank" rel="noopener">Intel One Mono font</a></h3><div class="info"><time>11-26</time></div></article><article class="card"><h3><a href="https://arxiv.org/abs/2611.34924" target="_blank" rel="noopener">An algebraic quantization of gravity from the null cone</a></h3><div class="info"><time>11-26</time></div></article><article class="card"><h3><a href="https://commandcode.ai/moat" target="_blank" rel="noopener">Moat: Your OpenRouter Replacement</a></h3><div class="info"><time>11-26</time></div></article><article class="card"><h3><a href="https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/" target="_blank" rel="noopener">Lions&#x27; Commentary on Unix: Why It Was Secretly Copied for 20 Years</a></h3><div class="info"><time>11-26</time></div></article><article class="card"><h3><a href="https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization" target="_blank" rel="noopener">Unconditional Integer Factorization in Subexponential Time</a></h3><div class="info"><time>11-26</time></div></article></section>
+<section id="s7"><h2><span class="dot" style="background:#ec4899"></span>小众软件<span class="count">10 条</span></h2><article class="card"><h3><a href="https://www.appinn.com/linux-nfs2root/" target="_blank" rel="noopener">Linux NFS 曝出 9.8 分漏洞 NFS2ROOT，开了 NFS 共享的 NAS 用户注意</a></h3><div class="info"><time>11-26</time></div><p class="sum">1.漏洞：Linux内核NFS服务端曝出CVE-2026-99362，可致远程root，仅影响服务端。2.处理：不用则关NFS，需用则限2049端口，装更新并重启。3.修复：部分发行版已修复，部分NAS及系统暂无补丁。</p></article><article class="card"><h3><a href="https://www.appinn.com/modern-web-guidance/" target="_blank" rel="noopener">别让 AI 用过时的技术写网页，Chrome 官方推出 Skills：Modern Web Guidance</a></h3><div class="info"><time>11-26</time></div><p class="sum">1. AI 写网页常沿用过时技术，引入冗余第三方依赖，导致代码量、性能与安全问题。 2. Google Chrome 团队推出开源 Skills“Modern Web Guidance”教 AI 用现代 Web 技术。 3. 安装后可用提示词让 AI 检查项目，找出过时技术并给改造建议，确认后再改。 4. 该工具内置 200+ 专家审核指南，结合 Baseline 数据判断浏览器兼容性。 5. 评测显示 AI 现代 Web 开发通过率从约 51% 提升到 91%；可在项目目录运行 npx 命令安装。</p></article><article class="card"><h3><a href="https://www.appinn.com/vera20k/" target="_blank" rel="noopener">VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战</a></h3><div class="info"><time>11-26</time></div><p class="exc">一款诞生于 2000 年的游戏，居然在 26 年后迎来了全新的游戏引擎。 今天，青小蛙从查无此人同学处了解到的这个新项目： 开发者用 Rust 语言重新实现了《 红色警戒 2：尤里的复仇 》的游戏引擎，让它可以在 Windows、macOS、Linux 上原生运行。 开发者的目标是在一张地图上容纳 …</p></article><article class="card"><h3><a href="https://www.appinn.com/playported/" target="_blank" rel="noopener">PlayPorted – 近 2500 个游戏移植项目，都在这个网站上</a></h3><div class="info"><time>11-26</time><span class="tag">PlayPorted</span><span class="tag">游戏移植</span><span class="tag">重编译</span><span class="tag">可玩状态</span><span class="tag">多平台</span></div><p class="sum">1.PlayPorted收录主机/经典PC游戏粉丝移植，目前有39原始平台、2509项目、1071可玩、149浏览器版。2.可按平台/目标/进度/技术筛选，项目含进度、地址、AI标记；热门有红警、过山车2、暗黑、运输大亨、塞尔达。3.技术分反编译、重编译、重建、源码移植；状态分可玩、候选、Beta、Alpha、不能玩。4.数据：Xbox360最多；Windows约83%、Linux过半，Android231、iOS89；重编译超七成，约40%可玩、44%Beta。</p></article><article class="card"><h3><a href="https://www.appinn.com/1password-security-breach-2026/" target="_blank" rel="noopener">密码管理器 1Password 遭黑客入侵，部分用户数据泄露，用户主密码、密码库均安全。</a></h3><div class="info"><time>11-26</time></div><p class="exc">1Password 确认被黑客入侵： 泄漏： 姓名、邮箱、用户ID、部分邀请和恢复令牌、用户创建几最后登录时间。 安全： 密码库安全、主密码安全、账户私钥安全、恢复私钥安全 11 月 25 日，知名密码管理器 1Password 发布 安全公告 ，确认黑客通过一名员工的企业 GitHub 账号入侵内…</p></article><article class="card"><h3><a href="https://www.appinn.com/open-source-ime-boom-and-stability/" target="_blank" rel="noopener">开源输入法的大爆发与稳定性（5款输入法对比）</a></h3><div class="info"><time>11-25</time><span class="tag">开源输入法</span><span class="tag">小狼毫</span><span class="tag">青简</span><span class="tag">清风</span><span class="tag">水杉</span></div><p class="sum">作者基于万象base小鹤双拼评测五款开源输入法，认为均未成熟。小狼毫9分最成熟、词库导入方便，但配置复杂；青简7.5分功能多，设置乱、缺部首查字、双拼问字与词库导入有问题；清风8分功能最多且全GUI，但设置臃肿、搜索差、辅助码触发异常；水杉7分模型选项全，但设置崩溃、UI差、调频与词库受限，低配易卡顿丢字；FreeType4.5分，宣传过满、功能缺失、打磨一般，设置页精简搜索好评。</p></article><article class="card"><h3><a href="https://www.appinn.com/yzwpdfview/" target="_blank" rel="noopener">YzwPDFView 大雁PDF：89KB 的单文件 PDF 快速查看小工具</a></h3><div class="info"><time>11-25</time></div><p class="sum">1. YzwPDFView是Windows纯PDF阅读工具，免费、小巧、简洁、快速，仅89KB且为单可执行文件。 2. 可直接打开PDF，支持快捷键，以及实际大小、适应窗口、翻页、旋转、打印、复制、查看属性等功能。 3. 缺少双栏两页查看；打开280MB PDF约占用70MB内存；阅读量大可替代浏览器，但快速翻页可能停滞。 4. 开发者提供.exe获取，原文为2021年青小蛙文章，评价有好有坏，需自行体验。</p></article><article class="card"><h3><a href="https://www.appinn.com/xnulinux/" target="_blank" rel="noopener">xnulinux – 不用虚拟机，在 Linux 中直接运行完整 macOS</a></h3><div class="info"><time>11-25</time><span class="tag">xnulinux</span><span class="tag">macOS</span><span class="tag">Linux内核模块</span><span class="tag">ARM64</span><span class="tag">套娃</span></div><p class="sum">1. xnulinux将苹果XNU内核重编译为Linux内核模块xnu.ko，由Linux提供硬件资源，无需虚拟机即可运行完整macOS。2. 已在Apple Silicon Mac和NVIDIA DGX Spark（Ubuntu ARM64）测试，成功启动macOS 27.2.1桌面及Finder、Safari等应用，并可同机运行Linux/macOS程序。3. 要求ARM64/PAC、至少16GB内存、4KB页Linux、自备macOS磁盘及Xcode Mac构建。4. 未来或支持骁龙等ARM设备；项目创建5天获3500+星，仍属早期实验，普通用户安装尚远。5. 另回顾Stela可在Intel/AMD普通PC安装macOS 27。</p></article><article class="card"><h3><a href="https://www.appinn.com/ladybird-browser/" target="_blank" rel="noopener">Ladybird（瓢虫）- 不用 Chromium，独立内核的开源浏览器：只开发网页浏览器，别的什么都不做。</a></h3><div class="info"><time>11-25</time></div><p class="exc">我们只开发网页浏览器，别的什么都不做 。 上面这句话是 Ladybird 官网介绍中的一句，听起来很有意思。 现在的浏览器看起来有很多，但真正的浏览器内核，翻来覆去也就那么几个。Chrome、Edge、Opera、Brave、Vivaldi 基于 Chromium ，Safari 使用 WebKit…</p></article><article class="card"><h3><a href="https://www.appinn.com/windows-11-new-native-search/" target="_blank" rel="noopener">全新 Windows 11 系统搜索：速度快、不卡顿、内存占用低，用了都说好</a></h3><div class="info"><time>11-24</time></div><p class="exc">万万没想到，Windows 11 的搜索功能，居然也有变好用的一天！ 微软推出了全新的 Windows 11 系统搜索功能（测试），抛弃了此前使用的 WebView2 网页技术，使用原生 WinUI 3 重写。 最直观的变化就是： 不卡顿、速度快、低内存占用。 有媒体测试，新版搜索的内存占用仅为二十…</p></article></section>
 </main>
-    
-
-<div id="updated-at">
-  <span>Updated: 2026-11-26 09:19:43</span>
+<footer>由 RSS-GPT 抓取 + DeepSeek 摘要自动生成 · 每天北京时间 09:00 更新</footer>
 </div>
-
-<div id="footer">
-  <div id="footer-home-link">
-    <a href="/index.html">&lt; Home</a>
-    
-  </div>
-  <p id="footer-body">
-    With <a href = "https://github.com/yinan-c/RSS-GPT"><img src="/pics/github-mark.png" width="15" height="15" style="vertical-align: text-top;"> yinan-c/RSS-GPT</a> by <a href="https://yinan.me">Yinan</a>
-    <a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" alt="Creative Commons Licence" width="45" style="vertical-align: text-top;" ></a>
-    · Powered by <a href="https://github.com/yinan-c/pyboke">PyBoke</a>
-    · Subscribe via <a href="/atom.xml"> RSS <img src="https://wp-assets.rss.com/blog/wp-content/uploads/2019/10/10111557/social_style_3_rss-512-1.png" alt="RSS" width="15" height="15" style="vertical-align: text-top;"></a>
-  </p>
-</div>
-
-  </body>
-
-  
+</body>
 </html>

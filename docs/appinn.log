@@ -57539,3 +57539,12 @@ Append: [PlayPorted – 近 2500 个游戏移植项目，都在这个网站上](
 Append: [密码管理器 1Password 遭黑客入侵，部分用户数据泄露，用户主密码、密码库均安全。](https://www.appinn.com/1password-security-breach-2026/)
 append_entries: 4
 Finish: 2026-11-26 09:19:41.599928
+------------------------------------------------------
+Started: 2026-11-26 16:09:38.677218
+Existing_entries: 808
+Fetching from https://www.appinn.com/feed/
+Token length: 1374
+Summarized using deepseek-v4.1-flash-1017
+Append: [Linux NFS 曝出 9.8 分漏洞 NFS2ROOT，开了 NFS 共享的 NAS 用户注意](https://www.appinn.com/linux-nfs2root/)
+append_entries: 1
+Finish: 2026-11-26 16:10:26.419303

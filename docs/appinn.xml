@@ -5,6 +5,84 @@
 <link>https://www.appinn.com</link>
 
 <item>
+<title>Linux NFS 曝出 9.8 分漏洞 NFS2ROOT，开了 NFS 共享的 NAS 用户注意</title>
+<link>https://www.appinn.com/linux-nfs2root/</link>
+<guid>https://www.appinn.com/linux-nfs2root/</guid>
+<content:encoded><![CDATA[
+<div> Linux内核 NFS服务端 CVE-2026-99362 远程root 系统更新
+<br><br>总结:1.漏洞：Linux内核NFS服务端曝出CVE-2026-99362，可致远程root，仅影响服务端。2.处理：不用则关NFS，需用则限2049端口，装更新并重启。3.修复：部分发行版已修复，部分NAS及系统暂无补丁。 <div>
+<p class="wp-block-paragraph">如果你的 NAS 给其他设备开了 NFS 共享，或者你用 Linux 搭了一台文件服务器，先去看看有没有系统更新。Linux 内核的 NFS 服务端曝出一个 <strong>9.8 分</strong>的严重漏洞，能连到受影响服务的攻击者，无需登录就可能拿到服务器的 root 权限。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="NFS2ROOT，Linux NFS 服务端漏洞 CVE-2026-99362，CVSS 9.8 分" class="wp-image-58675" height="350" src="https://www.appinn.com/wp-content/uploads/2026/11/linux-nfs2root-cover.jpg" title="Linux NFS 曝出 9.8 分漏洞 NFS2ROOT，开了 NFS 共享的 NAS 用户注意 1" width="804" /></figure>
+
+
+
+<p class="wp-block-paragraph">这个漏洞编号是 <strong>CVE-2026-99362</strong>。11 月 19 日，Linux 内核团队发布漏洞公告。11 月 25 日，安全团队 OpenSec 以 <strong>NFS2ROOT</strong> 为名公布研究，并演示了如何在测试环境中取得远程 root 权限。</p>
+
+
+
+<h2 class="wp-block-heading">哪些设备需要查？</h2>
+
+
+
+<p class="wp-block-paragraph">NFS 是一种网络文件共享协议。比如一台 Linux 主机把目录共享出来，另一台电脑把它挂载成文件夹，前者就是 NFS 服务端。这次出问题的是 Linux 内核里的 NFS 服务端 <code>nfsd</code>，涉及 <strong>NFSv4.1 和 NFSv4.2</strong>。只挂载别人共享目录的 Linux 客户端，不会因此暴露这个漏洞。</p>
+
+
+
+<p class="wp-block-paragraph">服务端在缓存协议回复时可能写出分配给它的内存范围，造成内核内存损坏。轻则服务器崩溃，严重时可能被远程执行代码。内核团队把问题追溯到了 2014 年发布的 Linux 3.16。</p>
+
+
+
+<p class="wp-block-paragraph">家里的 NAS 可以先打开控制面板，看看文件服务里有没有启用 NFS。内网共享也要看哪些设备能连到 NAS，尤其是访客网络、容器和虚拟机。如果路由器做过端口转发，或者云服务器的安全组放开了 <strong>TCP 2049</strong>，优先把这条访问规则收紧。</p>
+
+
+
+<h2 class="wp-block-heading">怎么处理？</h2>
+
+
+
+<ul class="wp-block-list">
+<li><strong>用不到 NFS，就关掉。</strong>在 NAS 控制面板关闭 NFS，或者停用 Linux 的 NFS 服务。已经挂载这些共享的设备会失去访问，需要先确认谁在用。</li>
+
+
+
+<li><strong>需要继续共享，先限制访问。</strong>在防火墙或云安全组里，只允许确实需要使用 NFS 的可信主机或网段访问 TCP 2049，撤掉公网端口转发。</li>
+
+
+
+<li><strong>安装带修复的更新并重启。</strong>内核公告列出的上游修复版本包括 6.12.117、6.18.61、7.3.2 和 7.4-rc1。发行版可能把补丁移植到旧版内核。Ubuntu、Debian、RHEL 用户按自己的发行版和内核包查公告，品牌 NAS 用户看厂商的固件公告。重启后确认设备实际运行的是已修复的版本。</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>哪些系统已经修复？</strong>截至 11 月 26 日，Debian 13 从 <code>6.12.117-1</code> 起已修复。Debian 12 的 <code>linux-6.12</code> 已修复，默认 6.1 内核仍标为受影响。Proxmox VE 的默认 7.0 内核和可选 7.3 内核，分别从 <code>7.0.14-30-pve</code> 和 <code>7.3.3-1-pve</code> 起修复。Ubuntu 的通用内核和 RHEL 尚未列出已发布的修复包。群晖 DSM、QNAP QTS 和 TrueNAS SCALE 暂未查到确认修复此漏洞的固件公告。见 <a href="https://security-tracker.debian.org/tracker/CVE-2026-99362" rel="noopener" target="_blank">Debian 安全追踪</a>和 <a href="https://forum.proxmox.com/posts/876848/" rel="noopener" target="_blank">Proxmox 官方公告</a>。</p>
+
+
+
+<h2 class="wp-block-heading">这次也有 AI 参与</h2>
+
+
+
+<p class="wp-block-paragraph">OpenSec 称，他们的安全分析工具 Antara 独立发现了这个问题，还在测试环境里验证了远程获取 root 的可能性。法国国家信息系统安全局（ANSSI）的 Jérémy Jean 则在 8 月就向上游提交了修复。这是两次独立发现。</p>
+
+
+
+<p class="wp-block-paragraph">来源 · <a href="https://opensec.in/blog/nfs2root-cve-2026-99362" rel="noopener" target="_blank">OpenSec 原文</a>、<a href="https://news.ycombinator.com/item?id=50647161" rel="noopener" target="_blank">Hacker News 讨论</a>、<a href="https://lists.openwall.net/linux-cve-announce/2026/11/19/36" rel="noopener" target="_blank">Linux 内核公告</a>。</p>
+
+
+
+<p class="wp-block-paragraph">发行版公告 · <a href="https://ubuntu.com/security/CVE-2026-99362" rel="noopener" target="_blank">Ubuntu</a>、<a href="https://security-tracker.debian.org/tracker/CVE-2026-99362" rel="noopener" target="_blank">Debian</a>、<a href="https://access.redhat.com/security/cve/cve-2026-99362" rel="noopener" target="_blank">Red Hat</a>。</p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/lima-vm/" rel="bookmark" title="Permanent Link: Lima &#8211; macOS 上的 Linux 虚拟机、Docker 容器，像 WSL2 一样">Lima &#8211; macOS 上的 Linux 虚拟机、Docker 容器，像 WSL2 一样</a></li><li><a href="https://www.appinn.com/linux-basics-for-hackers/" rel="bookmark" title="Permanent Link: 黑客的第一课：Linux 基础课程中文译本来了，都能看懂">黑客的第一课：Linux 基础课程中文译本来了，都能看懂</a></li><li><a href="https://www.appinn.com/cutefish/" rel="bookmark" title="Permanent Link: Cutefish &#8211; 30万行代码，让 Linux 运行 Mac 应用">Cutefish &#8211; 30万行代码，让 Linux 运行 Mac 应用</a></li><li><a href="https://www.appinn.com/1password-for-first-version-linux-beta/" rel="bookmark" title="Permanent Link: 密码管理器 1Password 发布第一个 Linux 测试版本">密码管理器 1Password 发布第一个 Linux 测试版本</a></li><li><a href="https://www.appinn.com/bin456789-reinstall/" rel="bookmark" title="Permanent Link: reinstall：操作系统自己重装自己？这个开源项目有点神奇">reinstall：操作系统自己重装自己？这个开源项目有点神奇</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" rel="noopener" target="_blank" title="给小众软件投稿">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" target="_blank" title="可以分类订阅小众，Windows/MAC/游戏"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/linux-nfs2root/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/linux-nfs2root/">[ 点击前往获取链接 ]</a></p><hr />
+]]></content:encoded>
+<pubDate>Thu, 26 Nov 2026 14:23:04 +0000</pubDate>
+<pubDate>Thu, 26 Nov 2026 14:23:04 +0000</pubDate>
+</item>
+
+<item>
 <title>别让 AI 用过时的技术写网页，Chrome 官方推出 Skills：Modern Web Guidance</title>
 <link>https://www.appinn.com/modern-web-guidance/</link>
 <guid>https://www.appinn.com/modern-web-guidance/</guid>
@@ -12,7 +90,7 @@
 <div> # 提取关键词
 AI 网页 现代技术 兼容性 依赖
 
-<br><br>总结:
+<br /><br />总结:
 1. AI 写网页常沿用过时技术，引入冗余第三方依赖，导致代码量、性能与安全问题。
 2. Google Chrome 团队推出开源 Skills“Modern Web Guidance”教 AI 用现代 Web 技术。
 3. 安装后可用提示词让 AI 检查项目，找出过时技术并给改造建议，确认后再改。
@@ -162,18 +240,17 @@ npx modern-web-guidance@latest legacy-scan
 <a href="https://www.appinn.com/modern-web-guidance/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/modern-web-guidance/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Thu, 26 Nov 2026 09:07:29 +0000</pubDate>
-<pubDate>Thu, 26 Nov 2026 09:07:29 +0000</pubDate>
 </item>
 <item>
 <title>VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战</title>
 <link>https://www.appinn.com/vera20k/</link>
 <guid>https://www.appinn.com/vera20k/</guid>
 <content:encoded><![CDATA[
-<div> Bitte output a summary of the article in Chinese. Start with 5 keywords on the same line, then a new line, write a summary within 200 characters in Chinese containing all key points, output them in order as bullet points, and output in the following format '<br><br>总结:', <br> is an HTML line break, you must keep 2 when outputting, and it must be before the word '总结:'. Please make sure to follow these instructions exactly. The user's message is an article about VERA20K. The response should be in Chinese, with keywords first on one line, then <br><br>总结: followed by bullet points. Need to ensure summary under 200 Chinese characters, includes all key points in order, formatted with bullet points. Let's craft.
+<div> Bitte output a summary of the article in Chinese. Start with 5 keywords on the same line, then a new line, write a summary within 200 characters in Chinese containing all key points, output them in order as bullet points, and output in the following format '<br /><br />总结:', <br /> is an HTML line break, you must keep 2 when outputting, and it must be before the word '总结:'. Please make sure to follow these instructions exactly. The user's message is an article about VERA20K. The response should be in Chinese, with keywords first on one line, then <br /><br />总结: followed by bullet points. Need to ensure summary under 200 Chinese characters, includes all key points in order, formatted with bullet points. Let's craft.
 
 Keywords: 红警2, VERA20K, Rust, AI编写, OpenRA (5 keywords same line).
 
-Then <br><br>总结:
+Then <br /><br />总结:
 
 Bullet points in order: 
 - VERA20K用Rust重写《尤里的复仇》引擎，跨平台原生运行；
@@ -184,10 +261,10 @@ Bullet points in order:
 
 Need within 200 chars. Count roughly. Chinese chars + punctuation. Let's estimate: first bullet ~28, second ~30, third ~28, fourth ~33, fifth ~30 = ~149 chars plus bullets. Good.
 
-Need ensure keywords on same line, then <br><br>总结: Then bullet points maybe use "- " each line. The instruction says "按顺序分要点输出". Use <br> between bullet points? It says output format '<br><br>总结:' and <br> must retain 2 before 总结. For bullet points, can use newlines. But likely use markdown bullet list. However output must have '<br><br>总结:' exactly. I'll do:
+Need ensure keywords on same line, then <br /><br />总结: Then bullet points maybe use "- " each line. The instruction says "按顺序分要点输出". Use <br /> between bullet points? It says output format '<br /><br />总结:' and <br /> must retain 2 before 总结. For bullet points, can use newlines. But likely use markdown bullet list. However output must have '<br /><br />总结:' exactly. I'll do:
 
 红警2、VERA20K、Rust、AI编写、OpenRA
-<br><br>总结:
+<br /><br />总结:
 - ...
 - ...
 ...
@@ -227,10 +304,10 @@ Count: 1 ~ VERA20K7+用1+Rust4+重写2+《1+尤里的复仇5+》1+引擎2+，1+�
 4 ~ v0.4.1 6+抢先2+体验2+，1+遭遇战3+、1+地图2+、1+实验1+联机2+可玩2+，1+战役2+未1+完整2+。1=31.
 5 ~ 与1+OpenRA6+、1+Rust4+版1+cnc-ddraw9+思路2+不同2+，1+可1+自动2+查找2+Steam5+/1+EA2+安装2+。1=43. Total 169. Good.
 
-Need ensure "按顺序分要点输出" use bullets. Output exactly. Also "在同一行内输出" keywords same line. Then newline. Use <br><br>总结: as HTML. Then bullet list. Fine.
+Need ensure "按顺序分要点输出" use bullets. Output exactly. Also "在同一行内输出" keywords same line. Then newline. Use <br /><br />总结: as HTML. Then bullet list. Fine.
 
-Need not mention extra. Final.</think>红警2、VERA20K、Rust、AI编写、OpenRA
-<br><br>总结:
+Need not mention extra. Final.红警2、VERA20K、Rust、AI编写、OpenRA
+<br /><br />总结:
 - VERA20K用Rust重写《尤里的复仇》引擎，跨平台原生运行。
 - 目标单图2万单位、500×500地图、离线120玩家、联机30人。
 - 大部分代码由AI编写，借Ghidra逆向并验证行为一致。
@@ -520,7 +597,6 @@ Need not mention extra. Final.</think>红警2、VERA20K、Rust、AI编写、Open
 <a href="https://www.appinn.com/vera20k/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/vera20k/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Thu, 26 Nov 2026 07:16:49 +0000</pubDate>
-<pubDate>Thu, 26 Nov 2026 07:16:49 +0000</pubDate>
 </item>
 <item>
 <title>PlayPorted – 近 2500 个游戏移植项目，都在这个网站上</title>
@@ -528,7 +604,7 @@ Need not mention extra. Final.</think>红警2、VERA20K、Rust、AI编写、Open
 <guid>https://www.appinn.com/playported/</guid>
 <content:encoded><![CDATA[
 <div> PlayPorted、游戏移植、重编译、可玩状态、多平台
-<br><br>总结:1.PlayPorted收录主机/经典PC游戏粉丝移植，目前有39原始平台、2509项目、1071可玩、149浏览器版。2.可按平台/目标/进度/技术筛选，项目含进度、地址、AI标记；热门有红警、过山车2、暗黑、运输大亨、塞尔达。3.技术分反编译、重编译、重建、源码移植；状态分可玩、候选、Beta、Alpha、不能玩。4.数据：Xbox360最多；Windows约83%、Linux过半，Android231、iOS89；重编译超七成，约40%可玩、44%Beta。 <div>
+<br /><br />总结:1.PlayPorted收录主机/经典PC游戏粉丝移植，目前有39原始平台、2509项目、1071可玩、149浏览器版。2.可按平台/目标/进度/技术筛选，项目含进度、地址、AI标记；热门有红警、过山车2、暗黑、运输大亨、塞尔达。3.技术分反编译、重编译、重建、源码移植；状态分可玩、候选、Beta、Alpha、不能玩。4.数据：Xbox360最多；Windows约83%、Linux过半，Android231、iOS89；重编译超七成，约40%可玩、44%Beta。 <div>
 <p class="has-very-light-gray-to-cyan-bluish-gray-gradient-background has-background wp-block-paragraph">最近一段时间，青小蛙介绍了不少游戏的 PC 原生移植项目，包括《<a href="https://www.appinn.com/totk-recomp-0-5-0/">塞尔达传说：王国之泪</a>》、《<a href="https://www.appinn.com/hookshot/">塞尔达传说：时之笛重制版</a>》《<a href="https://www.appinn.com/mkw-recomp/">马力欧卡丁车</a>》《<a href="https://www.appinn.com/openra/">红警、命令与征服</a>》等等。@<a href="https://www.appinn.com/playported/">Appinn</a></p>
 
 
@@ -797,14 +873,12 @@ Need not mention extra. Final.</think>红警2、VERA20K、Rust、AI编写、Open
 <a href="https://www.appinn.com/playported/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/playported/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Thu, 26 Nov 2026 04:21:18 +0000</pubDate>
-<pubDate>Thu, 26 Nov 2026 04:21:18 +0000</pubDate>
 </item>
 <item>
 <title>密码管理器 1Password 遭黑客入侵，部分用户数据泄露，用户主密码、密码库均安全。</title>
 <link>https://www.appinn.com/1password-security-breach-2026/</link>
 <guid>https://www.appinn.com/1password-security-breach-2026/</guid>
 <content:encoded><![CDATA[
-
 <blockquote class="wp-block-quote is-style-appinn-warning is-layout-flow wp-block-quote-is-layout-flow">
 <p class="wp-block-paragraph">1Password 确认被黑客入侵：</p>
 
@@ -937,9 +1011,7 @@ Need not mention extra. Final.</think>红警2、VERA20K、Rust、AI编写、Open
 <a href="https://www.appinn.com/1password-security-breach-2026/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/1password-security-breach-2026/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Thu, 26 Nov 2026 02:09:37 +0000</pubDate>
-<pubDate>Thu, 26 Nov 2026 02:09:37 +0000</pubDate>
 </item>
-
 <item>
 <title>开源输入法的大爆发与稳定性（5款输入法对比）</title>
 <link>https://www.appinn.com/open-source-ime-boom-and-stability/</link>

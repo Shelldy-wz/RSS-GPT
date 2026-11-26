@@ -58,3 +58,30 @@ Append: [Holy shit holy shit holy shit holy shit: The magnitude of what’s now 
 Append: [The polynomial Hirsch conjecture is false [pdf]](https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf)
 append_entries: 16
 Finish: 2026-11-26 09:19:02.489521
+------------------------------------------------------
+Started: 2026-11-26 16:07:04.901595
+Existing_entries: 36
+Fetching from https://hnrss.org/frontpage
+Token length: 52
+Summarized using deepseek-v4.1-flash-1017
+Append: [Show HN: Three Linux VMs in a browser tab, each running a different browser](https://michidk.github.io/sidebyside/)
+Token length: 150
+Summarized using deepseek-v4.1-flash-1017
+Append: [Tell HN: Happy Thanksgiving](https://news.ycombinator.com/item?id=50655664)
+Token length: 54
+Summarized using deepseek-v4.1-flash-1017
+Append: [45°C inlets just killed the chiller. Most people haven't noticed yet](https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831)
+Token length: 38
+Summarized using deepseek-v4.1-flash-1017
+Append: [Head of Software Engineering – NOX Metals](https://news.ycombinator.com/item?id=50654353)
+Token length: 56
+Summarized using deepseek-v4.1-flash-1017
+Append: [Euro-Office comes to your desktop with the Nextcloud Office Desktop app](https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/)
+Token length: 56
+Summarized using deepseek-v4.1-flash-1017
+Append: [Intel One Mono font](https://github.com/intel/intel-one-mono)
+Token length: 55
+Summarized using deepseek-v4.1-flash-1017
+Append: [An algebraic quantization of gravity from the null cone](https://arxiv.org/abs/2611.34924)
+append_entries: 7
+Finish: 2026-11-26 16:09:37.149622

@@ -5,18 +5,35 @@
 <link>https://www.seroundtable.com</link>
 
 <item>
+<title>Google Local Pack No Reviews Bug</title>
+<link>https://www.seroundtable.com/google-local-pack-no-reviews-bug-42624.html</link>
+<guid>https://www.seroundtable.com/google-local-pack-no-reviews-bug-42624.html</guid>
+<content:encoded><![CDATA[
+<div> query: Google is not showing reviews in the local pack for some business listings that do indeed have reviews. Google shows "No reviews" with no stars in the local pack for these businesses, but when you click on the listing, Google does show that these businesses have reviews.关键词：Google、本地包、评论不显示、星级缺失、商家列表
+
+<br><br>总结:
+1. Google本地包（local pack）对部分确有评论的商家列表不显示评论，仅显示“No reviews”且无星级。
+2. 点击进入该商家列表详情页后，Google却正常显示这些商家拥有评论。
+3. 该问题表现为本地包与详情页的评论展示不一致，属于展示异常。
+4. 影响范围是部分商家列表，并非所有商家。
+5. 需排查此类评论在本地包中未展示的原因。 <div>
+Google is not showing reviews in the local pack for some business listings that do indeed have reviews.  Google shows "No reviews" with no stars in the local pack for these businesses, but when you click on the listing, Google does show that these businesses have reviews.
+]]></content:encoded>
+<pubDate>Thu, 26 Nov 2026 07:12:00 -0500</pubDate>
+<pubDate>Thu, 26 Nov 2026 07:12:00 -0500</pubDate>
+</item>
+
+<item>
 <title>ChatGPT Ads New Call-To-Actions, Business Agents Beyond US, More Audience Metrics &amp; More</title>
 <link>https://www.seroundtable.com/chatgpt-ads-updates-42623.html</link>
 <guid>https://www.seroundtable.com/chatgpt-ads-updates-42623.html</guid>
 <content:encoded><![CDATA[
 <div> ChatGPT广告；商业代理；行动号召；受众指标；政策中心
-<br><br>总结:OpenAI发布ChatGPT广告更新：1.商业代理扩展至美国以外；2.单图广告新增“了解更多”行动号召；3.Ads Manager和Ads API新增受众指标；4.促销结束后可隐藏产品目录销售价格；5.Ads Manager新增政策中心详情。 <div>
+<br /><br />总结:OpenAI发布ChatGPT广告更新：1.商业代理扩展至美国以外；2.单图广告新增“了解更多”行动号召；3.Ads Manager和Ads API新增受众指标；4.促销结束后可隐藏产品目录销售价格；5.Ads Manager新增政策中心详情。 <div>
 OpenAI just sent out a product update on ChatGPT Ads announcing that Business Agents expand outside the U.S., new learn more call-to-action added to single image ads, more audience metrics in Ads Manager and the Ads API, ability to hide product feed sale prices when a promotion ends and new policy center details in Ads Manager.
 ]]></content:encoded>
 <pubDate>Wed, 25 Nov 2026 17:40:00 -0500</pubDate>
-<pubDate>Wed, 25 Nov 2026 17:40:00 -0500</pubDate>
 </item>
-
 <item>
 <title>Daily Search Forum Recap: November 25, 2026</title>
 <link>https://www.seroundtable.com/recap-11-25-2026-42619.html</link>

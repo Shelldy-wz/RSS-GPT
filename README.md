@@ -62,4 +62,3 @@ I will consider hosting more feeds in the future. Email me or submit an issue if
 - https://www.semrush.com/blog/feed/ -> https://Shelldy-wz.github.io/RSS-GPT/semrush.xml
 - https://hnrss.org/frontpage -> https://Shelldy-wz.github.io/RSS-GPT/hackernews.xml
 - https://www.appinn.com/feed/ -> https://Shelldy-wz.github.io/RSS-GPT/appinn.xml
-- https://manuelmoreale.com/feed/rss -> https://Shelldy-wz.github.io/RSS-GPT/manuel-moreale.xml
