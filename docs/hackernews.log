@@ -44,3 +44,47 @@ Append: [Slow Ubuntu security response times](https://www.openwall.com/lists/oss
 Append: [Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server](https://opensec.in/blog/nfs2root-cve-2026-99362)
 append_entries: 20
 Finish: 2026-11-26 16:26:30.692479
+------------------------------------------------------
+Started: 2026-11-27 09:33:27.675448
+Existing_entries: 20
+Fetching from https://hnrss.org/frontpage
+Token length: 53
+Summarized using deepseek-v4.1-flash-1017
+Append: [Claude sabotaging SOTA ML research tasks](https://twitter.com/RealAstropulse/status/2126119408997466389)
+Token length: 55
+Summarized using deepseek-v4.1-flash-1017
+Append: [The group chat where your AI talks behind your back](https://construct22.com/)
+Token length: 53
+Summarized using deepseek-v4.1-flash-1017
+Append: [Buy Nothing Day – Friday November 27th 2026](https://www.buynothingday.co.uk/)
+Token length: 56
+Summarized using deepseek-v4.1-flash-1017
+Append: [The need for a formally verifiable mainstream programming language](https://blainehansen.me/post/mainstream-verifiable-language/)
+Token length: 53
+Summarized using deepseek-v4.1-flash-1017
+Append: [The Cutthroat Business of Shipwrecks](https://daily.jstor.org/the-cutthroat-business-of-shipwrecks/)
+Token length: 56
+Summarized using deepseek-v4.1-flash-1017
+Append: [Hard Drive pricing has gotten bad](https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/)
+Token length: 54
+Summarized using deepseek-v4.1-flash-1017
+Append: [Novita, StreamLake, etc. are ByteDance Ark wrappers](https://kendell.dev/blog/arkwrapper/)
+Token length: 56
+Summarized using deepseek-v4.1-flash-1017
+Append: [AI made self-hosting fun again](https://janlukas.blog/posts/ai-self-hosting)
+Token length: 55
+Summarized using deepseek-v4.1-flash-1017
+Append: [Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad](https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/)
+Token length: 56
+Summarized using deepseek-v4.1-flash-1017
+Append: [Company Culture = Slack Emoji ÷ √Headcount](https://lia.mg/posts/measuring-company-culture-with-slack-emoji/)
+Append: [Rvoip: VoIP stack in Rust](https://github.com/eisenzopf/rvoip)
+Append: [An introduction to uncertainty in machine learning](https://chrhenning.com/blog/2026/introduction-to-uncertainty/)
+Append: [Largest 2D Chart library in the world using BUI: BlenderUI](https://bui.preetham.top/charts/)
+Append: [George Whitesides, 1939-2026](https://www.science.org/content/blog-post/george-whitesides-1939-2026)
+Append: [CTO of 'RansomwareHelp' indicted for wire fraud](https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/)
+Append: [YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays](https://github.com/antonpictures/youtube-punisher)
+Append: [AMD-specific fork of llama.cpp](https://devnull.land/amd-specific-llama-cpp)
+Append: [Show HN: I wrote an entire Vim manual over 4 years](http://themouseless.dev/vim/)
+append_entries: 18
+Finish: 2026-11-27 09:35:02.524517

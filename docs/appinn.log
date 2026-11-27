@@ -34,3 +34,15 @@ Summarized using deepseek-v4.1-flash-1017
 Append: [全新 Windows 11 系统搜索：速度快、不卡顿、内存占用低，用了都说好](https://www.appinn.com/windows-11-new-native-search/)
 append_entries: 10
 Finish: 2026-11-26 16:30:44.308096
+------------------------------------------------------
+Started: 2026-11-27 09:35:02.562539
+Existing_entries: 10
+Fetching from https://www.appinn.com/feed/
+Token length: 1740
+Summarized using deepseek-v4.1-flash-1017
+Append: [NodeWarden – 不用服务器，在 Cloudflare 上免费自建密码管理器【续】](https://www.appinn.com/nodewarden-update-1/)
+Token length: 400
+Summarized using deepseek-v4.1-flash-1017
+Append: [SnapFind – 只做截图文字识别的开源工具，本地离线 OCR](https://www.appinn.com/snapfind/)
+append_entries: 2
+Finish: 2026-11-27 09:35:54.397339

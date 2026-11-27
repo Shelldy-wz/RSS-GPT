@@ -39,3 +39,12 @@ Append: [Google November 2026 Core Update Has Completed Rolling Out - What Happe
 Append: [Bing AI Generated Answer - Different From AI Overviews/Copilot Search](https://www.seroundtable.com/bing-ai-generated-answer-42598.html)
 append_entries: 15
 Finish: 2026-11-26 16:20:05.095785
+------------------------------------------------------
+Started: 2026-11-27 09:33:18.034771
+Existing_entries: 15
+Fetching from https://www.seroundtable.com/index.rdf
+Token length: 309
+Summarized using deepseek-v4.1-flash-1017
+Append: [Ask Jeeves At Macy's Thanksgiving Day Parade (Old Photos)](https://www.seroundtable.com/ask-jeeves-macys-thanksgiving-day-parade-42628.html)
+append_entries: 1
+Finish: 2026-11-27 09:33:27.091876

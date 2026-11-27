@@ -4,6 +4,7 @@
 <title>Google Search Central Blog</title>
 <link>https://developers.google.com/search/blog/</link>
 
+
 <item>
 <title>New filtering and reporting capabilities in the Search Analytics API</title>
 <link>https://developers.google.com/search/blog/2026/11/search-analytics-api-update</link>
@@ -12,7 +13,7 @@
 <div> # 关键词
 Search Console, Performance report, 更新, 过滤, 流量
 
-<br><br>总结:  
+<br /><br />总结:  
 1. 过去一年，Search Console 的性能报告推出了多项更新，帮助用户更精细地分析和理解流量。  
 2. 新增了品牌查询过滤器，便于区分品牌相关流量。  
 3. 加入了网页多模态搜索报告，扩展了搜索类型覆盖。  
@@ -27,7 +28,6 @@ Search Console, Performance report, 更新, 过滤, 流量
       </p>
 ]]></content:encoded>
 <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-<pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Moving to a CDN without overwhelming your origin (or blocking Googlebot)</title>
@@ -36,7 +36,7 @@ Search Console, Performance report, 更新, 过滤, 流量
 <content:encoded><![CDATA[
 <div> BR.关键词：CDN、边缘服务器、延迟、源服务器、流量防护
 
-<br><br>总结:<br>1. 部署CDN可将站点资源分发到全球分布式边缘服务器，使用户就近获取资源。<br>2. CDN能显著降低访客延迟，提升访问速度与体验。<br>3. 边缘节点承接大量请求，为源服务器分担流量压力。<br>4. 源服务器作为后端内容源头，受到CDN保护，避免高流量冲击。<br>5. CDN对任何成长中的站点都是一次重要升级，兼具加速与防护价值。 <div>
+<br /><br />总结:<br />1. 部署CDN可将站点资源分发到全球分布式边缘服务器，使用户就近获取资源。<br />2. CDN能显著降低访客延迟，提升访问速度与体验。<br />3. 边缘节点承接大量请求，为源服务器分担流量压力。<br />4. 源服务器作为后端内容源头，受到CDN保护，避免高流量冲击。<br />5. CDN对任何成长中的站点都是一次重要升级，兼具加速与防护价值。 <div>
 <p>
       Deploying a Content Delivery Network (CDN) to distribute your site's assets across fast, globally
   distributed edge servers closer to users can be a major upgrade for any growing site: it lowers
@@ -44,7 +44,6 @@ Search Console, Performance report, 更新, 过滤, 流量
   content) from heavy traffic.
       </p>
 ]]></content:encoded>
-<pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
 <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
@@ -126,14 +125,13 @@ RAG 通过外部知识注入有效缓解了大模型的事实性与时效性问�
       </p>
 ]]></content:encoded>
 <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-<pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Supporting a shared AI training control for websites</title>
 <link>https://developers.google.com/search/blog/2026/10/ai-training-control</link>
 <guid>https://developers.google.com/search/blog/2026/10/ai-training-control</guid>
 <content:encoded><![CDATA[
-<div> <response>关键词：robots.txt、AI训练控制、多提供商、IETF AIPREF、Google-Extended<br><br>总结:<br>1. 谷歌宣布计划在robots.txt中支持共享的AI训练控制；<br>2. 该控制可让网站通过单一步骤，向多个AI提供商表达其AI训练偏好；<br>3. 这一计划基于IETF AIPREF工作组的研究成果；<br>4. 它延续了谷歌为网站所有者提供明确控制选项的长期做法；<br>5. 其中包括谷歌自2023年起提供的AI训练控制Google-Extended。 <div>
+<div> 关键词：robots.txt、AI训练控制、多提供商、IETF AIPREF、Google-Extended<br /><br />总结:<br />1. 谷歌宣布计划在robots.txt中支持共享的AI训练控制；<br />2. 该控制可让网站通过单一步骤，向多个AI提供商表达其AI训练偏好；<br />3. 这一计划基于IETF AIPREF工作组的研究成果；<br />4. 它延续了谷歌为网站所有者提供明确控制选项的长期做法；<br />5. 其中包括谷歌自2023年起提供的AI训练控制Google-Extended。 <div>
 <p>
       Today, we're announcing our plans to support
   a shared AI training control
@@ -145,7 +143,6 @@ RAG 通过外部知识注入有效缓解了大模型的事实性与时效性问�
   the AI training control we've offered since 2023.
       </p>
 ]]></content:encoded>
-<pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
 <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
@@ -161,7 +158,7 @@ Over the years, the Search Central YouTube channel has published hundreds of vid
 
 **关键词：** Search Central YouTube、视频系列、学习路径、顺序学习、内容结构
 
-<br><br>总结:
+<br /><br />总结:
 
 文章提到，Search Central YouTube 频道多年来发布了大量视频，涵盖 Search for Beginners、Ask Googlebot、Search Console Training、Search Off the Record 等多个系列。这些系列适合深入学习和分集更新，但文章也指出，对于初学者而言，要从零开始找到一条清晰、循序渐进的学习路径有时会比较困难。 <div>
 <p>
@@ -171,7 +168,6 @@ Over the years, the Search Central YouTube channel has published hundreds of vid
   deep dives and episodic updates, we know that finding a clear, sequential learning path from scratch can sometimes be challenging.
       </p>
 ]]></content:encoded>
-<pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
 <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
@@ -187,7 +183,6 @@ Over the years, the Search Central YouTube channel has published hundreds of vid
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-<pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Search Central Live Deep Dive Europe 2026: Meet the community speakers</title>
@@ -195,7 +190,7 @@ Over the years, the Search Central YouTube channel has published hundreds of vid
 <guid>https://developers.google.com/search/blog/2026/09/scl-dd-europe-2026-community-speakers</guid>
 <content:encoded><![CDATA[
 <div> Search Central Live、Deep Dive Europe 2026、2026年9月30日至10月2日、巴塞罗那、Google Search Central
-<br><br>总结:1. 活动临近：距Search Central Live Deep Dive Europe 2026仅约两周。2. 时间地点：2026年9月30日至10月2日，在西班牙巴塞罗那举行。3. 主办方：Google Search Central团队。4. 内容：为期三天，聚焦深度技术探索、交流与合作。 <div>
+<br /><br />总结:1. 活动临近：距Search Central Live Deep Dive Europe 2026仅约两周。2. 时间地点：2026年9月30日至10月2日，在西班牙巴塞罗那举行。3. 主办方：Google Search Central团队。4. 内容：为期三天，聚焦深度技术探索、交流与合作。 <div>
 <p>
       It's happening! We are absolutely pumped that we're just about two weeks away from
   Search Central Live Deep Dive Europe 2026!
@@ -205,14 +200,13 @@ Over the years, the Search Central YouTube channel has published hundreds of vid
       </p>
 ]]></content:encoded>
 <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Search Central Live India 2026: Bengaluru, We're Coming (For Real This Time)</title>
 <link>https://developers.google.com/search/blog/2026/09/search-central-live-india-2026</link>
 <guid>https://developers.google.com/search/blog/2026/09/search-central-live-india-2026</guid>
 <content:encoded><![CDATA[
-<div> <think>用户想要我总结这篇文章——实际上是一段英文内容——成中文，先提取5个关键词在同一行输出，再换行用中文写200字以内的总结，包含所有要点，按顺序分要点输出，格式要求是"<br><br>总结:"，并且必须保留两个<br>，在"总结:"之前。
+<div> 用户想要我总结这篇文章——实际上是一段英文内容——成中文，先提取5个关键词在同一行输出，再换行用中文写200字以内的总结，包含所有要点，按顺序分要点输出，格式要求是"<br /><br />总结:"，并且必须保留两个<br />，在"总结:"之前。
 
 让我分析这段英文文本：
 - 回顾三月时告诉印度社区"sit tight"（稍安勿躁），等APAC活动日历确定
@@ -229,18 +223,18 @@ Over the years, the Search Central YouTube channel has published hundreds of vid
 3. 现在可以站起来伸展——Search Central Live 2026正式回归印度
 4. 具体举办地是班加罗尔
 
-字数控制在200字内。格式：5个关键词同一行，然后换行，然后"<br><br>总结:"，然后分要点输出。
+字数控制在200字内。格式：5个关键词同一行，然后换行，然后"<br /><br />总结:"，然后分要点输出。
 
-注意"必须保留2个<br>"指的是"总结:"之前有两个<br>。输出格式应该是：
+注意"必须保留2个<br />"指的是"总结:"之前有两个<br />。输出格式应该是：
 
 关键词1、关键词2、关键词3、关键词4、关键词5
-<br><br>总结:
+<br /><br />总结:
 要点1
 要点2
 ...
 
-让我写出来。</think>Search Central Live、印度、班加罗尔、2026、APAC活动日历
-<br><br>总结:
+让我写出来。Search Central Live、印度、班加罗尔、2026、APAC活动日历
+<br /><br />总结:
 1. 回顾今年三月曾让印度社区“稍安勿躁”，等待APAC活动日历确定。
 2. 调侃坐等六个月对腰背不好，现在终于可以站起来伸展一下。
 3. 宣布Search Central Live将于2026年正式回归印度。
@@ -256,7 +250,6 @@ Over the years, the Search Central YouTube channel has published hundreds of vid
       </p>
 ]]></content:encoded>
 <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-<pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Search Central Live is coming to Bogota and Ciudad de México</title>
@@ -264,12 +257,11 @@ Over the years, the Search Central YouTube channel has published hundreds of vid
 <guid>https://developers.google.com/search/blog/2026/09/search-central-live-mexico-and-colombia</guid>
 <content:encoded><![CDATA[
 <div> 请先提供需要总结的文章正文或链接。当前消息只有格式要求，没有文章内容，因此无法提取关键词或撰写总结。  
-请粘贴西班牙语文章，我会按你的要求用中文输出：5个关键词同一行，换行后以 `<br><br>总结:` 开头，并在200字内按顺序分要点总结。 <div>
+请粘贴西班牙语文章，我会按你的要求用中文输出：5个关键词同一行，换行后以 `<br /><br />总结:` 开头，并在200字内按顺序分要点总结。 <div>
 <p>
       Leer en español
       </p>
 ]]></content:encoded>
-<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
 <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
@@ -281,7 +273,7 @@ Over the years, the Search Central YouTube channel has published hundreds of vid
 
 **关键词：** 2024年、站点声誉政策、第三方内容、搜索排名、用户体验
 
-<br><br>总结:
+<br /><br />总结:
 
 1. 2024年推出了站点声誉政策，旨在制止一种不良做法。
 2. 该做法是将第三方内容发布在可信网站上，仅为利用该网站的良好声誉来提升搜索排名。
@@ -297,8 +289,6 @@ Over the years, the Search Central YouTube channel has published hundreds of vid
       </p>
 ]]></content:encoded>
 <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-<pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
 </item>
-
 </channel>
 </rss>
