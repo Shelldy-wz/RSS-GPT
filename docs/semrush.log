@@ -50,3 +50,12 @@ Existing_entries: 20
 Fetching from https://www.semrush.com/blog/feed/
 append_entries: 0
 Finish: 2026-11-27 09:33:27.664616
+------------------------------------------------------
+Started: 2026-11-28 08:48:37.965161
+Existing_entries: 20
+Fetching from https://www.semrush.com/blog/feed/
+Token length: 123
+Summarized using deepseek-v4.1-flash-1017
+Append: [16 best competitor analysis tools for 2027 (compared)](https://www.semrush.com/blog/competitor-analysis-tools/)
+append_entries: 1
+Finish: 2026-11-28 08:48:40.152736

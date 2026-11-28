@@ -5,19 +5,334 @@
 <link>https://news.ycombinator.com/</link>
 
 <item>
+<title>FastLanes: Next-gen File Format [pdf]</title>
+<link>https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf</link>
+<guid>https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf</guid>
+<content:encoded><![CDATA[
+<div> 无法提取（Article URL 与 Comments URL 均为空）<br><br>总结: 该帖未提供 Article URL 和 Comments URL，正文内容为空，仅有 Points: 5、Comments: 0 两项元数据，因此无法提取关键词，也无法撰写实质性内容总结。请补充可访问的文章链接或原文文本后重试。 <div>
+<p>Article URL: <a href="https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf">https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50675195">https://news.ycombinator.com/item?id=50675195</a></p>
+<p>Points: 5</p>
+<p># Comments: 0</p>
+]]></content:encoded>
+<pubDate>Sat, 28 Nov 2026 06:14:21 +0000</pubDate>
+<pubDate>Sat, 28 Nov 2026 06:14:21 +0000</pubDate>
+</item>
+<item>
+<title>Knuth: Moratorium on Error Reports</title>
+<link>https://www-cs-faculty.stanford.edu/~knuth/moratorium.html</link>
+<guid>https://www-cs-faculty.stanford.edu/~knuth/moratorium.html</guid>
+<content:encoded><![CDATA[
+<div> 抱歉，这条内容里没有可供总结的文章——你只给了标题栏结构：文章链接为空、评论链接为空、也没有文章标题和正文，仅剩“41 分、6 条评论”这类元信息。没有正文我无法提取关键词，也不能编造摘要。
+
+请你补充以下任意一项，我马上按你要求的格式输出：
+
+1. 文章正文文本（直接粘贴即可）；或
+2. 文章标题 + 可访问的链接内容；或
+3. 评论区的文字内容（如果只想总结讨论）。
+
+收到内容后，我会严格按这个格式给你：
+
+关键词1、关键词2、关键词3、关键词4、关键词5<br><br>总结:<br>要点一……<br>要点二……<br>要点三……（控制在200字内，按原文顺序） <div>
+<p>Article URL: <a href="https://www-cs-faculty.stanford.edu/~knuth/moratorium.html">https://www-cs-faculty.stanford.edu/~knuth/moratorium.html</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50674452">https://news.ycombinator.com/item?id=50674452</a></p>
+<p>Points: 41</p>
+<p># Comments: 6</p>
+]]></content:encoded>
+<pubDate>Sat, 28 Nov 2026 03:49:21 +0000</pubDate>
+<pubDate>Sat, 28 Nov 2026 03:49:21 +0000</pubDate>
+</item>
+<item>
+<title>Unkernel: Real Linux kernel, compiled to WebAssembly</title>
+<link>https://unkernel.dev</link>
+<guid>https://unkernel.dev</guid>
+<content:encoded><![CDATA[
+<div> 关键词：链接缺失、正文缺失、仅有元数据、无法提取、无法总结
+<br><br>总结: 1. 现有信息仅含239分和43条评论；2. 文章URL与评论URL均为空，无标题和正文；3. 因而无法提取5个原文关键词并做要点总结；4. 请补充链接或正文后重试。 <div>
+<p>Article URL: <a href="https://unkernel.dev">https://unkernel.dev</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50674218">https://news.ycombinator.com/item?id=50674218</a></p>
+<p>Points: 239</p>
+<p># Comments: 43</p>
+]]></content:encoded>
+<pubDate>Sat, 28 Nov 2026 03:19:20 +0000</pubDate>
+<pubDate>Sat, 28 Nov 2026 03:19:20 +0000</pubDate>
+</item>
+<item>
+<title>Atari Homebrew Awards Cancelled</title>
+<link>https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/</link>
+<guid>https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/</guid>
+<content:encoded><![CDATA[
+<div> 链接为空、正文缺失、无法提取、无法总结、需补充内容  
+<br><br>总结:  
+1. 未提供有效文章URL或正文，无法提取文章要点。  
+2. 仅有191分和182条评论等元数据，不足以概括内容。  
+3. 因此无法按要求生成基于文章的中文总结。  
+4. 请补充文章正文或有效链接后再总结。 <div>
+<p>Article URL: <a href="https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/">https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50673688">https://news.ycombinator.com/item?id=50673688</a></p>
+<p>Points: 191</p>
+<p># Comments: 182</p>
+]]></content:encoded>
+<pubDate>Sat, 28 Nov 2026 02:03:25 +0000</pubDate>
+<pubDate>Sat, 28 Nov 2026 02:03:25 +0000</pubDate>
+</item>
+<item>
+<title>Google's DeepCrossAttention achieves comparable model quality up to 3x faster</title>
+<link>https://research.google/blog/supercharging-transformer-residual-connections/</link>
+<guid>https://research.google/blog/supercharging-transformer-residual-connections/</guid>
+<content:encoded><![CDATA[
+<div> 关键词：原文缺失、链接为空、无法总结、需补充内容、HN帖子
+<br><br>总结: 该帖只提供了积分（350）和评论数（135），文章URL与评论URL均为空，正文内容缺失，因此无法提取实质要点或进行有效总结。请补充文章链接或正文内容，我将按五个要点重新总结。 <div>
+<p>Article URL: <a href="https://research.google/blog/supercharging-transformer-residual-connections/">https://research.google/blog/supercharging-transformer-residual-connections/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50672565">https://news.ycombinator.com/item?id=50672565</a></p>
+<p>Points: 350</p>
+<p># Comments: 135</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 23:06:29 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 23:06:29 +0000</pubDate>
+</item>
+<item>
+<title>Tabernetes: A Kubernetes cluster whose nodes are browser tabs</title>
+<link>https://tabernet.es/</link>
+<guid>https://tabernet.es/</guid>
+<content:encoded><![CDATA[
+<div> 你发来的内容里，Article URL 和 Comments URL 都是空的，只有 Points 112 和 Comments 39 这两个数字，没有文章链接，也没有正文。我无法访问或还原这篇文章的内容，因此不能凭空编造一个总结，否则就是假的。
+
+请补充以下任意一项，我收到后立即按你要求的格式输出：
+
+1. 完整的文章链接（Article URL），或
+2. 文章正文文本，或
+3. 直接把需要总结的内容粘贴过来
+
+另外请注意：你要求的“输出5个关键词、一行内输出、换行、200字内总结、按要点顺序输出、包含 `<br><br>总结:` 且保留两个 `<br>`”这些格式约束我都记下了，拿到内容后会严格照此执行。 <div>
+<p>Article URL: <a href="https://tabernet.es/">https://tabernet.es/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50672521">https://news.ycombinator.com/item?id=50672521</a></p>
+<p>Points: 112</p>
+<p># Comments: 39</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 23:00:30 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 23:00:30 +0000</pubDate>
+</item>
+<item>
+<title>9/UX: a Macintosh-inspired desktop for 9front</title>
+<link>https://progrium.github.io/9ux/</link>
+<guid>https://progrium.github.io/9ux/</guid>
+<content:encoded><![CDATA[
+<div> 关键词：无法提取（缺少文章内容）<br><br>总结: 当前输入未包含文章标题、链接或正文，仅提供 Points 和 Comments 数，无法提炼要点并总结。请补充 Article URL 或文章正文后再试。 <div>
+<p>Article URL: <a href="https://progrium.github.io/9ux/">https://progrium.github.io/9ux/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50672008">https://news.ycombinator.com/item?id=50672008</a></p>
+<p>Points: 120</p>
+<p># Comments: 30</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 21:48:14 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 21:48:14 +0000</pubDate>
+</item>
+<item>
+<title>Prospero: Bloat-free, native AI coding harness with ImGui</title>
+<link>https://github.com/skeeto/prospero</link>
+<guid>https://github.com/skeeto/prospero</guid>
+<content:encoded><![CDATA[
+<div> 关键词：信息缺失、文章URL为空、评论URL为空、66分、22条评论<br><br>总结: 当前仅提供 HN 条目元数据（66 分、22 条评论），文章 URL、评论 URL 与标题均为空，无法提取文章关键词或总结正文。请补充文章链接、标题或正文后再总结。 <div>
+<p>Article URL: <a href="https://github.com/skeeto/prospero">https://github.com/skeeto/prospero</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50671275">https://news.ycombinator.com/item?id=50671275</a></p>
+<p>Points: 66</p>
+<p># Comments: 22</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 20:23:14 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 20:23:14 +0000</pubDate>
+</item>
+<item>
+<title>States sue SpaceX to stop Grok from generating child sex images, revenge porn</title>
+<link>https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform</link>
+<guid>https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform</guid>
+<content:encoded><![CDATA[
+<div> 你提供的文章链接和评论链接都是空的，因此我拿到的信息只有 Points: 373 和 Comments: 220 这两项数据；这看起来像是 Hacker News 上某个帖子的元数据，但没有正文、标题或评论内容。没有原文，我无法提取关键词，也无法撰写包含要点的总结，否则只能靠臆测编造。
+
+请把文章正文粘贴过来，或者提供一个能正常访问的 URL；如果担心链接失效，也可以直接把标题和主要段落贴给我。
+
+拿到内容后，我会严格按你要求的格式输出：先在同一行给出 5 个关键词，再换行输出两个 `<br><br>`，接着输出「总结:」，然后用中文在 200 字内按顺序分要点总结全部内容。 <div>
+<p>Article URL: <a href="https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform">https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50670855">https://news.ycombinator.com/item?id=50670855</a></p>
+<p>Points: 373</p>
+<p># Comments: 220</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 19:42:25 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 19:42:25 +0000</pubDate>
+</item>
+<item>
+<title>Michael Nielsen took down his book on neural nets</title>
+<link>https://neuralnetworksanddeeplearning.com/</link>
+<guid>https://neuralnetworksanddeeplearning.com/</guid>
+<content:encoded><![CDATA[
+<div> 无法提取 文章链接缺失 内容缺失 无法总结 请补充信息<br><br>总结: 由于 Article URL 和 Comments URL 均为空，且未提供文章正文，无法提取关键词或撰写包含要点的总结。请补充文章链接或正文后，我再按指定格式进行总结。 <div>
+<p>Article URL: <a href="https://neuralnetworksanddeeplearning.com/">https://neuralnetworksanddeeplearning.com/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50670757">https://news.ycombinator.com/item?id=50670757</a></p>
+<p>Points: 507</p>
+<p># Comments: 312</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 19:31:01 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 19:31:01 +0000</pubDate>
+</item>
+<item>
+<title>Convex skills send the user's app idea to a remote server without telling them</title>
+<link>https://github.com/convex/convex-backend-skill/issues/64</link>
+<guid>https://github.com/convex/convex-backend-skill/issues/64</guid>
+<content:encoded><![CDATA[
+
+<p>Article URL: <a href="https://github.com/convex/convex-backend-skill/issues/64">https://github.com/convex/convex-backend-skill/issues/64</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50669765">https://news.ycombinator.com/item?id=50669765</a></p>
+<p>Points: 294</p>
+<p># Comments: 93</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 18:02:45 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 18:02:45 +0000</pubDate>
+</item>
+<item>
+<title>Show HN: DragDropMath – Learn math by feel</title>
+<link>https://dragdropmath.com/</link>
+<guid>https://dragdropmath.com/</guid>
+<content:encoded><![CDATA[
+
+<p>Hi HN!<p>I am a professional physicist and I shuffle symbols in equations and mathematical expressions all day long. During my PhD (almost 20 years ago) I noticed that it is as if the symbols have their own 'physics', which makes the wrong moves impossible and the right ones obvious.<p>So I created DragDropMath, where you can learn how to simplify mathematical expressions and how to solve equations by dragging symbols around, and only correct moves are allowed, so you get to feel what's right without experiencing (and so learning) wrong moves.<p>I always wanted to make this, but life got in the way. Then a few weeks ago I saw declarative dragging (<a href="https://declarative-dragging.github.io/" rel="nofollow">https://declarative-dragging.github.io/</a>) on the front page of HN and the spark came back!<p>It took quite a few rounds to get the feel right, but I think it's close to what happens in my mind when I mentally manipulate these expressions.<p>A few more points:
+- There are no ads, no trackers, no accounts (it's a static website and progress is saved in the browser cache).
+- Teachers can create their own problem sets, encoded in the link.
+- I plan to add more chapters (trigonometry, complex numbers, some calculus) but I first need to figure out the 'right' mode of interaction.
+- I just started working on the experience from mobile, so there may still be some rough edges there<p>I'm curious to know what you think, if you have suggestions for content, if you spot anything that I should fix, if you have feature requests! Thank you in advance</p>
+<hr />
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50669673">https://news.ycombinator.com/item?id=50669673</a></p>
+<p>Points: 131</p>
+<p># Comments: 38</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 17:56:28 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 17:56:28 +0000</pubDate>
+</item>
+<item>
+<title>Credit card skimming scripts using WebRTC found on popular shopping sites</title>
+<link>https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer</link>
+<guid>https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer</guid>
+<content:encoded><![CDATA[
+
+<p>Article URL: <a href="https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer">https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50668145">https://news.ycombinator.com/item?id=50668145</a></p>
+<p>Points: 513</p>
+<p># Comments: 269</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 15:40:31 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 15:40:31 +0000</pubDate>
+</item>
+<item>
+<title>False computer-checked proofs</title>
+<link>https://cr.yp.to/proofs/falseccp.html</link>
+<guid>https://cr.yp.to/proofs/falseccp.html</guid>
+<content:encoded><![CDATA[
+
+<p>Article URL: <a href="https://cr.yp.to/proofs/falseccp.html">https://cr.yp.to/proofs/falseccp.html</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50667989">https://news.ycombinator.com/item?id=50667989</a></p>
+<p>Points: 224</p>
+<p># Comments: 86</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 15:26:09 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 15:26:09 +0000</pubDate>
+</item>
+<item>
+<title>Show HN: bouncemarket – a live prediction market game for a bouncing ball</title>
+<link>https://bouncemarket.minhanhday.com/</link>
+<guid>https://bouncemarket.minhanhday.com/</guid>
+<content:encoded><![CDATA[
+
+<p>a ball will fall. trade on where it lands.<p>I made this game! Some technical details:<p>The entire drop of the ball is simulated server-side, then streamed to each client as server-sent events with a small buffer. Every drop is deterministic from its starting position, so rounds can be replayed exactly for later analysis, but tiny variations in starting position can change the ultimate outcome.<p>There's some AI traders to keep the market moving, but they drop out in any round that has more than five people. They operate using a naive set of rules that I wrote for them, so they're not too hard to beat -- it's when the market is full of real people that it gets tricky.<p>Curious to get feedback on anything you would change, and especially whether the mechanics were clear right away or not.</p>
+<hr />
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50667726">https://news.ycombinator.com/item?id=50667726</a></p>
+<p>Points: 370</p>
+<p># Comments: 124</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 15:01:50 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 15:01:50 +0000</pubDate>
+</item>
+<item>
+<title>Rayshader 1.0: Exit the Matrix</title>
+<link>https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html</link>
+<guid>https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html</guid>
+<content:encoded><![CDATA[
+
+<p>Article URL: <a href="https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html">https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50667371">https://news.ycombinator.com/item?id=50667371</a></p>
+<p>Points: 124</p>
+<p># Comments: 16</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 14:30:20 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 14:30:20 +0000</pubDate>
+</item>
+<item>
+<title>Paolo Soleri built a utopian eco-city in the Arizona desert</title>
+<link>https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona</link>
+<guid>https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona</guid>
+<content:encoded><![CDATA[
+
+<p>Article URL: <a href="https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona">https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50666724">https://news.ycombinator.com/item?id=50666724</a></p>
+<p>Points: 44</p>
+<p># Comments: 6</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 13:30:20 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 13:30:20 +0000</pubDate>
+</item>
+<item>
+<title>Citroën Hydraulic System</title>
+<link>https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html</link>
+<guid>https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html</guid>
+<content:encoded><![CDATA[
+
+<p>Article URL: <a href="https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html">https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50662313">https://news.ycombinator.com/item?id=50662313</a></p>
+<p>Points: 187</p>
+<p># Comments: 59</p>
+]]></content:encoded>
+<pubDate>Fri, 27 Nov 2026 03:10:19 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 03:10:19 +0000</pubDate>
+</item>
+<item>
+<title>First images of the impact of DART asteroid deflection experiment</title>
+<link>https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/</link>
+<guid>https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/</guid>
+<content:encoded><![CDATA[
+
+<p>Article URL: <a href="https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/">https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50657392">https://news.ycombinator.com/item?id=50657392</a></p>
+<p>Points: 211</p>
+<p># Comments: 63</p>
+]]></content:encoded>
+<pubDate>Thu, 26 Nov 2026 17:24:37 +0000</pubDate>
+<pubDate>Thu, 26 Nov 2026 17:24:37 +0000</pubDate>
+</item>
+<item>
+<title>The Balatro Timeline</title>
+<link>https://localthunk.com/blog/balatro-timeline-3aarh</link>
+<guid>https://localthunk.com/blog/balatro-timeline-3aarh</guid>
+<content:encoded><![CDATA[
+
+<p>Article URL: <a href="https://localthunk.com/blog/balatro-timeline-3aarh">https://localthunk.com/blog/balatro-timeline-3aarh</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50657346">https://news.ycombinator.com/item?id=50657346</a></p>
+<p>Points: 309</p>
+<p># Comments: 67</p>
+]]></content:encoded>
+<pubDate>Thu, 26 Nov 2026 17:20:27 +0000</pubDate>
+<pubDate>Thu, 26 Nov 2026 17:20:27 +0000</pubDate>
+</item>
+
+<item>
 <title>Claude sabotaging SOTA ML research tasks</title>
 <link>https://twitter.com/RealAstropulse/status/2126119408997466389</link>
 <guid>https://twitter.com/RealAstropulse/status/2126119408997466389</guid>
 <content:encoded><![CDATA[
 <div> 你提供的 Article URL 和 Comments URL 都是空的，我无法获取文章内容，因此暂时没法提取关键词或写总结。
 
-请把文章链接或正文贴给我；拿到内容后，我会严格按你要求的格式输出：第一行放 5 个关键词，然后输出两个 `<br><br>`，接着写“总结:”，再在 200 字内按顺序分要点总结。 <div>
+请把文章链接或正文贴给我；拿到内容后，我会严格按你要求的格式输出：第一行放 5 个关键词，然后输出两个 `<br /><br />`，接着写“总结:”，再在 200 字内按顺序分要点总结。 <div>
 <p>Article URL: <a href="https://twitter.com/RealAstropulse/status/2126119408997466389">https://twitter.com/RealAstropulse/status/2126119408997466389</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50664325">https://news.ycombinator.com/item?id=50664325</a></p>
 <p>Points: 19</p>
 <p># Comments: 7</p>
 ]]></content:encoded>
-<pubDate>Fri, 27 Nov 2026 08:28:08 +0000</pubDate>
 <pubDate>Fri, 27 Nov 2026 08:28:08 +0000</pubDate>
 </item>
 <item>
@@ -36,7 +351,7 @@
 拿到内容后，我会严格按你要求的格式输出，例如：
 
 关键词1 关键词2 关键词3 关键词4 关键词5
-<br><br>总结: 要点一……要点二……要点三……（200字内，按顺序分要点）
+<br /><br />总结: 要点一……要点二……要点三……（200字内，按顺序分要点）
 
 现在请把文章内容或有效链接发给我，我马上处理。 <div>
 <p>Article URL: <a href="https://construct22.com/">https://construct22.com/</a></p>
@@ -44,7 +359,6 @@
 <p>Points: 198</p>
 <p># Comments: 76</p>
 ]]></content:encoded>
-<pubDate>Fri, 27 Nov 2026 06:44:34 +0000</pubDate>
 <pubDate>Fri, 27 Nov 2026 06:44:34 +0000</pubDate>
 </item>
 <item>
@@ -59,7 +373,6 @@
 <p># Comments: 9</p>
 ]]></content:encoded>
 <pubDate>Fri, 27 Nov 2026 05:52:42 +0000</pubDate>
-<pubDate>Fri, 27 Nov 2026 05:52:42 +0000</pubDate>
 </item>
 <item>
 <title>The need for a formally verifiable mainstream programming language</title>
@@ -72,7 +385,6 @@
 <p>Points: 144</p>
 <p># Comments: 119</p>
 ]]></content:encoded>
-<pubDate>Fri, 27 Nov 2026 05:22:06 +0000</pubDate>
 <pubDate>Fri, 27 Nov 2026 05:22:06 +0000</pubDate>
 </item>
 <item>
@@ -91,16 +403,15 @@
 收到内容后，我会严格按你的格式输出：
 
 关键词1、关键词2、关键词3、关键词4、关键词5
-<br><br>总结:
+<br /><br />总结:
 （200字内、按顺序分要点的中文总结，含全部要点）
 
-另外提醒一句：你要求的格式里，“<br><br>总结:”必须出现在关键词同一行之后、且在“总结:”二字之前，我会照此保留两个 `<br>`，不做改动。 <div>
+另外提醒一句：你要求的格式里，“<br /><br />总结:”必须出现在关键词同一行之后、且在“总结:”二字之前，我会照此保留两个 `<br />`，不做改动。 <div>
 <p>Article URL: <a href="https://daily.jstor.org/the-cutthroat-business-of-shipwrecks/">https://daily.jstor.org/the-cutthroat-business-of-shipwrecks/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50661705">https://news.ycombinator.com/item?id=50661705</a></p>
 <p>Points: 25</p>
 <p># Comments: 5</p>
 ]]></content:encoded>
-<pubDate>Fri, 27 Nov 2026 01:21:49 +0000</pubDate>
 <pubDate>Fri, 27 Nov 2026 01:21:49 +0000</pubDate>
 </item>
 <item>
@@ -108,13 +419,12 @@
 <link>https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/</link>
 <guid>https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/</guid>
 <content:encoded><![CDATA[
-<div> 关键词：缺乏正文；链接为空；仅有点数；仅有评论数；无法总结<br><br>总结: 提供的文章链接与评论链接均为空，且无标题或正文，仅有338分、243条评论的元数据，信息不足，无法按内容提炼要点。请补充有效链接或正文后再总结。 <div>
+<div> 关键词：缺乏正文；链接为空；仅有点数；仅有评论数；无法总结<br /><br />总结: 提供的文章链接与评论链接均为空，且无标题或正文，仅有338分、243条评论的元数据，信息不足，无法按内容提炼要点。请补充有效链接或正文后再总结。 <div>
 <p>Article URL: <a href="https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/">https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50661646">https://news.ycombinator.com/item?id=50661646</a></p>
 <p>Points: 338</p>
 <p># Comments: 243</p>
 ]]></content:encoded>
-<pubDate>Fri, 27 Nov 2026 01:13:49 +0000</pubDate>
 <pubDate>Fri, 27 Nov 2026 01:13:49 +0000</pubDate>
 </item>
 <item>
@@ -129,13 +439,12 @@
 - 文章标题
 - 文章正文内容
 
-拿到内容后，我会按你要求的格式输出：5 个关键词同一行 → `<br><br>总结:` → 200 字内分要点总结。 <div>
+拿到内容后，我会按你要求的格式输出：5 个关键词同一行 → `<br /><br />总结:` → 200 字内分要点总结。 <div>
 <p>Article URL: <a href="https://kendell.dev/blog/arkwrapper/">https://kendell.dev/blog/arkwrapper/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50660273">https://news.ycombinator.com/item?id=50660273</a></p>
 <p>Points: 99</p>
 <p># Comments: 14</p>
 ]]></content:encoded>
-<pubDate>Thu, 26 Nov 2026 21:59:19 +0000</pubDate>
 <pubDate>Thu, 26 Nov 2026 21:59:19 +0000</pubDate>
 </item>
 <item>
@@ -144,13 +453,12 @@
 <guid>https://janlukas.blog/posts/ai-self-hosting</guid>
 <content:encoded><![CDATA[
 <div> 关键词：链接缺失 正文为空 无法访问 无法总结 请补充内容
-<br><br>总结:1) 该条目仅显示658分、338条评论；2) Article URL和Comments URL均为空；3) 缺少标题与文章正文；4) 因而无法提取可靠关键词或按要点总结；5) 请补充可访问链接或正文，我再按要求输出。 <div>
+<br /><br />总结:1) 该条目仅显示658分、338条评论；2) Article URL和Comments URL均为空；3) 缺少标题与文章正文；4) 因而无法提取可靠关键词或按要点总结；5) 请补充可访问链接或正文，我再按要求输出。 <div>
 <p>Article URL: <a href="https://janlukas.blog/posts/ai-self-hosting">https://janlukas.blog/posts/ai-self-hosting</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50660180">https://news.ycombinator.com/item?id=50660180</a></p>
 <p>Points: 658</p>
 <p># Comments: 338</p>
 ]]></content:encoded>
-<pubDate>Thu, 26 Nov 2026 21:47:45 +0000</pubDate>
 <pubDate>Thu, 26 Nov 2026 21:47:45 +0000</pubDate>
 </item>
 <item>
@@ -165,13 +473,12 @@
 2. 把完整的 Article URL 或 Comments URL 发给我（如果我能访问的话）；
 3. 或者贴几条关键评论，我也可以结合评论来写。
 
-收到内容后，我会严格按你要求的格式输出：5个关键词在同一行 → 两个 `<br><br>` → `总结:` → 200 字内、分要点、按顺序的中文总结。 <div>
+收到内容后，我会严格按你要求的格式输出：5个关键词在同一行 → 两个 `<br /><br />` → `总结:` → 200 字内、分要点、按顺序的中文总结。 <div>
 <p>Article URL: <a href="https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/">https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50659841">https://news.ycombinator.com/item?id=50659841</a></p>
 <p>Points: 360</p>
 <p># Comments: 90</p>
 ]]></content:encoded>
-<pubDate>Thu, 26 Nov 2026 21:08:05 +0000</pubDate>
 <pubDate>Thu, 26 Nov 2026 21:08:05 +0000</pubDate>
 </item>
 <item>
@@ -187,7 +494,7 @@
 
 在这种情况下，如果我仍按格式输出关键词和“总结:”，就只能凭空编造内容，这会误导你。
 
-请补充以下任意一项，我就能按你要求的格式（一行 5 个关键词 + `<br><br>总结:` + 200 字内分要点中文总结）输出：
+请补充以下任意一项，我就能按你要求的格式（一行 5 个关键词 + `<br /><br />总结:` + 200 字内分要点中文总结）输出：
 
 1. 可访问的文章链接（以及评论页链接，如需一并概括讨论内容）；
 2. 或直接粘贴文章正文/摘要；
@@ -200,20 +507,17 @@
 <p># Comments: 147</p>
 ]]></content:encoded>
 <pubDate>Thu, 26 Nov 2026 20:49:49 +0000</pubDate>
-<pubDate>Thu, 26 Nov 2026 20:49:49 +0000</pubDate>
 </item>
 <item>
 <title>Rvoip: VoIP stack in Rust</title>
 <link>https://github.com/eisenzopf/rvoip</link>
 <guid>https://github.com/eisenzopf/rvoip</guid>
 <content:encoded><![CDATA[
-
 <p>Article URL: <a href="https://github.com/eisenzopf/rvoip">https://github.com/eisenzopf/rvoip</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50658632">https://news.ycombinator.com/item?id=50658632</a></p>
 <p>Points: 127</p>
 <p># Comments: 27</p>
 ]]></content:encoded>
-<pubDate>Thu, 26 Nov 2026 19:18:09 +0000</pubDate>
 <pubDate>Thu, 26 Nov 2026 19:18:09 +0000</pubDate>
 </item>
 <item>
@@ -221,13 +525,11 @@
 <link>https://chrhenning.com/blog/2026/introduction-to-uncertainty/</link>
 <guid>https://chrhenning.com/blog/2026/introduction-to-uncertainty/</guid>
 <content:encoded><![CDATA[
-
 <p>Article URL: <a href="https://chrhenning.com/blog/2026/introduction-to-uncertainty/">https://chrhenning.com/blog/2026/introduction-to-uncertainty/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50658498">https://news.ycombinator.com/item?id=50658498</a></p>
 <p>Points: 77</p>
 <p># Comments: 2</p>
 ]]></content:encoded>
-<pubDate>Thu, 26 Nov 2026 19:04:50 +0000</pubDate>
 <pubDate>Thu, 26 Nov 2026 19:04:50 +0000</pubDate>
 </item>
 <item>
@@ -235,13 +537,11 @@
 <link>https://bui.preetham.top/charts/</link>
 <guid>https://bui.preetham.top/charts/</guid>
 <content:encoded><![CDATA[
-
 <p>Article URL: <a href="https://bui.preetham.top/charts/">https://bui.preetham.top/charts/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50658193">https://news.ycombinator.com/item?id=50658193</a></p>
 <p>Points: 102</p>
 <p># Comments: 32</p>
 ]]></content:encoded>
-<pubDate>Thu, 26 Nov 2026 18:37:24 +0000</pubDate>
 <pubDate>Thu, 26 Nov 2026 18:37:24 +0000</pubDate>
 </item>
 <item>
@@ -249,13 +549,11 @@
 <link>https://www.science.org/content/blog-post/george-whitesides-1939-2026</link>
 <guid>https://www.science.org/content/blog-post/george-whitesides-1939-2026</guid>
 <content:encoded><![CDATA[
-
 <p>Article URL: <a href="https://www.science.org/content/blog-post/george-whitesides-1939-2026">https://www.science.org/content/blog-post/george-whitesides-1939-2026</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50657936">https://news.ycombinator.com/item?id=50657936</a></p>
 <p>Points: 75</p>
 <p># Comments: 7</p>
 ]]></content:encoded>
-<pubDate>Thu, 26 Nov 2026 18:13:07 +0000</pubDate>
 <pubDate>Thu, 26 Nov 2026 18:13:07 +0000</pubDate>
 </item>
 <item>
@@ -263,13 +561,11 @@
 <link>https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/</link>
 <guid>https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/</guid>
 <content:encoded><![CDATA[
-
 <p>Article URL: <a href="https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/">https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50657645">https://news.ycombinator.com/item?id=50657645</a></p>
 <p>Points: 264</p>
 <p># Comments: 135</p>
 ]]></content:encoded>
-<pubDate>Thu, 26 Nov 2026 17:47:45 +0000</pubDate>
 <pubDate>Thu, 26 Nov 2026 17:47:45 +0000</pubDate>
 </item>
 <item>
@@ -277,13 +573,11 @@
 <link>https://github.com/antonpictures/youtube-punisher</link>
 <guid>https://github.com/antonpictures/youtube-punisher</guid>
 <content:encoded><![CDATA[
-
 <p>Article URL: <a href="https://github.com/antonpictures/youtube-punisher">https://github.com/antonpictures/youtube-punisher</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50657530">https://news.ycombinator.com/item?id=50657530</a></p>
 <p>Points: 394</p>
 <p># Comments: 461</p>
 ]]></content:encoded>
-<pubDate>Thu, 26 Nov 2026 17:36:47 +0000</pubDate>
 <pubDate>Thu, 26 Nov 2026 17:36:47 +0000</pubDate>
 </item>
 <item>
@@ -291,13 +585,11 @@
 <link>https://devnull.land/amd-specific-llama-cpp</link>
 <guid>https://devnull.land/amd-specific-llama-cpp</guid>
 <content:encoded><![CDATA[
-
 <p>Article URL: <a href="https://devnull.land/amd-specific-llama-cpp">https://devnull.land/amd-specific-llama-cpp</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50657265">https://news.ycombinator.com/item?id=50657265</a></p>
 <p>Points: 355</p>
 <p># Comments: 85</p>
 ]]></content:encoded>
-<pubDate>Thu, 26 Nov 2026 17:11:29 +0000</pubDate>
 <pubDate>Thu, 26 Nov 2026 17:11:29 +0000</pubDate>
 </item>
 <item>
@@ -305,7 +597,6 @@
 <link>http://themouseless.dev/vim/</link>
 <guid>http://themouseless.dev/vim/</guid>
 <content:encoded><![CDATA[
-
 <p>I'm glad to announce that I'm releasing my new book, Learning to Play Vim.<p>When I started using Vim more than a decade ago, I wished there was a manual out there teaching how to use this fantastic editor step by step, beginning with the foundations up to more advanced features. Of course at the time I did the vimtutor, but it was too dense for me to remember much from it. I also read the entire Vim manual (`:help manual`), but I didn't like it: it was too detailed in places (for example `02.8 Finding help` completely lost me for a while), and other features didn't get the treatment they deserved.<p>So I decided to write my own Vim manual. It took me more than 4 years and 2987 focused pomodoros (1244 hours) of work to finally get it done!<p>The result:<p>- 21 chapters showing the most important Vim features step by step.<p>- 170 exercises with solutions.<p>- Many real-life examples to show how Vim can be used and configured for your own needs.<p>- The related Vim's help pages to dig further into each feature.<p>Most configs are both written in Vimscript and Lua for Neovim users. This book explores the common features between Vim and Neovim, so don't expect anything about Neovim-specific features (like treesitter or LSP for example).<p>- The landing page: <a href="https://themouseless.dev/vim/" rel="nofollow">https://themouseless.dev/vim/</a><p>- A sample of the book with the entire table of contents and the first three chapters covering most of the basics: <a href="https://themouseless.dev/content/learning_to_play_vim_sample.pdf" rel="nofollow">https://themouseless.dev/content/learning_to_play_vim_sample...</a>.<p>I wrote this with my bare hands, no LLM involved to spoil the fun.</p>
 <hr />
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=50655868">https://news.ycombinator.com/item?id=50655868</a></p>
@@ -313,9 +604,7 @@
 <p># Comments: 51</p>
 ]]></content:encoded>
 <pubDate>Thu, 26 Nov 2026 14:44:22 +0000</pubDate>
-<pubDate>Thu, 26 Nov 2026 14:44:22 +0000</pubDate>
 </item>
-
 <item>
 <title>Show HN: Three Linux VMs in a browser tab, each running a different browser</title>
 <link>https://michidk.github.io/sidebyside/</link>

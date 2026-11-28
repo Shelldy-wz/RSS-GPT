@@ -5,12 +5,303 @@
 <link>https://www.appinn.com</link>
 
 <item>
+<title>10 款热门开源项目｜旧手机当控制面板，Mac 刘海变文件架</title>
+<link>https://www.appinn.com/open-source-roundup-20261128/</link>
+<guid>https://www.appinn.com/open-source-roundup-20261128/</guid>
+<content:encoded><![CDATA[
+<div> 关键词：外设电量、本地纪要、刘海暂存、容器域名、多源下载
+<br><br>总结: 1.BatteryHubX显外设电量；2.Yogurt本地转写生纪要并导MD；3.ILoveNotch刘海暂存截图可预览/隔空投送；4.Kiri为Docker容器配本地域名；5.OpenMotion依参考视频生可编辑动效并导MP4；6.Ghost-Downloader-3统一下载文件/BT/视频及字幕；7.AutoClip长视频选片段裁竖屏加字幕；8.PhoneBox闲置安卓机做桌面控制面板，切OBS、免Root；9.Mika虚拟屏后台看群聊摘要，需Android12+；10.AFFiNE文档白板同区、离线/自托管。 <div>
+<figure class="wp-block-image size-full"><img alt="桌上的笔记本、无线鼠标和当作控制面板使用的旧手机" src="https://eucf.appinn.net/wp-content/uploads/2026/11/open-source-roundup-20261128.jpg" title="10 款热门开源项目｜旧手机当控制面板，Mac 刘海变文件架 1" /></figure>
+
+
+
+<p class="wp-block-paragraph">闲置的安卓手机可以放在显示器旁边，拿来调音量、切 OBS 场景。MacBook 的刘海也能派上用场，临时要发的截图，往屏幕顶部一拖就能先存着。这期一共 10 款，还有在本地记会议纪要、给容器配域名、从长视频里挑片段的工具。</p>
+
+
+
+<h2 class="wp-block-heading">BatteryHubX｜在 Windows 任务栏看无线外设电量</h2>
+
+
+
+<p class="wp-block-paragraph">无线鼠标时不时断一下，你想先看看是不是快没电了。</p>
+
+
+
+<p class="wp-block-paragraph">BatteryHubX 能把电量百分比放在 Windows 任务栏上，抬眼就能看。部分无线键盘、耳机和手柄也支持。它原名 BatteryHub，微软商店里的新版叫 BatteryHubX，商店说明源代码随安装包提供。<br /><a href="https://apps.microsoft.com/detail/9nn255bkgtpg" rel="noopener" target="_blank">微软商店</a></p>
+
+
+
+<h2 class="wp-block-heading">Yogurt｜在电脑本地生成会议纪要</h2>
+
+
+
+<p class="wp-block-paragraph">开完一小时的线上会，只想找出最后定了什么、谁来跟进。</p>
+
+
+
+<p class="wp-block-paragraph">Yogurt 可以在电脑上录下麦克风和系统音频，本地转写并生成纪要，再导出成 Markdown。会议里也无需邀请录音机器人。支持 macOS、Windows 和 Linux。<br /><a href="https://yogurt.so/" rel="noopener" target="_blank">项目官网</a></p>
+
+
+
+<h2 class="wp-block-heading">ILoveNotch｜把 MacBook 刘海变成文件暂存架</h2>
+
+
+
+<p class="wp-block-paragraph">截了几张图要发给同事，偏偏还得切回网页再截一张。</p>
+
+
+
+<p class="wp-block-paragraph">可以先把截图拖到 MacBook 的刘海上，攒齐了再一起拖进聊天窗口。暂存的文件还能直接预览或隔空投送。适用于 macOS 14.6 及以上的 Apple Silicon Mac。<br /><a href="https://niyamvora.github.io/ILoveNotch/" rel="noopener" target="_blank">项目官网</a></p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="MacBook 屏幕刘海下方展开的文件暂存架" class="wp-image-58694" height="813" src="https://eucf.appinn.net/wp-content/uploads/2026/11/ilovenotch-file-shelf.avif" title="10 款热门开源项目｜旧手机当控制面板，Mac 刘海变文件架 2" width="1300" /><figcaption class="wp-element-caption">ILoveNotch 的文件暂存架。</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">Kiri｜给 Docker 容器配上好记的本地域名</h2>
+
+
+
+<p class="wp-block-paragraph">电脑上跑了几个 Docker 服务，每次打开都得查哪个端口对应哪个服务。</p>
+
+
+
+<p class="wp-block-paragraph">Kiri 能给容器配上 <code>服务名.kiri.local</code> 这样的本地域名，原来的 <code>docker</code> 和 <code>docker compose</code> 命令也能继续用。<br /><a href="https://runkiri.com/" rel="noopener" target="_blank">项目官网</a></p>
+
+
+
+<h2 class="wp-block-heading">OpenMotion｜用参考视频起稿，再到时间线上改动效</h2>
+
+
+
+<p class="wp-block-paragraph">给自己的视频做个片头，手上已经有一段喜欢的参考，想照着它的节奏试一版。</p>
+
+
+
+<p class="wp-block-paragraph">OpenMotion 可以根据参考视频生成可编辑的动效，你可以换上自己的文案和素材，在 Studio 的时间线上调时长和转场，再导出 MP4。<br /><a href="https://open-design.ai/motion/" rel="noopener" target="_blank">项目官网</a></p>
+
+
+
+<h2 class="wp-block-heading">Ghost-Downloader-3｜用一个工具下普通文件、BT 和视频</h2>
+
+
+
+<p class="wp-block-paragraph">今天要下一个网页里的大文件，明天要从 B 站保存一段视频，下次收到的又是磁力链接。</p>
+
+
+
+<p class="wp-block-paragraph">Ghost-Downloader-3 能把这些下载放进同一个工具里，也支持 M3U8 和 YouTube 视频及字幕下载。<br /><a href="https://gd.xychr.com/" rel="noopener" target="_blank">项目官网</a></p>
+
+
+
+<h2 class="wp-block-heading">AutoClip｜从长视频里挑片段，裁成竖屏短视频</h2>
+
+
+
+<p class="wp-block-paragraph">一段访谈录了一个小时，想剪几段发短视频，光是把整段拖着看一遍就得花时间。</p>
+
+
+
+<p class="wp-block-paragraph">可以先让 AutoClip 找出候选片段、裁成竖屏并加上字幕，你再从里面挑值得发的几段。<br /><a href="https://zhouxiaoka.github.io/autoclip_intro/" rel="noopener" target="_blank">项目官网</a></p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="AutoClip 界面中的竖屏视频切片与字幕预览" class="wp-image-58693" height="890" src="https://eucf.appinn.net/wp-content/uploads/2026/11/autoclip-vertical-result.avif" title="10 款热门开源项目｜旧手机当控制面板，Mac 刘海变文件架 3" width="1280" /><figcaption class="wp-element-caption">AutoClip 处理直播回放后生成的竖屏片段。</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">PhoneBox｜让闲置安卓手机当桌面控制面板</h2>
+
+
+
+<p class="wp-block-paragraph">抽屉里有部闲置安卓手机，可以把它立在显示器旁边，做成一个随手就能点的音量控制器。</p>
+
+
+
+<p class="wp-block-paragraph">PhoneBox 通过 USB 或局域网连电脑，按钮位置可以自己排，也可以加 OBS 场景切换和系统状态。手机无需 Root。<br /><a href="https://ersinkoc.github.io/phonebox/" rel="noopener" target="_blank">项目官网</a></p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="PhoneBox 在手机上显示媒体控制和电脑状态" class="wp-image-58695" height="548" src="https://eucf.appinn.net/wp-content/uploads/2026/11/phonebox-control-panel.avif" title="10 款热门开源项目｜旧手机当控制面板，Mac 刘海变文件架 4" width="1300" /><figcaption class="wp-element-caption">PhoneBox 的媒体控制和电脑状态面板。</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">Mika｜让安卓助手在后台操作应用</h2>
+
+
+
+<p class="wp-block-paragraph">半天没看微信群，回来已经刷了几百条消息。</p>
+
+
+
+<p class="wp-block-paragraph">Mika 可以在独立的虚拟屏幕里浏览群聊并给你一份摘要，你可以继续在手机前台做别的事。操作应用需要 Android 12 或更新版本，项目方推荐 Android 14 及以上。<br /><a href="https://mikaphone.com/" rel="noopener" target="_blank">项目官网</a></p>
+
+
+
+<h2 class="wp-block-heading">AFFiNE｜在同一个工作区里写文档、画白板</h2>
+
+
+
+<p class="wp-block-paragraph">比如要和朋友定一个周末行程，可以先写好日期和预算，再把几个备选地点放到白板上，拖来拖去排顺序。</p>
+
+
+
+<p class="wp-block-paragraph">AFFiNE 把文档和白板放在同一个工作区，支持离线使用，也可以用 Docker 自托管。<br /><a href="https://affine.pro/" rel="noopener" target="_blank">项目官网</a></p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/open-source-mac-os-apps/" rel="bookmark" title="Permanent Link: 34 个大类，超过 400 个「macOS 绝赞开源应用」列表">34 个大类，超过 400 个「macOS 绝赞开源应用」列表</a></li><li><a href="https://www.appinn.com/syntax-highlight-for-macos/" rel="bookmark" title="Permanent Link: Syntax Highlight &#8211; 为 macOS 经典功能快速查看添加代码高亮，超过 150 种新文件类型">Syntax Highlight &#8211; 为 macOS 经典功能快速查看添加代码高亮，超过 150 种新文件类型</a></li><li><a href="https://www.appinn.com/dreammail-pro/" rel="bookmark" title="Permanent Link: 畅邮（Dreammail Pro）原「梦幻快车」邮件客户端，功能一览 [Windows]">畅邮（Dreammail Pro）原「梦幻快车」邮件客户端，功能一览 [Windows]</a></li><li><a href="https://www.appinn.com/open-minis/" rel="bookmark" title="Permanent Link: Open Minis：可能是 iOS 端最强 AI Agent">Open Minis：可能是 iOS 端最强 AI Agent</a></li><li><a href="https://www.appinn.com/open-minis-open-source/" rel="bookmark" title="Permanent Link: Open Minis 宣布开源：比 Siri 更像 AI 助手，让手机帮你完成任务。支持 iOS、Android">Open Minis 宣布开源：比 Siri 更像 AI 助手，让手机帮你完成任务。支持 iOS、Android</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" rel="noopener" target="_blank" title="给小众软件投稿">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" target="_blank" title="可以分类订阅小众，Windows/MAC/游戏"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/open-source-roundup-20261128/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/open-source-roundup-20261128/">[ 点击前往获取链接 ]</a></p><hr />
+]]></content:encoded>
+<pubDate>Sat, 28 Nov 2026 07:28:18 +0000</pubDate>
+<pubDate>Sat, 28 Nov 2026 07:28:18 +0000</pubDate>
+</item>
+<item>
+<title>请立即更新你的 iPhone！仅打开网页就可能被入侵，恶意代码已波及全球 178 家机构的网站</title>
+<link>https://www.appinn.com/iphone-web-attacks-coruna-darksword/</link>
+<guid>https://www.appinn.com/iphone-web-attacks-coruna-darksword/</guid>
+<content:encoded><![CDATA[
+<div> Coruna、DarkSword、Optimizely、旧版iOS、更新
+<br><br>总结: ①Coruna、DarkSword令旧版iOS打开网页即中招。②11月16日Optimizely脚本被篡改，1611份中188份、178家机构受影响，含BBC、CNN、Zoom、Salesforce、GitLab、宜家、汇丰；可换加密货币地址、收集银行卡资料并攻击旧iOS。③已清除复查，截至11月25无感染报告。④Coruna影响iOS13–17.2.1，DarkSword影响18.4–18.7；苹果已警告并修复，杜罗夫提醒更新。⑤按机型升最新小版本：iPhone11+ 27.2.1/26.7.3，XS/XR 18.7.12，8/X 16.7.16，6s/7/SE1 15.8.8；iOS13/14先升至少15，不升少用。 <div>
+<p class="has-very-light-gray-to-cyan-bluish-gray-gradient-background has-background wp-block-paragraph">目前爆出两套攻击工具：<strong>Coruna</strong>、<strong>DarkSword</strong>，旧版 iOS 中，只需要打开包含恶意代码的网页，就可能中招。</p>
+
+
+
+<p class="wp-block-paragraph">iPhone 有段时间没更新的同学，先去更新一下。打开 <strong>设置 → 通用 → 软件更新</strong>，把手机能装的最新版本装上。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="iPhone 屏幕上的网页安全警告，示意图" class="wp-image-61143" src="https://www.appinn.com/wp-content/uploads/2026/11/iphone-web-attacks-cover.jpg" title="请立即更新你的 iPhone！仅打开网页就可能被入侵，恶意代码已波及全球 178 家机构的网站 5" /></figure>
+
+
+
+<h2 class="wp-block-heading">BBC、CNN、Zoom、GitLab、宜家、汇丰都在名单上？</h2>
+
+
+
+<p class="wp-block-paragraph">11 月 16 日出事的是 Optimizely，一个帮网站测试不同页面版本的服务。比如你进同一个网站，看到的按钮和别人不一样，就可能是网站在用它做测试。</p>
+
+
+
+<p class="wp-block-paragraph">攻击者把恶意代码加进了 Optimizely 的脚本中，访客照常打开网站，恶意代码就这么跟着进来了。</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/" rel="noopener" target="_blank">Report URI</a> 查了 1611 份脚本，发现 <strong>188 份被篡改，涉及 178 家机构</strong>。除了 BBC、CNN、Zoom，名单上还有 Salesforce、GitLab、宜家和汇丰。</p>
+
+
+
+<p class="wp-block-paragraph">这段代码能把你复制的加密货币收款地址换成攻击者的地址，也有一个版本会收集访客直接填在网页表单里的银行卡资料。碰到运行旧系统的 iPhone 或 iPad，它还会尝试用 Coruna 和 DarkSword 入侵设备。</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.optimizely.com/field-notes/articles/web-experimentation-security-incident-update" rel="noopener" target="_blank">Optimizely</a> 说，出事当天已清除所有受影响项目里的恶意代码。Report URI 当晚复查，此前发现的异常脚本也都干净了。<strong>截至 11 月 25 日，Optimizely 仍未收到这起事件造成设备感染的报告。</strong></p>
+
+
+
+<h2 class="wp-block-heading">只是打开网页，也会中招？</h2>
+
+
+
+<p class="wp-block-paragraph"><strong>会。</strong></p>
+
+
+
+<p class="wp-block-paragraph">网页一打开，浏览器就开始处理里面的内容。有漏洞的手机在这一步就可能中招，用不着再下载 App、填密码，或者点一次「允许」。</p>
+
+
+
+<p class="wp-block-paragraph">苹果在今年4月份专门<a href="https://support.apple.com/zh-cn/126776" rel="noopener" target="_blank">发过提醒</a>，旧版 iOS 访问被入侵的网站，手机里的数据可能被窃取：</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="请立即更新你的 iPhone！仅打开网页就可能被入侵，恶意代码已波及全球 178 家机构的网站 1" class="wp-image-61150" src="https://www.appinn.com/wp-content/uploads/2026/11/screenshot-2026-11-28-at-8.56.07-AM402x.avif" title="请立即更新你的 iPhone！仅打开网页就可能被入侵，恶意代码已波及全球 178 家机构的网站 6" /></figure>
+
+
+
+<p class="wp-block-paragraph">Optimizely 说，这次代码瞄准的是 <strong>iOS 和 iPadOS 18.7 或更早版本</strong>：</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Coruna</strong> 涉及 <strong>iOS 13 至 17.2.1</strong>。Google 曾在遭入侵的乌克兰网站，以及冒充加密货币服务的网站上发现它。</li>
+
+
+
+<li><strong>DarkSword</strong> 支持 <strong>iOS 18.4 至 18.7</strong>。Google 从 2025 年 11 月起就在实际攻击中发现了它。苹果后来把 iOS 18.7.7 提供给更多旧设备，让这些设备也能获得针对 DarkSword 的安全修复。</li>
+
+
+
+<li><a href="https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain" rel="noopener" target="_blank">Google 的 DarkSword 报告</a>、<a href="https://support.apple.com/en-md/126793" rel="noopener" target="_blank">苹果 iOS 18.7.7 安全公告</a></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">少见的是，连 Telegram 创始人杜罗夫都<a href="https://t.me/durov/575">专门发帖</a>，提醒还在用旧版 iOS 的用户更新 iPhone。</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="杜罗夫警告旧版 iOS 用户可能因访问恶意网页而遇袭，Telegram 建议在系统设置中安装最新更新" class="wp-image-61144" src="https://www.appinn.com/wp-content/uploads/2026/11/durov-iphone-warning-zh.avif" title="请立即更新你的 iPhone！仅打开网页就可能被入侵，恶意代码已波及全球 178 家机构的网站 7" /></figure>
+
+
+
+<h2 class="wp-block-heading">老 iPhone 能升到哪一版？</h2>
+
+
+
+<p class="wp-block-paragraph">不想升级最新版本的，注意在升级时，仅升级小版本，不要点错了。正常情况下大版本更新需要手动确认。</p>
+
+
+
+<p class="wp-block-paragraph">目前的 iOS 最新系统：</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>iPhone 11 及更新机型</strong>，优先装 <strong>iOS 27.2.1</strong>。苹果也为 iOS 26 分支提供了 26.7.3。</li>
+
+
+
+<li><strong>iPhone XS、XS Max、XR</strong>，装 <strong>iOS 18.7.12</strong>。</li>
+
+
+
+<li><strong>iPhone 8、8 Plus、X</strong>，装 <strong>iOS 16.7.16</strong>。</li>
+
+
+
+<li><strong>iPhone 6s 系列、iPhone 7 系列、第一代 iPhone SE</strong>，装 <strong>iOS 15.8.8</strong>。</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">如果还停在 iOS 13 或 14，苹果说要先升到至少 iOS 15。苹果在今年 3 月给旧设备补发了 iOS 15 和 iOS 16 的安全更新。</p>
+
+
+
+<p class="wp-block-paragraph">能升就升吧，实在不想升级&#8230;也没啥好办法，少用点吧 <img alt="😂" class="wp-smiley" src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f602.png" style="height: 1em;" /></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p class="wp-block-paragraph">原文：https://www.appinn.com/iphone-web-attacks-coruna-darksword/</p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/ippawards-2026/" rel="bookmark" title="Permanent Link: 第19届 iPhone 摄影大赛获奖作品公布：2026 年最佳 iPhone 照片出炉">第19届 iPhone 摄影大赛获奖作品公布：2026 年最佳 iPhone 照片出炉</a></li><li><a href="https://www.appinn.com/windowsxp-kb4012598-x86-custom/" rel="bookmark" title="Permanent Link: 业界良心，微软为 Windows XP 发布针对「勒索病毒」的安全补丁">业界良心，微软为 Windows XP 发布针对「勒索病毒」的安全补丁</a></li><li><a href="https://www.appinn.com/lizhi-251111/" rel="bookmark" title="Permanent Link: 数码荔枝双 11 软件大促开启，100+ 正版工具 5 折起">数码荔枝双 11 软件大促开启，100+ 正版工具 5 折起</a></li><li><a href="https://www.appinn.com/updf-263/" rel="bookmark" title="Permanent Link: OpenClaw 让 AI 开始“自己干活”，而我发现最先被接管的是 PDF 处理">OpenClaw 让 AI 开始“自己干活”，而我发现最先被接管的是 PDF 处理</a></li><li><a href="https://www.appinn.com/web-clipper/" rel="bookmark" title="Permanent Link: Web Clipper &#8211; 适用于 Notion、OneNote、Bear、Joplin 等笔记的开源网络剪藏扩展[Chrome/Firefox]">Web Clipper &#8211; 适用于 Notion、OneNote、Bear、Joplin 等笔记的开源网络剪藏扩展[Chrome/Firefox]</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" rel="noopener" target="_blank" title="给小众软件投稿">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" target="_blank" title="可以分类订阅小众，Windows/MAC/游戏"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/iphone-web-attacks-coruna-darksword/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/iphone-web-attacks-coruna-darksword/">[ 点击前往获取链接 ]</a></p><hr />
+]]></content:encoded>
+<pubDate>Sat, 28 Nov 2026 01:09:25 +0000</pubDate>
+<pubDate>Sat, 28 Nov 2026 01:09:25 +0000</pubDate>
+</item>
+
+<item>
 <title>NodeWarden – 不用服务器，在 Cloudflare 上免费自建密码管理器【续】</title>
 <link>https://www.appinn.com/nodewarden-update-1/</link>
 <guid>https://www.appinn.com/nodewarden-update-1/</guid>
 <content:encoded><![CDATA[
 <div> NodeWarden、Cloudflare Workers、Bitwarden 兼容、离线使用、自动云备份
-<br><br>总结: 1. NodeWarden 是部署在 Cloudflare Workers、免服务器的开源密码管理器，兼容 Bitwarden 客户端，含网页库与免费 TOTP。2. 更新有 PWA 离线解锁/Passkey、WebDAV/S3/R2/B2/Tigris 自动增量备份、邀请码多用户独立库（首用户为管理员，暂无组织共享）、弱密码/重复/泄露/未2FA 检测及生成清理。3. 支持 TOTP、YubiKey OTP、Passkey、设备授权；另有实时同步推送、Send、扫码 TOTP、等效域名、更多条目、KeePass CSV 导入、隐藏入口和在线演示。4. 安装不变；升级先备份，Sync fork/Update branch 后由 Cloudflare 自动构建并升级数据库，注意 Node.js 24.22.1、保留 JWT_SECRET 及原数据库/附件/Durable Objects 绑定；项目非官方。 <div>
+<br /><br />总结: 1. NodeWarden 是部署在 Cloudflare Workers、免服务器的开源密码管理器，兼容 Bitwarden 客户端，含网页库与免费 TOTP。2. 更新有 PWA 离线解锁/Passkey、WebDAV/S3/R2/B2/Tigris 自动增量备份、邀请码多用户独立库（首用户为管理员，暂无组织共享）、弱密码/重复/泄露/未2FA 检测及生成清理。3. 支持 TOTP、YubiKey OTP、Passkey、设备授权；另有实时同步推送、Send、扫码 TOTP、等效域名、更多条目、KeePass CSV 导入、隐藏入口和在线演示。4. 安装不变；升级先备份，Sync fork/Update branch 后由 Cloudflare 自动构建并升级数据库，注意 Node.js 24.22.1、保留 JWT_SECRET 及原数据库/附件/Durable Objects 绑定；项目非官方。 <div>
 <p class="wp-block-paragraph">今年 2 月，青小蛙介绍过一款非常有意思的开源密码管理器 <a href="https://www.appinn.com/nodewarden/">NodeWarden</a>，它可以直接部署在 Cloudflare Workers 上，无需服务器，就能拥有一个兼容 <a href="https://www.appinn.com/tag/bitwarden/">Bitwarden</a> 的私人密码库。</p>
 
 
@@ -277,14 +568,13 @@
 <a href="https://www.appinn.com/nodewarden-update-1/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/nodewarden-update-1/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Fri, 27 Nov 2026 09:12:11 +0000</pubDate>
-<pubDate>Fri, 27 Nov 2026 09:12:11 +0000</pubDate>
 </item>
 <item>
 <title>SnapFind – 只做截图文字识别的开源工具，本地离线 OCR</title>
 <link>https://www.appinn.com/snapfind/</link>
 <guid>https://www.appinn.com/snapfind/</guid>
 <content:encoded><![CDATA[
-<div> SnapFind、开源、Windows、离线OCR、RapidOCR<br><br>总结:1. SnapFind是极简开源Windows工具，专注屏幕文字提取与极速查询；2. 无需联网、无需部署大模型，内置RapidOCR（PP-OCRv4）离线模型；3. 默认用Ctrl+Alt+S框选，松手自动识别；4. 可在设置中开启自动复制到剪贴板；5. 支持Win10/11，提供安装版与便携版，MIT协议开源。 <div>
+<div> SnapFind、开源、Windows、离线OCR、RapidOCR<br /><br />总结:1. SnapFind是极简开源Windows工具，专注屏幕文字提取与极速查询；2. 无需联网、无需部署大模型，内置RapidOCR（PP-OCRv4）离线模型；3. 默认用Ctrl+Alt+S框选，松手自动识别；4. 可在设置中开启自动复制到剪贴板；5. 支持Win10/11，提供安装版与便携版，MIT协议开源。 <div>
 <p class="wp-block-paragraph"><strong>SnapFind</strong> 是一款功能极简的开源 Windows 工具，只做一件事：从屏幕上提取文字。无需联网，无需部署大模型，按下快捷键、框选屏幕区域，即可完成 OCR 文字识别。@<a href="https://www.appinn.com/snapfind/">Appinn</a></p>
 
 
@@ -345,9 +635,7 @@
 <a href="https://www.appinn.com/snapfind/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><p><a href="https://www.appinn.com/snapfind/">[ 点击前往获取链接 ]</a></p><hr />
 ]]></content:encoded>
 <pubDate>Fri, 27 Nov 2026 08:04:13 +0000</pubDate>
-<pubDate>Fri, 27 Nov 2026 08:04:13 +0000</pubDate>
 </item>
-
 <item>
 <title>Linux NFS 曝出 9.8 分漏洞 NFS2ROOT，开了 NFS 共享的 NAS 用户注意</title>
 <link>https://www.appinn.com/linux-nfs2root/</link>
